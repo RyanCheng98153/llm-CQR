@@ -1,5 +1,6 @@
 import json
 import torch
+import time
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from evaluate import load
 from tqdm import tqdm
@@ -112,7 +113,10 @@ def main():
         question = item.get("Question", "")
         ground_truth = item.get("Rewrite", "")
 
+        start_time = time.time()
         prediction = query_reformulate(question, context)
+        end_time = time.time()
+        latency = end_time - start_time
         
         # Determine if the model chose to rewrite or keep original
         status = "REWRITTEN" if prediction.lower() != question.lower() else "KEPT_ORIGINAL"
@@ -128,13 +132,15 @@ def main():
             f.write(f"Prediction: {prediction}\n")
             f.write(f"Ground Truth: {ground_truth}\n")
             f.write(f"ROUGE-L: {r_score['rougeL']:.4f}, BLEU: {b_score['bleu']:.4f}\n")
+            f.write(f"Latency: {latency:.4f} seconds\n")
             f.write("-" * 30 + "\n")
         
         results.append({
             "original": question,
             "prediction": prediction,
             "reference": ground_truth,
-            "status": status
+            "status": status,
+            "latency": latency
         })
 
     # Summary Metrics
@@ -151,6 +157,10 @@ def main():
     # Analyze how often the model rewrites
     rewritten_count = sum(1 for r in results if r["status"] == "REWRITTEN")
     print(f"Rewrite Rate: {rewritten_count/len(results):.2%}")
+    
+    # Calculate average latency
+    avg_latency = sum(r["latency"] for r in results) / len(results)
+    print(f"Average Latency: {avg_latency:.4f} seconds")
 
 if __name__ == "__main__":
     main()
