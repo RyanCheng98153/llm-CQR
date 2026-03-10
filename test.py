@@ -128,9 +128,11 @@ def main():
         with open("qrecc_results_detailed.txt", "a") as f:
             f.write(f"Sample ID: {idx} | Status: {status}\n")
             f.write(f"History:\n{''.join(f'- {h}\n' for h in context)}")
+            f.write(f"\n")
             f.write(f"Original Query: {question}\n")
-            f.write(f"Prediction: {prediction}\n")
+            f.write(f"Rewritten Query: {prediction}\n")
             f.write(f"Ground Truth: {ground_truth}\n")
+            f.write("\n")
             f.write(f"ROUGE-L: {r_score['rougeL']:.4f}, BLEU: {b_score['bleu']:.4f}\n")
             f.write(f"Latency: {latency:.4f} seconds\n")
             f.write("-" * 30 + "\n")
