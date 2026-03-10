@@ -95,7 +95,7 @@ def main():
         data = json.load(f)
 
     # Use a subset for testing if needed
-    data = data[:100] 
+    data = data[:500]
 
     results = []
     rouge = load("rouge")
