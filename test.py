@@ -18,9 +18,20 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 def generate(prompt: str) -> str:
-    """Standard LLM generation wrapper."""
+    """Standard LLM generation wrapper with system instructions for selective rewriting."""
     messages = [
-        {"role": "system", "content": "You are an AI assistant that reformulates user questions to be standalone and context-independent based on conversation history. Output only the rewritten question."},
+        {
+            "role": "system", 
+            "content": (
+                "You are an expert query processor. Your task is to resolve coreferences and omissions "
+                "in a user's question based on conversation history. \n"
+                "RULES:\n"
+                "1. If the question is already standalone and clear, return it EXACTLY as is.\n"
+                "2. If the question refers to previous entities (using 'it', 'they', 'him', 'that', etc.) "
+                "or is an incomplete phrase, rewrite it to be a complete, standalone search query.\n"
+                "3. Output ONLY the final question text. No explanations."
+            )
+        },
         {"role": "user", "content": prompt},
     ]
     
@@ -35,40 +46,56 @@ def generate(prompt: str) -> str:
     outputs = model.generate(
         **inputs, 
         max_new_tokens=64, 
-        do_sample=False, # Use greedy decoding for reproduction/benchmarking
+        do_sample=False, 
         pad_token_id=tokenizer.eos_token_id
     )
     
-    # Extract only the newly generated text
     response = tokenizer.decode(outputs[0][inputs["input_ids"].shape[-1]:], skip_special_tokens=True)
     return response.strip().replace('"', '')
 
 def query_reformulate(question: str, context: list[str]) -> str:
     """
-    Formats the context and current question for the LLM.
+    Constructs a few-shot prompt to teach the model when to rewrite and when to stay silent.
     """
-    # Join context into a readable dialogue string
     history_str = ""
     for i, turn in enumerate(context):
         role = "User" if i % 2 == 0 else "Agent"
         history_str += f"{role}: {turn}\n"
     
-    prompt = f"""Conversation History:
+    # Few-shot examples to reinforce "No change needed"
+    prompt = f"""### Examples:
+History:
+User: Who directed Inception?
+Agent: Christopher Nolan.
+Current Question: What is his highest-grossing film?
+Standalone Question: What is Christopher Nolan's highest-grossing film?
+
+History:
+User: Tell me about the Eiffel Tower.
+Agent: It is located in Paris.
+Current Question: How tall is the Empire State Building?
+Standalone Question: How tall is the Empire State Building? (Note: No change because it is a new standalone topic)
+
+History:
+User: How do I bake a chocolate cake?
+Agent: You need flour, cocoa, and sugar.
+Current Question: How long does it take?
+Standalone Question: How long does it take to bake a chocolate cake?
+
+### Task:
+History:
 {history_str}
 Current Question: {question}
-
-Rewrite the current question into a standalone, descriptive version that incorporates necessary context from the history.
 Standalone Question:"""
 
     return generate(prompt)
 
 def main():
-    # 1. Load Dataset
     with open(DATASET_PATH, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    # For testing, you might want to slice a small part
-    # data = data[:100] 
+    # Use a subset for testing if needed
+    data = data[:100] 
 
     results = []
     rouge = load("rouge")
@@ -76,50 +103,54 @@ def main():
 
     print(f"Starting evaluation on {len(data)} samples...")
 
-    # 2. Loop through dataset
-    for id, item in enumerate(tqdm(data)):
+    # Clear previous detailed logs
+    with open("qrecc_results_detailed.txt", "w") as f:
+        f.write("Evaluation Log\n" + "="*20 + "\n")
+
+    for idx, item in enumerate(tqdm(data)):
         context = item.get("Context", [])
         question = item.get("Question", "")
         ground_truth = item.get("Rewrite", "")
 
-        # Get Model Prediction
         prediction = query_reformulate(question, context)
         
-        # Calculate Metrics for each sample (optional, can be done in batch later)
-        rouge_results = rouge.compute(predictions=[prediction], references=[ground_truth])
-        bleu_results = bleu.compute(predictions=[prediction], references=[ground_truth])
+        # Determine if the model chose to rewrite or keep original
+        status = "REWRITTEN" if prediction.lower() != question.lower() else "KEPT_ORIGINAL"
         
-        # Save results to inspect errors
+        # Calculate individual sample metrics
+        r_score = rouge.compute(predictions=[prediction], references=[ground_truth])
+        b_score = bleu.compute(predictions=[prediction], references=[ground_truth])
+        
         with open("qrecc_results_detailed.txt", "a") as f:
-            f.write(f"Sample ID: {id}\n")
-            f.write(f"Original Question: {question}\n")
-            f.write(f"Context: {' | '.join(context)}\n")
-            f.write(f"Ground Truth: {ground_truth}\n")
+            f.write(f"Sample ID: {idx} | Status: {status}\n")
+            f.write(f"History:\n{''.join(f'- {h}\n' for h in context)}")
+            f.write(f"Original Query: {question}\n")
             f.write(f"Prediction: {prediction}\n")
-            f.write(f"ROUGE-L: {rouge_results['rougeL']:.4f}, BLEU: {bleu_results['bleu']:.4f}\n")
-            f.write("-" * 50 + "\n")
+            f.write(f"Ground Truth: {ground_truth}\n")
+            f.write(f"ROUGE-L: {r_score['rougeL']:.4f}\n")
+            f.write("-" * 30 + "\n")
         
         results.append({
             "original": question,
             "prediction": prediction,
-            "reference": ground_truth
+            "reference": ground_truth,
+            "status": status
         })
 
-    # 3. Calculate Metrics
+    # Summary Metrics
     preds = [r["prediction"] for r in results]
     refs = [r["reference"] for r in results]
-
-    rouge_results = rouge.compute(predictions=preds, references=refs)
-    bleu_results = bleu.compute(predictions=preds, references=refs)
-
-    # 4. Print Summary
-    print("\n--- Evaluation Results ---")
-    print(f"ROUGE-L: {rouge_results['rougeL']:.4f}")
-    print(f"BLEU: {bleu_results['bleu']:.4f}")
     
-    # Save results to inspect errors
-    with open("qrecc_results.json", "w") as f:
-        json.dump(results, f, indent=2)
+    total_rouge = rouge.compute(predictions=preds, references=refs)
+    total_bleu = bleu.compute(predictions=preds, references=refs)
+
+    print("\n--- Evaluation Results ---")
+    print(f"ROUGE-L: {total_rouge['rougeL']:.4f}")
+    print(f"BLEU: {total_bleu['bleu']:.4f}")
+    
+    # Analyze how often the model rewrites
+    rewritten_count = sum(1 for r in results if r["status"] == "REWRITTEN")
+    print(f"Rewrite Rate: {rewritten_count/len(results):.2%}")
 
 if __name__ == "__main__":
     main()
