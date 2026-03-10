@@ -1,8 +1,8 @@
 # Load model directly
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen3-Next-80B-A3B-Instruct")
-model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen3-Next-80B-A3B-Instruct")
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen3-30B-A3B-Instruct-2507")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen3-30B-A3B-Instruct-2507")
 messages = [
     {"role": "user", "content": "Who are you?"},
 ]
