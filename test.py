@@ -1,12 +1,12 @@
 import json
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from evaluate import load # pip install evaluate rouge_score
+from evaluate import load
 from tqdm import tqdm
 
 # Constants
 MODEL_NAME = "Qwen/Qwen3-30B-A3B-Instruct-2507"
-DATASET_PATH = "datasets/qrecc_data_/test.json"
+DATASET_PATH = "datasets/qrecc_data/test.json"
 
 # Initialize Global Model and Tokenizer
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
