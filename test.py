@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 # Constants
 MODEL_NAME = "Qwen/Qwen3-30B-A3B-Instruct-2507"
-DATASET_PATH = "datasets/qrecc_data/test.json"
+DATASET_PATH = "datasets/qrecc_data/qrecc_test.json"
 
 # Initialize Global Model and Tokenizer
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
