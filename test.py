@@ -131,7 +131,7 @@ def main():
             f.write(f"\n")
             f.write(f"Original Query: {question}\n")
             f.write(f"Rewritten Query: {prediction}\n")
-            f.write(f"Ground Truth: {ground_truth}\n")
+            f.write(f"Ground Truth:    {ground_truth}\n")
             f.write("\n")
             f.write(f"ROUGE-L: {r_score['rougeL']:.4f}, BLEU: {b_score['bleu']:.4f}\n")
             f.write(f"Latency: {latency:.4f} seconds\n")
