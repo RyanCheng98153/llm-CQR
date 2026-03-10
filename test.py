@@ -77,14 +77,28 @@ def main():
     print(f"Starting evaluation on {len(data)} samples...")
 
     # 2. Loop through dataset
-    for item in tqdm(data):
+    for id, item in enumerate(tqdm(data)):
         context = item.get("Context", [])
         question = item.get("Question", "")
         ground_truth = item.get("Rewrite", "")
 
         # Get Model Prediction
         prediction = query_reformulate(question, context)
-
+        
+        # Calculate Metrics for each sample (optional, can be done in batch later)
+        rouge_results = rouge.compute(predictions=[prediction], references=[ground_truth])
+        bleu_results = bleu.compute(predictions=[prediction], references=[ground_truth])
+        
+        # Save results to inspect errors
+        with open("qrecc_results_detailed.txt", "a") as f:
+            f.write(f"Sample ID: {id}\n")
+            f.write(f"Original Question: {question}\n")
+            f.write(f"Context: {' | '.join(context)}\n")
+            f.write(f"Ground Truth: {ground_truth}\n")
+            f.write(f"Prediction: {prediction}\n")
+            f.write(f"ROUGE-L: {rouge_results['rougeL']:.4f}, BLEU: {bleu_results['bleu']:.4f}\n")
+            f.write("-" * 50 + "\n")
+        
         results.append({
             "original": question,
             "prediction": prediction,
