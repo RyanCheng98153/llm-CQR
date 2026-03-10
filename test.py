@@ -127,7 +127,7 @@ def main():
             f.write(f"Original Query: {question}\n")
             f.write(f"Prediction: {prediction}\n")
             f.write(f"Ground Truth: {ground_truth}\n")
-            f.write(f"ROUGE-L: {r_score['rougeL']:.4f}\n")
+            f.write(f"ROUGE-L: {r_score['rougeL']:.4f}, BLEU: {b_score['bleu']:.4f}\n")
             f.write("-" * 30 + "\n")
         
         results.append({
