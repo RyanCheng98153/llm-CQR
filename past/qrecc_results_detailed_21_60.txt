@@ -1,0 +1,802 @@
+Evaluation Log
+====================
+Sample ID: s_0 | Status: KEPT_ORIGINAL
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+- What's the average starting salary for a physician's assistant in the UK?
+- Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).
+- What's the average starting salary for a physician's assistant in the US?
+- An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.
+Original Query: What school subjects are needed to become a registered nurse?
+Rewritten Query: What school subjects are needed to become a registered nurse?
+Ground Truth:    What school subjects are needed to become a registered nurse?
+LLM Judge Score: 0.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 101.6526s
+------------------------------
+Sample ID: s_1 | Status: REWRITTEN
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+- What's the average starting salary for a physician's assistant in the UK?
+- Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).
+- What's the average starting salary for a physician's assistant in the US?
+- An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.
+- What school subjects are needed to become a registered nurse?
+- Courses that nursing students may be required to take include anatomy, physiology, microbiology, chemistry, nutrition, and psychology. Nursing students may also be required to take courses in liberal arts subjects.
+- What is the physician's assistant average salary vs a registered nurse?
+- Although many factors go into salaries, such as experience, specialty and geographic areas, PA's usually come out on top. According to the United States Bureau of Labor Statistics, the average salary for PA's in 2013 was about $90,000 a year. Nurses on the other hand made about $66,000 a year according to the BLS.
+- What the difference between a physician assistant and a nurse practitioner?
+- . Nurses follow a patient-centered model, in which they focus on disease prevention and health education and handle assessment, diagnosis and treatment. Physician assistants follow a disease-centered model, in which they focus on the biologic and pathologic components of health, and also practice assessment, diagnosis, and treatment.
+- Do nurse practitioners or physician assistants make more?
+- According to the Bureau of Labor and Statistics (BLS), the 2017 median pay for Nurse Practitioners is $110,930 per year, or $53.33 per hour. In comparison, 2017 median pay for Physician Assistants is $104,860 per year, or $50.41 per hour.
+Original Query: Is a PA above a NP?
+Rewritten Query: Is a physician assistant considered to have a higher rank or level of authority than a nurse practitioner?
+Ground Truth:    Is a physician assistants above a nurse practitioner?
+LLM Judge Score: 0.90
+ROUGE-L: 0.4615, BLEU: 0.1833
+Latency: 146.8388s
+------------------------------
+Sample ID: s_2 | Status: REWRITTEN
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+Original Query: Tell me about boer goats.
+Rewritten Query: What are the characteristics and uses of Boer goats?
+Ground Truth:    Tell me about boer goats
+LLM Judge Score: 0.90
+ROUGE-L: 0.2857, BLEU: 0.0000
+Latency: 88.6567s
+------------------------------
+Sample ID: s_3 | Status: REWRITTEN
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+- Tell me about boer goats
+- The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.
+- What breed of goats is good for meat
+- Before Boer goats became available in the United States in the late 1980s, Spanish goats were the standard meat goat breed, especially in the South. These goats are descendants of the goats brought by Spanish explorers, making their way to the United States via Mexico.
+- Are angora goats good for meat?
+- Surplus or cull Angora and cashmere goats are also used for meat, although a good fiber-producing goat is generally a poor meat goat and vice versa.
+Original Query: What about boer goats?
+Rewritten Query: Are Boer goats good for meat?
+Ground Truth:    Are boer goats good for meat?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 0.6435
+Latency: 67.6005s
+------------------------------
+Sample ID: 21 | Status: REWRITTEN
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+- Tell me about boer goats
+- The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.
+- What breed of goats is good for meat
+- Before Boer goats became available in the United States in the late 1980s, Spanish goats were the standard meat goat breed, especially in the South. These goats are descendants of the goats brought by Spanish explorers, making their way to the United States via Mexico.
+- Are angora goats good for meat?
+- Surplus or cull Angora and cashmere goats are also used for meat, although a good fiber-producing goat is generally a poor meat goat and vice versa.
+- Are boer goats good for meat?
+- Boer goats were bred in South Africa for meat and selected for their superior body shape, high growth rate, and fertility.
+- What are pygmy goats used for?
+- While Pygmy goats are most commonly kept as pets or used as meat goats, they can also be used for milk production. Pygmy goats can produce, on average, between one to two quarts of 4.5% to 11% butterfat milk.
+- What is the best goat for fiber production?
+- Mohair goats are the most productive fiber producing animals.
+- How long do Angora goats live?
+- In our flock, it is not uncommon for our girls to go 9-11 years- undoubtedly we could push them longer, but they do not stay unless they can put kids on the ground.
+- Can you milk Angora goats?
+- Angora mothers have been known to not produce enough milk if they give birth to more than 1.
+Original Query: How many can you have per acre?
+Rewritten Query: How many goats can you have per acre?
+Ground Truth:    How many goats can you have per acre?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 75.0381s
+------------------------------
+Sample ID: 22 | Status: REWRITTEN
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+- Tell me about boer goats
+- The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.
+- What breed of goats is good for meat
+- Before Boer goats became available in the United States in the late 1980s, Spanish goats were the standard meat goat breed, especially in the South. These goats are descendants of the goats brought by Spanish explorers, making their way to the United States via Mexico.
+- Are angora goats good for meat?
+- Surplus or cull Angora and cashmere goats are also used for meat, although a good fiber-producing goat is generally a poor meat goat and vice versa.
+- Are boer goats good for meat?
+- Boer goats were bred in South Africa for meat and selected for their superior body shape, high growth rate, and fertility.
+- What are pygmy goats used for?
+- While Pygmy goats are most commonly kept as pets or used as meat goats, they can also be used for milk production. Pygmy goats can produce, on average, between one to two quarts of 4.5% to 11% butterfat milk.
+- What is the best goat for fiber production?
+- Mohair goats are the most productive fiber producing animals.
+- How long do Angora goats live?
+- In our flock, it is not uncommon for our girls to go 9-11 years- undoubtedly we could push them longer, but they do not stay unless they can put kids on the ground.
+- Can you milk Angora goats?
+- Angora mothers have been known to not produce enough milk if they give birth to more than 1.
+- How many goats can you have per acre?
+- Poor ground may support 2-4 goats per acre while better pasture may be able to support 6-8 goats per acre.
+Original Query: Are they profitable?
+Rewritten Query: Are Boer goats profitable?
+Ground Truth:    Are goats profitable?
+LLM Judge Score: 0.80
+ROUGE-L: 0.8571, BLEU: 0.0000
+Latency: 53.1354s
+------------------------------
+Sample ID: 23 | Status: REWRITTEN
+History:
+Original Query: Tell me about the types of irregular heart beat.
+Rewritten Query: Tell me about the types of irregular heartbeat.
+Ground Truth:    Tell me about the types of irregular heart beat.
+LLM Judge Score: 1.00
+ROUGE-L: 0.8235, BLEU: 0.6717
+Latency: 74.4826s
+------------------------------
+Sample ID: 24 | Status: REWRITTEN
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+Original Query: How serious is an irregular heart beat?
+Rewritten Query: How serious is an irregular heartbeat?
+Ground Truth:    How serious is an irregular heart beat?
+LLM Judge Score: 1.00
+ROUGE-L: 0.7692, BLEU: 0.5578
+Latency: 60.0638s
+------------------------------
+Sample ID: 25 | Status: KEPT_ORIGINAL
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+Original Query: What are the different types of tachycardia?
+Rewritten Query: What are the different types of tachycardia?
+Ground Truth:    What are the different types of tachycardia?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 96.2058s
+------------------------------
+Sample ID: 26 | Status: KEPT_ORIGINAL
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+- What are the different types of tachycardia?
+- Atrial fibrillation. Atrial fibrillation is a rapid heart rate caused by chaotic, irregular electrical impulses in the upper chambers of the heart (atria). ...Atrial flutter. ...Supraventricular tachycardia (SVT). ...Ventricular tachycardia. ...Ventricular fibrillation.
+Original Query: What is atrial flutter?
+Rewritten Query: What is atrial flutter?
+Ground Truth:    What is atrial flutter?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.0303s
+------------------------------
+Sample ID: 27 | Status: REWRITTEN
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+- What are the different types of tachycardia?
+- Atrial fibrillation. Atrial fibrillation is a rapid heart rate caused by chaotic, irregular electrical impulses in the upper chambers of the heart (atria). ...Atrial flutter. ...Supraventricular tachycardia (SVT). ...Ventricular tachycardia. ...Ventricular fibrillation.
+- What is atrial flutter?
+- Atrial flutter (AFL) is a type of abnormal heart rate, or arrhythmia. It occurs when the upper chambers of your heart beat too fast.
+Original Query: What causes it?
+Rewritten Query: What causes atrial flutter?
+Ground Truth:    What causes irregular heartbeat?
+LLM Judge Score: 0.50
+ROUGE-L: 0.5000, BLEU: 0.0000
+Latency: 52.9589s
+------------------------------
+Sample ID: 28 | Status: REWRITTEN
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+- What are the different types of tachycardia?
+- Atrial fibrillation. Atrial fibrillation is a rapid heart rate caused by chaotic, irregular electrical impulses in the upper chambers of the heart (atria). ...Atrial flutter. ...Supraventricular tachycardia (SVT). ...Ventricular tachycardia. ...Ventricular fibrillation.
+- What is atrial flutter?
+- Atrial flutter (AFL) is a type of abnormal heart rate, or arrhythmia. It occurs when the upper chambers of your heart beat too fast.
+- What causes irregular heartbeat?
+- They can be related to stress or too much caffeine or nicotine. But sometimes, PVCs can be caused by heart disease or electrolyte imbalance.
+Original Query: What's the difference between flutter and fibrillation?
+Rewritten Query: What is the difference between atrial flutter and atrial fibrillation?
+Ground Truth:    What's the difference between flutter and fibrillation?
+LLM Judge Score: 1.00
+ROUGE-L: 0.7778, BLEU: 0.0000
+Latency: 111.0099s
+------------------------------
+Sample ID: 29 | Status: REWRITTEN
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+- What are the different types of tachycardia?
+- Atrial fibrillation. Atrial fibrillation is a rapid heart rate caused by chaotic, irregular electrical impulses in the upper chambers of the heart (atria). ...Atrial flutter. ...Supraventricular tachycardia (SVT). ...Ventricular tachycardia. ...Ventricular fibrillation.
+- What is atrial flutter?
+- Atrial flutter (AFL) is a type of abnormal heart rate, or arrhythmia. It occurs when the upper chambers of your heart beat too fast.
+- What causes irregular heartbeat?
+- They can be related to stress or too much caffeine or nicotine. But sometimes, PVCs can be caused by heart disease or electrolyte imbalance.
+- What's the difference between flutter and fibrillation?
+- In atrial fibrillation, the atria beat irregularly. In atrial flutter, the atria beat regularly, but faster than usual and more often than the ventricles, so you may have four atrial beats to every one ventricular beat.
+Original Query: How does afib affect an ECG?
+Rewritten Query: How does atrial fibrillation affect an ECG?
+Ground Truth:    How does atrial fibrillation affect electrocardiography?
+LLM Judge Score: 1.00
+ROUGE-L: 0.7692, BLEU: 0.5411
+Latency: 89.1024s
+------------------------------
+Sample ID: 30 | Status: REWRITTEN
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+- What are the different types of tachycardia?
+- Atrial fibrillation. Atrial fibrillation is a rapid heart rate caused by chaotic, irregular electrical impulses in the upper chambers of the heart (atria). ...Atrial flutter. ...Supraventricular tachycardia (SVT). ...Ventricular tachycardia. ...Ventricular fibrillation.
+- What is atrial flutter?
+- Atrial flutter (AFL) is a type of abnormal heart rate, or arrhythmia. It occurs when the upper chambers of your heart beat too fast.
+- What causes irregular heartbeat?
+- They can be related to stress or too much caffeine or nicotine. But sometimes, PVCs can be caused by heart disease or electrolyte imbalance.
+- What's the difference between flutter and fibrillation?
+- In atrial fibrillation, the atria beat irregularly. In atrial flutter, the atria beat regularly, but faster than usual and more often than the ventricles, so you may have four atrial beats to every one ventricular beat.
+- How does atrial fibrillation affect electrocardiography?
+- The symptoms of atrial fibrillation are related to the loss of atrial mechanical activity (atrial contraction) and rapid ventricular heart rates, both of which can reduce cardiac output and lead to congestive heart failure.
+Original Query: Does it shorten your life?
+Rewritten Query: Does atrial fibrillation shorten your life?
+Ground Truth:    Does atrial flutter shorten your life?
+LLM Judge Score: 0.00
+ROUGE-L: 0.8333, BLEU: 0.4889
+Latency: 74.6361s
+------------------------------
+Sample ID: 31 | Status: REWRITTEN
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+- What are the different types of tachycardia?
+- Atrial fibrillation. Atrial fibrillation is a rapid heart rate caused by chaotic, irregular electrical impulses in the upper chambers of the heart (atria). ...Atrial flutter. ...Supraventricular tachycardia (SVT). ...Ventricular tachycardia. ...Ventricular fibrillation.
+- What is atrial flutter?
+- Atrial flutter (AFL) is a type of abnormal heart rate, or arrhythmia. It occurs when the upper chambers of your heart beat too fast.
+- What causes irregular heartbeat?
+- They can be related to stress or too much caffeine or nicotine. But sometimes, PVCs can be caused by heart disease or electrolyte imbalance.
+- What's the difference between flutter and fibrillation?
+- In atrial fibrillation, the atria beat irregularly. In atrial flutter, the atria beat regularly, but faster than usual and more often than the ventricles, so you may have four atrial beats to every one ventricular beat.
+- How does atrial fibrillation affect electrocardiography?
+- The symptoms of atrial fibrillation are related to the loss of atrial mechanical activity (atrial contraction) and rapid ventricular heart rates, both of which can reduce cardiac output and lead to congestive heart failure.
+- Does atrial flutter shorten your life?
+- People can live long, healthy and active lives with AFib. Controlling your risk factors for heart disease and stroke and knowing what can possibly trigger your AFib will help improve your long-term management of AFib.
+Original Query: What triggers it?
+Rewritten Query: What triggers atrial flutter?
+Ground Truth:    What triggers atrial flutter?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.0595s
+------------------------------
+Sample ID: 32 | Status: REWRITTEN
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+- What are the different types of tachycardia?
+- Atrial fibrillation. Atrial fibrillation is a rapid heart rate caused by chaotic, irregular electrical impulses in the upper chambers of the heart (atria). ...Atrial flutter. ...Supraventricular tachycardia (SVT). ...Ventricular tachycardia. ...Ventricular fibrillation.
+- What is atrial flutter?
+- Atrial flutter (AFL) is a type of abnormal heart rate, or arrhythmia. It occurs when the upper chambers of your heart beat too fast.
+- What causes irregular heartbeat?
+- They can be related to stress or too much caffeine or nicotine. But sometimes, PVCs can be caused by heart disease or electrolyte imbalance.
+- What's the difference between flutter and fibrillation?
+- In atrial fibrillation, the atria beat irregularly. In atrial flutter, the atria beat regularly, but faster than usual and more often than the ventricles, so you may have four atrial beats to every one ventricular beat.
+- How does atrial fibrillation affect electrocardiography?
+- The symptoms of atrial fibrillation are related to the loss of atrial mechanical activity (atrial contraction) and rapid ventricular heart rates, both of which can reduce cardiac output and lead to congestive heart failure.
+- Does atrial flutter shorten your life?
+- People can live long, healthy and active lives with AFib. Controlling your risk factors for heart disease and stroke and knowing what can possibly trigger your AFib will help improve your long-term management of AFib.
+- What triggers atrial flutter?
+- Ischemia : Lower blood flow to the heart due to coronary heart disease, hardening of the arteries, or a blood clot. ... Cardiomyopathy : Disease of the heart muscle.
+Original Query: How do you stop an attack?
+Rewritten Query: How do you stop an atrial flutter attack?
+Ground Truth:    How do you stop an atrial flutter attack?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 82.6225s
+------------------------------
+Sample ID: 33 | Status: REWRITTEN
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+- What are the different types of tachycardia?
+- Atrial fibrillation. Atrial fibrillation is a rapid heart rate caused by chaotic, irregular electrical impulses in the upper chambers of the heart (atria). ...Atrial flutter. ...Supraventricular tachycardia (SVT). ...Ventricular tachycardia. ...Ventricular fibrillation.
+- What is atrial flutter?
+- Atrial flutter (AFL) is a type of abnormal heart rate, or arrhythmia. It occurs when the upper chambers of your heart beat too fast.
+- What causes irregular heartbeat?
+- They can be related to stress or too much caffeine or nicotine. But sometimes, PVCs can be caused by heart disease or electrolyte imbalance.
+- What's the difference between flutter and fibrillation?
+- In atrial fibrillation, the atria beat irregularly. In atrial flutter, the atria beat regularly, but faster than usual and more often than the ventricles, so you may have four atrial beats to every one ventricular beat.
+- How does atrial fibrillation affect electrocardiography?
+- The symptoms of atrial fibrillation are related to the loss of atrial mechanical activity (atrial contraction) and rapid ventricular heart rates, both of which can reduce cardiac output and lead to congestive heart failure.
+- Does atrial flutter shorten your life?
+- People can live long, healthy and active lives with AFib. Controlling your risk factors for heart disease and stroke and knowing what can possibly trigger your AFib will help improve your long-term management of AFib.
+- What triggers atrial flutter?
+- Ischemia : Lower blood flow to the heart due to coronary heart disease, hardening of the arteries, or a blood clot. ... Cardiomyopathy : Disease of the heart muscle.
+- How do you stop an atrial flutter attack?
+- Take slow, deep breaths. It is believed that yoga can be beneficial to those with A-fib to relax.
+Original Query: What is the best exercise for it?
+Rewritten Query: What is the best exercise for managing atrial flutter?
+Ground Truth:    What is the best exercise for atrial flutter?
+LLM Judge Score: 0.90
+ROUGE-L: 0.9412, BLEU: 0.6580
+Latency: 90.2067s
+------------------------------
+Sample ID: 34 | Status: KEPT_ORIGINAL
+History:
+Original Query: What was the neolithic revolution?
+Rewritten Query: What was the Neolithic Revolution?
+Ground Truth:    What was the neolithic revolution?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 0.0000
+Latency: 60.6906s
+------------------------------
+Sample ID: 35 | Status: REWRITTEN
+History:
+- What was the neolithic revolution?
+- The Neolithic Revolution, also called the Agricultural Revolution, marked the transition in human history from small, nomadic bands of hunter-gatherers to larger, agricultural settlements and early civilization.
+Original Query: When did it start and end?
+Rewritten Query: When did the Neolithic Revolution start and end?
+Ground Truth:    When did the Neolithic revolution start and end?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 0.5969
+Latency: 82.4291s
+------------------------------
+Sample ID: 36 | Status: REWRITTEN
+History:
+- What was the neolithic revolution?
+- The Neolithic Revolution, also called the Agricultural Revolution, marked the transition in human history from small, nomadic bands of hunter-gatherers to larger, agricultural settlements and early civilization.
+- When did the Neolithic revolution start and end?
+- The Neolithic Revolution—also referred to as the Agricultural Revolution—is thought to have begun about 12,000 years ago.
+Original Query: Why did it start?
+Rewritten Query: Why did the Neolithic Revolution start?
+Ground Truth:    Why did the Neolithic revolution start?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 0.4889
+Latency: 68.0693s
+------------------------------
+Sample ID: 37 | Status: REWRITTEN
+History:
+- What was the neolithic revolution?
+- The Neolithic Revolution, also called the Agricultural Revolution, marked the transition in human history from small, nomadic bands of hunter-gatherers to larger, agricultural settlements and early civilization.
+- When did the Neolithic revolution start and end?
+- The Neolithic Revolution—also referred to as the Agricultural Revolution—is thought to have begun about 12,000 years ago.
+- Why did the Neolithic revolution start?
+- The Neolithic Era began when some groups of humans gave up the nomadic, hunter-gatherer lifestyle completely to begin farming.
+Original Query: What did the neolithic invent?
+Rewritten Query: What did the Neolithic Revolution lead to in terms of inventions or technological advancements?
+Ground Truth:    What did the neolithic invent?
+LLM Judge Score: 0.80
+ROUGE-L: 0.4211, BLEU: 0.0000
+Latency: 126.2217s
+------------------------------
+Sample ID: 38 | Status: REWRITTEN
+History:
+- What was the neolithic revolution?
+- The Neolithic Revolution, also called the Agricultural Revolution, marked the transition in human history from small, nomadic bands of hunter-gatherers to larger, agricultural settlements and early civilization.
+- When did the Neolithic revolution start and end?
+- The Neolithic Revolution—also referred to as the Agricultural Revolution—is thought to have begun about 12,000 years ago.
+- Why did the Neolithic revolution start?
+- The Neolithic Era began when some groups of humans gave up the nomadic, hunter-gatherer lifestyle completely to begin farming.
+- What did the neolithic invent?
+- Farming started a revolution in the world and helped set us on a path that would eventually lead to the technological revolution and invention of different things. Inventions such as the plow helped in the planting of seeds.
+Original Query: What tools were used?
+Rewritten Query: What tools were used during the Neolithic Revolution?
+Ground Truth:    What tools were used in the neolithic event?
+LLM Judge Score: 1.00
+ROUGE-L: 0.7500, BLEU: 0.3303
+Latency: 82.7501s
+------------------------------
+Sample ID: 39 | Status: REWRITTEN
+History:
+- What was the neolithic revolution?
+- The Neolithic Revolution, also called the Agricultural Revolution, marked the transition in human history from small, nomadic bands of hunter-gatherers to larger, agricultural settlements and early civilization.
+- When did the Neolithic revolution start and end?
+- The Neolithic Revolution—also referred to as the Agricultural Revolution—is thought to have begun about 12,000 years ago.
+- Why did the Neolithic revolution start?
+- The Neolithic Era began when some groups of humans gave up the nomadic, hunter-gatherer lifestyle completely to begin farming.
+- What did the neolithic invent?
+- Farming started a revolution in the world and helped set us on a path that would eventually lead to the technological revolution and invention of different things. Inventions such as the plow helped in the planting of seeds.
+- What tools were used in the neolithic event?
+- Scrapers. Scrapers are one of the original stone tools, found everywhere where people settled, long before the Neolithic Age began. ...Blades. ...Arrows and Spearheads. ...Axes. ...Adzes. ...Hammers and Chisels.
+Original Query: When was it brought to the british isles?
+Rewritten Query: When was the Neolithic Revolution brought to the British Isles?
+Ground Truth:    When was the neolithic event brought to the British isles?
+LLM Judge Score: 1.00
+ROUGE-L: 0.9000, BLEU: 0.3508
+Latency: 97.0776s
+------------------------------
+Sample ID: 40 | Status: REWRITTEN
+History:
+- What was the neolithic revolution?
+- The Neolithic Revolution, also called the Agricultural Revolution, marked the transition in human history from small, nomadic bands of hunter-gatherers to larger, agricultural settlements and early civilization.
+- When did the Neolithic revolution start and end?
+- The Neolithic Revolution—also referred to as the Agricultural Revolution—is thought to have begun about 12,000 years ago.
+- Why did the Neolithic revolution start?
+- The Neolithic Era began when some groups of humans gave up the nomadic, hunter-gatherer lifestyle completely to begin farming.
+- What did the neolithic invent?
+- Farming started a revolution in the world and helped set us on a path that would eventually lead to the technological revolution and invention of different things. Inventions such as the plow helped in the planting of seeds.
+- What tools were used in the neolithic event?
+- Scrapers. Scrapers are one of the original stone tools, found everywhere where people settled, long before the Neolithic Age began. ...Blades. ...Arrows and Spearheads. ...Axes. ...Adzes. ...Hammers and Chisels.
+- When was the neolithic event brought to the British isles?
+- This change happened at various times in several different places around the world. The concept of farming that reached Britain between about 5000 BC and 4500 BC had spread across Europe from origins in Syria and Iraq between about 11000 BC and 9000 BC.
+Original Query: Describe the period that follows it.
+Rewritten Query: Describe the period that follows the Neolithic Revolution.
+Ground Truth:    Describe the period that follows the neolithic event?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8750, BLEU: 0.5874
+Latency: 82.7291s
+------------------------------
+Sample ID: 41 | Status: REWRITTEN
+History:
+- What was the neolithic revolution?
+- The Neolithic Revolution, also called the Agricultural Revolution, marked the transition in human history from small, nomadic bands of hunter-gatherers to larger, agricultural settlements and early civilization.
+- When did the Neolithic revolution start and end?
+- The Neolithic Revolution—also referred to as the Agricultural Revolution—is thought to have begun about 12,000 years ago.
+- Why did the Neolithic revolution start?
+- The Neolithic Era began when some groups of humans gave up the nomadic, hunter-gatherer lifestyle completely to begin farming.
+- What did the neolithic invent?
+- Farming started a revolution in the world and helped set us on a path that would eventually lead to the technological revolution and invention of different things. Inventions such as the plow helped in the planting of seeds.
+- What tools were used in the neolithic event?
+- Scrapers. Scrapers are one of the original stone tools, found everywhere where people settled, long before the Neolithic Age began. ...Blades. ...Arrows and Spearheads. ...Axes. ...Adzes. ...Hammers and Chisels.
+- When was the neolithic event brought to the British isles?
+- This change happened at various times in several different places around the world. The concept of farming that reached Britain between about 5000 BC and 4500 BC had spread across Europe from origins in Syria and Iraq between about 11000 BC and 9000 BC.
+- Describe the period that follows the neolithic event?
+- Towards the end of the Neolithic era, copper metallurgy is introduced, which marks a transition period to the Bronze Age, sometimes referred to as the Chalcolithic or Eneolithic Era.
+Original Query: What was its significance?
+Rewritten Query: What was the significance of the period that follows the Neolithic event?
+Ground Truth:    What was the significance of the neolithic event?
+LLM Judge Score: 0.00
+ROUGE-L: 0.8000, BLEU: 0.4280
+Latency: 111.7513s
+------------------------------
+Sample ID: 42 | Status: REWRITTEN
+History:
+- What was the neolithic revolution?
+- The Neolithic Revolution, also called the Agricultural Revolution, marked the transition in human history from small, nomadic bands of hunter-gatherers to larger, agricultural settlements and early civilization.
+- When did the Neolithic revolution start and end?
+- The Neolithic Revolution—also referred to as the Agricultural Revolution—is thought to have begun about 12,000 years ago.
+- Why did the Neolithic revolution start?
+- The Neolithic Era began when some groups of humans gave up the nomadic, hunter-gatherer lifestyle completely to begin farming.
+- What did the neolithic invent?
+- Farming started a revolution in the world and helped set us on a path that would eventually lead to the technological revolution and invention of different things. Inventions such as the plow helped in the planting of seeds.
+- What tools were used in the neolithic event?
+- Scrapers. Scrapers are one of the original stone tools, found everywhere where people settled, long before the Neolithic Age began. ...Blades. ...Arrows and Spearheads. ...Axes. ...Adzes. ...Hammers and Chisels.
+- When was the neolithic event brought to the British isles?
+- This change happened at various times in several different places around the world. The concept of farming that reached Britain between about 5000 BC and 4500 BC had spread across Europe from origins in Syria and Iraq between about 11000 BC and 9000 BC.
+- Describe the period that follows the neolithic event?
+- Towards the end of the Neolithic era, copper metallurgy is introduced, which marks a transition period to the Bronze Age, sometimes referred to as the Chalcolithic or Eneolithic Era.
+- What was the significance of the neolithic event?
+- The Neolithic Revolution, Neolithic Demographic Transition, Agricultural Revolution, or First Agricultural Revolution was the wide-scale transition of many human cultures during the Neolithic period from a lifestyle of hunting and gathering to one of agriculture and settlement, making an increasingly larger population possible
+Original Query: What were the houses like?
+Rewritten Query: What were the houses like during the Neolithic period?
+Ground Truth:    What were the houses like in the neolithic event?
+LLM Judge Score: 1.00
+ROUGE-L: 0.7778, BLEU: 0.4273
+Latency: 90.0430s
+------------------------------
+Sample ID: 43 | Status: KEPT_ORIGINAL
+History:
+Original Query: What are the best ways to cook a turkey?
+Rewritten Query: What are the best ways to cook a turkey?
+Ground Truth:    What are the best ways to cook a turkey?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 82.4178s
+------------------------------
+Sample ID: 44 | Status: KEPT_ORIGINAL
+History:
+- What are the best ways to cook a turkey?
+- Heat the oven to 450°F to preheat and then drop the temperature to 350°F when putting the turkey into the oven. The turkey is done when it registers a minimum of 165° in the thickest part of the thigh.
+Original Query: Should I brine a turkey before smoking it?
+Rewritten Query: Should I brine a turkey before smoking it?
+Ground Truth:    Should I brine a turkey before smoking it?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 82.6696s
+------------------------------
+Sample ID: 45 | Status: REWRITTEN
+History:
+- What are the best ways to cook a turkey?
+- Heat the oven to 450°F to preheat and then drop the temperature to 350°F when putting the turkey into the oven. The turkey is done when it registers a minimum of 165° in the thickest part of the thigh.
+- Should I brine a turkey before smoking it?
+- Use a brine before smoking to help keep meat moist while cooking and to add flavor.
+Original Query: How much salt do I use to brine it?
+Rewritten Query: How much salt do I use to brine a turkey?
+Ground Truth:    How much salt do I use to brine a turkey?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 97.2074s
+------------------------------
+Sample ID: 46 | Status: REWRITTEN
+History:
+- What are the best ways to cook a turkey?
+- Heat the oven to 450°F to preheat and then drop the temperature to 350°F when putting the turkey into the oven. The turkey is done when it registers a minimum of 165° in the thickest part of the thigh.
+- Should I brine a turkey before smoking it?
+- Use a brine before smoking to help keep meat moist while cooking and to add flavor.
+- How much salt do I use to brine a turkey?
+- The basic ratio for turkey brine is two cups of kosher salt to two gallons of water. Some recipes include sweeteners or acidic ingredients to balance the saltiness.
+Original Query: What kind of wood should I use?
+Rewritten Query: What kind of wood should I use for smoking a turkey?
+Ground Truth:    What kind of wood should I use to brine a turkey?
+LLM Judge Score: 0.80
+ROUGE-L: 0.8182, BLEU: 0.6340
+Latency: 97.4385s
+------------------------------
+Sample ID: 47 | Status: REWRITTEN
+History:
+- What are the best ways to cook a turkey?
+- Heat the oven to 450°F to preheat and then drop the temperature to 350°F when putting the turkey into the oven. The turkey is done when it registers a minimum of 165° in the thickest part of the thigh.
+- Should I brine a turkey before smoking it?
+- Use a brine before smoking to help keep meat moist while cooking and to add flavor.
+- How much salt do I use to brine a turkey?
+- The basic ratio for turkey brine is two cups of kosher salt to two gallons of water. Some recipes include sweeteners or acidic ingredients to balance the saltiness.
+- What kind of wood should I use to brine a turkey?
+- nonsense
+Original Query: How long should it be smoked for?
+Rewritten Query: How long should a turkey be smoked for?
+Ground Truth:    How long should a turkey be smoked for?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 75.3534s
+------------------------------
+Sample ID: 48 | Status: KEPT_ORIGINAL
+History:
+- What are the best ways to cook a turkey?
+- Heat the oven to 450°F to preheat and then drop the temperature to 350°F when putting the turkey into the oven. The turkey is done when it registers a minimum of 165° in the thickest part of the thigh.
+- Should I brine a turkey before smoking it?
+- Use a brine before smoking to help keep meat moist while cooking and to add flavor.
+- How much salt do I use to brine a turkey?
+- The basic ratio for turkey brine is two cups of kosher salt to two gallons of water. Some recipes include sweeteners or acidic ingredients to balance the saltiness.
+- What kind of wood should I use to brine a turkey?
+- nonsense
+- How long should a turkey be smoked for?
+- he rule of thumb is to smoke the turkey at 300 degrees, 15 minutes for each pound. We used a 17 pound Honeysuckle White turkey for this recipe, and smoked it at 275-300 degrees for just under 4 hours.
+Original Query: Is smoked turkey healthy?
+Rewritten Query: Is smoked turkey healthy?
+Ground Truth:    Is smoked turkey healthy?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 46.2728s
+------------------------------
+Sample ID: 49 | Status: REWRITTEN
+History:
+- What are the best ways to cook a turkey?
+- Heat the oven to 450°F to preheat and then drop the temperature to 350°F when putting the turkey into the oven. The turkey is done when it registers a minimum of 165° in the thickest part of the thigh.
+- Should I brine a turkey before smoking it?
+- Use a brine before smoking to help keep meat moist while cooking and to add flavor.
+- How much salt do I use to brine a turkey?
+- The basic ratio for turkey brine is two cups of kosher salt to two gallons of water. Some recipes include sweeteners or acidic ingredients to balance the saltiness.
+- What kind of wood should I use to brine a turkey?
+- nonsense
+- How long should a turkey be smoked for?
+- he rule of thumb is to smoke the turkey at 300 degrees, 15 minutes for each pound. We used a 17 pound Honeysuckle White turkey for this recipe, and smoked it at 275-300 degrees for just under 4 hours.
+- Is smoked turkey healthy?
+- There's no specific amount that's considered safe, but if you're a strictly-on-Thanksgiving smoked-meat eater, it's not something to stress about.
+Original Query: What can you do with leftovers?
+Rewritten Query: What can you do with leftover smoked turkey?
+Ground Truth:    What can you do with leftovers or a turkey?
+LLM Judge Score: 0.80
+ROUGE-L: 0.7059, BLEU: 0.4594
+Latency: 75.5177s
+------------------------------
+Sample ID: 50 | Status: REWRITTEN
+History:
+- What are the best ways to cook a turkey?
+- Heat the oven to 450°F to preheat and then drop the temperature to 350°F when putting the turkey into the oven. The turkey is done when it registers a minimum of 165° in the thickest part of the thigh.
+- Should I brine a turkey before smoking it?
+- Use a brine before smoking to help keep meat moist while cooking and to add flavor.
+- How much salt do I use to brine a turkey?
+- The basic ratio for turkey brine is two cups of kosher salt to two gallons of water. Some recipes include sweeteners or acidic ingredients to balance the saltiness.
+- What kind of wood should I use to brine a turkey?
+- nonsense
+- How long should a turkey be smoked for?
+- he rule of thumb is to smoke the turkey at 300 degrees, 15 minutes for each pound. We used a 17 pound Honeysuckle White turkey for this recipe, and smoked it at 275-300 degrees for just under 4 hours.
+- Is smoked turkey healthy?
+- There's no specific amount that's considered safe, but if you're a strictly-on-Thanksgiving smoked-meat eater, it's not something to stress about.
+- What can you do with leftovers or a turkey?
+- Turkey Chowder. Turkey and Stuffing Casserole.
+Original Query: How long are leftovers good for in the fridge?
+Rewritten Query: How long are turkey leftovers good for in the fridge?
+Ground Truth:    How long are leftovers a turkey good for in the fridge?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8571, BLEU: 0.5643
+Latency: 89.8706s
+------------------------------
+Sample ID: 51 | Status: REWRITTEN
+History:
+- What are the best ways to cook a turkey?
+- Heat the oven to 450°F to preheat and then drop the temperature to 350°F when putting the turkey into the oven. The turkey is done when it registers a minimum of 165° in the thickest part of the thigh.
+- Should I brine a turkey before smoking it?
+- Use a brine before smoking to help keep meat moist while cooking and to add flavor.
+- How much salt do I use to brine a turkey?
+- The basic ratio for turkey brine is two cups of kosher salt to two gallons of water. Some recipes include sweeteners or acidic ingredients to balance the saltiness.
+- What kind of wood should I use to brine a turkey?
+- nonsense
+- How long should a turkey be smoked for?
+- he rule of thumb is to smoke the turkey at 300 degrees, 15 minutes for each pound. We used a 17 pound Honeysuckle White turkey for this recipe, and smoked it at 275-300 degrees for just under 4 hours.
+- Is smoked turkey healthy?
+- There's no specific amount that's considered safe, but if you're a strictly-on-Thanksgiving smoked-meat eater, it's not something to stress about.
+- What can you do with leftovers or a turkey?
+- Turkey Chowder. Turkey and Stuffing Casserole.
+- How long are leftovers a turkey good for in the fridge?
+- Your leftovers are safe in the fridge for three to four days, while frozen food should be consumed within two to four months for best quality, according to the U.S. Department of Agriculture. The biggest mistake turkey-lovers make is keeping leftovers in the fridge for too long.
+Original Query: What's a recipe for smoked turkey soup?
+Rewritten Query: What is a recipe for smoked turkey soup?
+Ground Truth:    What's a recipe for smoked turkey soup?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8750, BLEU: 0.7260
+Latency: 75.7300s
+------------------------------
+Sample ID: 52 | Status: REWRITTEN
+History:
+- What are the best ways to cook a turkey?
+- Heat the oven to 450°F to preheat and then drop the temperature to 350°F when putting the turkey into the oven. The turkey is done when it registers a minimum of 165° in the thickest part of the thigh.
+- Should I brine a turkey before smoking it?
+- Use a brine before smoking to help keep meat moist while cooking and to add flavor.
+- How much salt do I use to brine a turkey?
+- The basic ratio for turkey brine is two cups of kosher salt to two gallons of water. Some recipes include sweeteners or acidic ingredients to balance the saltiness.
+- What kind of wood should I use to brine a turkey?
+- nonsense
+- How long should a turkey be smoked for?
+- he rule of thumb is to smoke the turkey at 300 degrees, 15 minutes for each pound. We used a 17 pound Honeysuckle White turkey for this recipe, and smoked it at 275-300 degrees for just under 4 hours.
+- Is smoked turkey healthy?
+- There's no specific amount that's considered safe, but if you're a strictly-on-Thanksgiving smoked-meat eater, it's not something to stress about.
+- What can you do with leftovers or a turkey?
+- Turkey Chowder. Turkey and Stuffing Casserole.
+- How long are leftovers a turkey good for in the fridge?
+- Your leftovers are safe in the fridge for three to four days, while frozen food should be consumed within two to four months for best quality, according to the U.S. Department of Agriculture. The biggest mistake turkey-lovers make is keeping leftovers in the fridge for too long.
+- What's a recipe for smoked turkey soup?
+- Place the turkey legs, water, bouillon cubes, onion, celery, carrots, garlic, bay leaves, garlic powder, onion powder, black pepper, thyme, marjoram, and curry powder in a soup pot; bring to a boil. Reduce heat and simmer for 30 minutes.
+Original Query: How about one for chili?
+Rewritten Query: How about a recipe for smoked turkey chili?
+Ground Truth:    How about a recipe for chili?
+LLM Judge Score: 0.50
+ROUGE-L: 0.8571, BLEU: 0.5133
+Latency: 75.9028s
+------------------------------
+Sample ID: 53 | Status: REWRITTEN
+History:
+Original Query: What are the most important US supreme court cases?
+Rewritten Query: What are the most important U.S. Supreme Court cases?
+Ground Truth:    What are the most important US supreme court cases?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8421, BLEU: 0.3326
+Latency: 97.7087s
+------------------------------
+Sample ID: 54 | Status: KEPT_ORIGINAL
+History:
+- What are the most important US supreme court cases?
+- Marbury v. Madison, 1803 (4-0 decision) ...McCulloch v. Maryland, 1819 (7-0 decision) ...Dred Scott v. Sandford, 1857 (7-2 decision) ...Plessy v. Ferguson, 1896 (7-1 decision) ...Korematsu v. United States,
+Original Query: What did Plessy v. Ferguson establish?
+Rewritten Query: What did Plessy v. Ferguson establish?
+Ground Truth:    What did Plessy v. Ferguson establish?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 83.0546s
+------------------------------
+Sample ID: 55 | Status: REWRITTEN
+History:
+- What are the most important US supreme court cases?
+- Marbury v. Madison, 1803 (4-0 decision) ...McCulloch v. Maryland, 1819 (7-0 decision) ...Dred Scott v. Sandford, 1857 (7-2 decision) ...Plessy v. Ferguson, 1896 (7-1 decision) ...Korematsu v. United States,
+- What did Plessy v. Ferguson establish?
+- Plessy v. Ferguson was a landmark 1896 U.S. Supreme Court decision that upheld the constitutionality of racial segregation under the “separate but equal” doctrine. The case stemmed from an 1892 incident in which African-American train passenger Homer Plessy refused to sit in a car for blacks.
+Original Query: How about Marbury vs Madison?
+Rewritten Query: What did Marbury v. Madison establish?
+Ground Truth:    What did the Marbury vs Madison case establish?
+LLM Judge Score: 1.00
+ROUGE-L: 0.7143, BLEU: 0.0000
+Latency: 75.9922s
+------------------------------
+Sample ID: 56 | Status: REWRITTEN
+History:
+- What are the most important US supreme court cases?
+- Marbury v. Madison, 1803 (4-0 decision) ...McCulloch v. Maryland, 1819 (7-0 decision) ...Dred Scott v. Sandford, 1857 (7-2 decision) ...Plessy v. Ferguson, 1896 (7-1 decision) ...Korematsu v. United States,
+- What did Plessy v. Ferguson establish?
+- Plessy v. Ferguson was a landmark 1896 U.S. Supreme Court decision that upheld the constitutionality of racial segregation under the “separate but equal” doctrine. The case stemmed from an 1892 incident in which African-American train passenger Homer Plessy refused to sit in a car for blacks.
+- What did the Marbury vs Madison case establish?
+- The U.S. Supreme Court case Marbury v. Madison (1803) established the principle of judicial review—the power of the federal courts to declare legislative and executive acts unconstitutional. The unanimous opinion was written by Chief Justice John Marshall.
+Original Query: Was it unanimous?
+Rewritten Query: Was the Marbury v. Madison decision unanimous?
+Ground Truth:    Was the Marbury vs Madison case unanimous?
+LLM Judge Score: 1.00
+ROUGE-L: 0.7143, BLEU: 0.0000
+Latency: 83.3405s
+------------------------------
+Sample ID: 57 | Status: REWRITTEN
+History:
+- What are the most important US supreme court cases?
+- Marbury v. Madison, 1803 (4-0 decision) ...McCulloch v. Maryland, 1819 (7-0 decision) ...Dred Scott v. Sandford, 1857 (7-2 decision) ...Plessy v. Ferguson, 1896 (7-1 decision) ...Korematsu v. United States,
+- What did Plessy v. Ferguson establish?
+- Plessy v. Ferguson was a landmark 1896 U.S. Supreme Court decision that upheld the constitutionality of racial segregation under the “separate but equal” doctrine. The case stemmed from an 1892 incident in which African-American train passenger Homer Plessy refused to sit in a car for blacks.
+- What did the Marbury vs Madison case establish?
+- The U.S. Supreme Court case Marbury v. Madison (1803) established the principle of judicial review—the power of the federal courts to declare legislative and executive acts unconstitutional. The unanimous opinion was written by Chief Justice John Marshall.
+- Was the Marbury vs Madison case unanimous?
+- In a unanimous decision, written by Justice Marshall, the Court stated that Marbury, indeed, had a right to his commission.
+Original Query: What was the implication of Roe vs Wade?
+Rewritten Query: What was the implication of Roe v. Wade?
+Ground Truth:    What was the implication of Roe vs Wade?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8750, BLEU: 0.5814
+Latency: 83.2330s
+------------------------------
+Sample ID: 58 | Status: REWRITTEN
+History:
+- What are the most important US supreme court cases?
+- Marbury v. Madison, 1803 (4-0 decision) ...McCulloch v. Maryland, 1819 (7-0 decision) ...Dred Scott v. Sandford, 1857 (7-2 decision) ...Plessy v. Ferguson, 1896 (7-1 decision) ...Korematsu v. United States,
+- What did Plessy v. Ferguson establish?
+- Plessy v. Ferguson was a landmark 1896 U.S. Supreme Court decision that upheld the constitutionality of racial segregation under the “separate but equal” doctrine. The case stemmed from an 1892 incident in which African-American train passenger Homer Plessy refused to sit in a car for blacks.
+- What did the Marbury vs Madison case establish?
+- The U.S. Supreme Court case Marbury v. Madison (1803) established the principle of judicial review—the power of the federal courts to declare legislative and executive acts unconstitutional. The unanimous opinion was written by Chief Justice John Marshall.
+- Was the Marbury vs Madison case unanimous?
+- In a unanimous decision, written by Justice Marshall, the Court stated that Marbury, indeed, had a right to his commission.
+- What was the implication of Roe vs Wade?
+- Roe rendered these laws unconstitutional, making abortion services vastly safer and more accessible to women throughout the country. The decision also set a legal precedent that affected more than 30 subsequent Supreme Court cases involving restrictions on access to abortion.
+Original Query: What were the main arguments?
+Rewritten Query: What were the main arguments in the Roe v. Wade case?
+Ground Truth:    What were the main arguments of the Roe vs. Wade?
+LLM Judge Score: 1.00
+ROUGE-L: 0.7619, BLEU: 0.3806
+Latency: 103.4208s
+------------------------------
+Sample ID: 59 | Status: REWRITTEN
+History:
+- What are the most important US supreme court cases?
+- Marbury v. Madison, 1803 (4-0 decision) ...McCulloch v. Maryland, 1819 (7-0 decision) ...Dred Scott v. Sandford, 1857 (7-2 decision) ...Plessy v. Ferguson, 1896 (7-1 decision) ...Korematsu v. United States,
+- What did Plessy v. Ferguson establish?
+- Plessy v. Ferguson was a landmark 1896 U.S. Supreme Court decision that upheld the constitutionality of racial segregation under the “separate but equal” doctrine. The case stemmed from an 1892 incident in which African-American train passenger Homer Plessy refused to sit in a car for blacks.
+- What did the Marbury vs Madison case establish?
+- The U.S. Supreme Court case Marbury v. Madison (1803) established the principle of judicial review—the power of the federal courts to declare legislative and executive acts unconstitutional. The unanimous opinion was written by Chief Justice John Marshall.
+- Was the Marbury vs Madison case unanimous?
+- In a unanimous decision, written by Justice Marshall, the Court stated that Marbury, indeed, had a right to his commission.
+- What was the implication of Roe vs Wade?
+- Roe rendered these laws unconstitutional, making abortion services vastly safer and more accessible to women throughout the country. The decision also set a legal precedent that affected more than 30 subsequent Supreme Court cases involving restrictions on access to abortion.
+- What were the main arguments of the Roe vs. Wade?
+- The Court ruled, in a 7-2 decision, that a woman's right to choose an abortion was protected by the privacy rights guaranteed by the Fourteenth Amendment to the U.S. Constitution.
+Original Query: What was the point of Brown v Board of Ed?
+Rewritten Query: What was the significance of Brown v. Board of Education?
+Ground Truth:    What was the point of Brown v Board of Ed?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8000, BLEU: 0.0000
+Latency: 96.5361s
+------------------------------
+Sample ID: 60 | Status: REWRITTEN
+History:
+- What are the most important US supreme court cases?
+- Marbury v. Madison, 1803 (4-0 decision) ...McCulloch v. Maryland, 1819 (7-0 decision) ...Dred Scott v. Sandford, 1857 (7-2 decision) ...Plessy v. Ferguson, 1896 (7-1 decision) ...Korematsu v. United States,
+- What did Plessy v. Ferguson establish?
+- Plessy v. Ferguson was a landmark 1896 U.S. Supreme Court decision that upheld the constitutionality of racial segregation under the “separate but equal” doctrine. The case stemmed from an 1892 incident in which African-American train passenger Homer Plessy refused to sit in a car for blacks.
+- What did the Marbury vs Madison case establish?
+- The U.S. Supreme Court case Marbury v. Madison (1803) established the principle of judicial review—the power of the federal courts to declare legislative and executive acts unconstitutional. The unanimous opinion was written by Chief Justice John Marshall.
+- Was the Marbury vs Madison case unanimous?
+- In a unanimous decision, written by Justice Marshall, the Court stated that Marbury, indeed, had a right to his commission.
+- What was the implication of Roe vs Wade?
+- Roe rendered these laws unconstitutional, making abortion services vastly safer and more accessible to women throughout the country. The decision also set a legal precedent that affected more than 30 subsequent Supreme Court cases involving restrictions on access to abortion.
+- What were the main arguments of the Roe vs. Wade?
+- The Court ruled, in a 7-2 decision, that a woman's right to choose an abortion was protected by the privacy rights guaranteed by the Fourteenth Amendment to the U.S. Constitution.
+- What was the point of Brown v Board of Ed?
+- Brown v. Board of Education of Topeka, 347 U.S. 483 (1954), was a landmark decision of the U.S. Supreme Court in which the Court ruled that American state laws establishing racial segregation in public schools are unconstitutional, even if the segregated schools are otherwise equal in quality.
+Original Query: What were the main arguments?
+Rewritten Query: What were the main arguments in Brown v. Board of Education?
+Ground Truth:    What were the main arguments of Brown v Board of Ed?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8182, BLEU: 0.3806
+Latency: 103.8831s
+------------------------------

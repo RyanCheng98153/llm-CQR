@@ -1,0 +1,370 @@
+Evaluation Log
+====================
+Sample ID: 0 | Status: KEPT_ORIGINAL
+History:
+Original Query: What is a physician's assistant?
+Rewritten Query: What is a physician's assistant?
+Ground Truth:    What is a physician's assistant?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 74.8038s
+------------------------------
+Sample ID: 1 | Status: REWRITTEN
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+Original Query: What are the educational requirements required to become one?
+Rewritten Query: What are the educational requirements to become a physician's assistant?
+Ground Truth:    What are the educational requirements required to become a physician's assistant?
+LLM Judge Score: 1.00
+ROUGE-L: 0.9565, BLEU: 0.7426
+Latency: 97.1302s
+------------------------------
+Sample ID: 2 | Status: REWRITTEN
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+Original Query: What does it cost?
+Rewritten Query: What is the cost of becoming a physician's assistant?
+Ground Truth:    What does it cost to become a physician's assistant?
+LLM Judge Score: 1.00
+ROUGE-L: 0.6000, BLEU: 0.2907
+Latency: 89.7512s
+------------------------------
+Sample ID: 3 | Status: REWRITTEN
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+Original Query: What's the average starting salary in the UK?
+Rewritten Query: What is the average starting salary for a physician's assistant in the UK?
+Ground Truth:    What's the average starting salary for a physician's assistant in the UK?
+LLM Judge Score: 1.00
+ROUGE-L: 0.9286, BLEU: 0.8386
+Latency: 118.7477s
+------------------------------
+Sample ID: 4 | Status: REWRITTEN
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+- What's the average starting salary for a physician's assistant in the UK?
+- Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).
+Original Query: What about in the US?
+Rewritten Query: What is the average starting salary for a physician's assistant in the US?
+Ground Truth:    What's the average starting salary for a physician's assistant in the US?
+LLM Judge Score: 1.00
+ROUGE-L: 0.9286, BLEU: 0.8386
+Latency: 119.1496s
+------------------------------
+Sample ID: 5 | Status: KEPT_ORIGINAL
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+- What's the average starting salary for a physician's assistant in the UK?
+- Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).
+- What's the average starting salary for a physician's assistant in the US?
+- An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.
+Original Query: What school subjects are needed to become a registered nurse?
+Rewritten Query: What school subjects are needed to become a registered nurse?
+Ground Truth:    What school subjects are needed to become a registered nurse?
+LLM Judge Score: 0.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 90.0438s
+------------------------------
+Sample ID: 6 | Status: REWRITTEN
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+- What's the average starting salary for a physician's assistant in the UK?
+- Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).
+- What's the average starting salary for a physician's assistant in the US?
+- An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.
+- What school subjects are needed to become a registered nurse?
+- Courses that nursing students may be required to take include anatomy, physiology, microbiology, chemistry, nutrition, and psychology. Nursing students may also be required to take courses in liberal arts subjects.
+Original Query: What is the PA average salary vs an RN?
+Rewritten Query: What is the average salary of a physician assistant compared to a registered nurse?
+Ground Truth:    What is the physician's assistant average salary vs a registered nurse?
+LLM Judge Score: 1.00
+ROUGE-L: 0.6154, BLEU: 0.2723
+Latency: 119.0448s
+------------------------------
+Sample ID: 7 | Status: REWRITTEN
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+- What's the average starting salary for a physician's assistant in the UK?
+- Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).
+- What's the average starting salary for a physician's assistant in the US?
+- An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.
+- What school subjects are needed to become a registered nurse?
+- Courses that nursing students may be required to take include anatomy, physiology, microbiology, chemistry, nutrition, and psychology. Nursing students may also be required to take courses in liberal arts subjects.
+- What is the physician's assistant average salary vs a registered nurse?
+- Although many factors go into salaries, such as experience, specialty and geographic areas, PA's usually come out on top. According to the United States Bureau of Labor Statistics, the average salary for PA's in 2013 was about $90,000 a year. Nurses on the other hand made about $66,000 a year according to the BLS.
+Original Query: What the difference between a PA and a nurse practitioner?
+Rewritten Query: What is the difference between a physician assistant and a nurse practitioner?
+Ground Truth:    What the difference between a physician assistant and a nurse practitioner?
+LLM Judge Score: 1.00
+ROUGE-L: 0.9565, BLEU: 0.8424
+Latency: 104.6379s
+------------------------------
+Sample ID: 8 | Status: REWRITTEN
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+- What's the average starting salary for a physician's assistant in the UK?
+- Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).
+- What's the average starting salary for a physician's assistant in the US?
+- An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.
+- What school subjects are needed to become a registered nurse?
+- Courses that nursing students may be required to take include anatomy, physiology, microbiology, chemistry, nutrition, and psychology. Nursing students may also be required to take courses in liberal arts subjects.
+- What is the physician's assistant average salary vs a registered nurse?
+- Although many factors go into salaries, such as experience, specialty and geographic areas, PA's usually come out on top. According to the United States Bureau of Labor Statistics, the average salary for PA's in 2013 was about $90,000 a year. Nurses on the other hand made about $66,000 a year according to the BLS.
+- What the difference between a physician assistant and a nurse practitioner?
+- . Nurses follow a patient-centered model, in which they focus on disease prevention and health education and handle assessment, diagnosis and treatment. Physician assistants follow a disease-centered model, in which they focus on the biologic and pathologic components of health, and also practice assessment, diagnosis, and treatment.
+Original Query: Do NPs or PAs make more?
+Rewritten Query: Do nurse practitioners or physician assistants make more?
+Ground Truth:    Do nurse practitioners or physician assistants make more?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 75.3865s
+------------------------------
+Sample ID: 9 | Status: REWRITTEN
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+- What's the average starting salary for a physician's assistant in the UK?
+- Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).
+- What's the average starting salary for a physician's assistant in the US?
+- An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.
+- What school subjects are needed to become a registered nurse?
+- Courses that nursing students may be required to take include anatomy, physiology, microbiology, chemistry, nutrition, and psychology. Nursing students may also be required to take courses in liberal arts subjects.
+- What is the physician's assistant average salary vs a registered nurse?
+- Although many factors go into salaries, such as experience, specialty and geographic areas, PA's usually come out on top. According to the United States Bureau of Labor Statistics, the average salary for PA's in 2013 was about $90,000 a year. Nurses on the other hand made about $66,000 a year according to the BLS.
+- What the difference between a physician assistant and a nurse practitioner?
+- . Nurses follow a patient-centered model, in which they focus on disease prevention and health education and handle assessment, diagnosis and treatment. Physician assistants follow a disease-centered model, in which they focus on the biologic and pathologic components of health, and also practice assessment, diagnosis, and treatment.
+- Do nurse practitioners or physician assistants make more?
+- According to the Bureau of Labor and Statistics (BLS), the 2017 median pay for Nurse Practitioners is $110,930 per year, or $53.33 per hour. In comparison, 2017 median pay for Physician Assistants is $104,860 per year, or $50.41 per hour.
+Original Query: Is a PA above a NP?
+Rewritten Query: Is a physician assistant considered to have a higher professional status than a nurse practitioner?
+Ground Truth:    Is a physician assistants above a nurse practitioner?
+LLM Judge Score: 0.90
+ROUGE-L: 0.5217, BLEU: 0.2214
+Latency: 126.3283s
+------------------------------
+Sample ID: 10 | Status: REWRITTEN
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+- What's the average starting salary for a physician's assistant in the UK?
+- Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).
+- What's the average starting salary for a physician's assistant in the US?
+- An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.
+- What school subjects are needed to become a registered nurse?
+- Courses that nursing students may be required to take include anatomy, physiology, microbiology, chemistry, nutrition, and psychology. Nursing students may also be required to take courses in liberal arts subjects.
+- What is the physician's assistant average salary vs a registered nurse?
+- Although many factors go into salaries, such as experience, specialty and geographic areas, PA's usually come out on top. According to the United States Bureau of Labor Statistics, the average salary for PA's in 2013 was about $90,000 a year. Nurses on the other hand made about $66,000 a year according to the BLS.
+- What the difference between a physician assistant and a nurse practitioner?
+- . Nurses follow a patient-centered model, in which they focus on disease prevention and health education and handle assessment, diagnosis and treatment. Physician assistants follow a disease-centered model, in which they focus on the biologic and pathologic components of health, and also practice assessment, diagnosis, and treatment.
+- Do nurse practitioners or physician assistants make more?
+- According to the Bureau of Labor and Statistics (BLS), the 2017 median pay for Nurse Practitioners is $110,930 per year, or $53.33 per hour. In comparison, 2017 median pay for Physician Assistants is $104,860 per year, or $50.41 per hour.
+- Is a physician assistants above a nurse practitioner?
+- Physician Assistants are licensed medical professionals who may work independently of the lead physician, while Nurse Practitioners are well trained, but not necessarily licensed caregivers, who must work under the close supervision of the attending doctor.
+Original Query: What is the fastest way to become a NP?
+Rewritten Query: What is the fastest way to become a nurse practitioner?
+Ground Truth:    What is the fastest way to become a nurse practitioner?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 89.8948s
+------------------------------
+Sample ID: 11 | Status: REWRITTEN
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+- What's the average starting salary for a physician's assistant in the UK?
+- Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).
+- What's the average starting salary for a physician's assistant in the US?
+- An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.
+- What school subjects are needed to become a registered nurse?
+- Courses that nursing students may be required to take include anatomy, physiology, microbiology, chemistry, nutrition, and psychology. Nursing students may also be required to take courses in liberal arts subjects.
+- What is the physician's assistant average salary vs a registered nurse?
+- Although many factors go into salaries, such as experience, specialty and geographic areas, PA's usually come out on top. According to the United States Bureau of Labor Statistics, the average salary for PA's in 2013 was about $90,000 a year. Nurses on the other hand made about $66,000 a year according to the BLS.
+- What the difference between a physician assistant and a nurse practitioner?
+- . Nurses follow a patient-centered model, in which they focus on disease prevention and health education and handle assessment, diagnosis and treatment. Physician assistants follow a disease-centered model, in which they focus on the biologic and pathologic components of health, and also practice assessment, diagnosis, and treatment.
+- Do nurse practitioners or physician assistants make more?
+- According to the Bureau of Labor and Statistics (BLS), the 2017 median pay for Nurse Practitioners is $110,930 per year, or $53.33 per hour. In comparison, 2017 median pay for Physician Assistants is $104,860 per year, or $50.41 per hour.
+- Is a physician assistants above a nurse practitioner?
+- Physician Assistants are licensed medical professionals who may work independently of the lead physician, while Nurse Practitioners are well trained, but not necessarily licensed caregivers, who must work under the close supervision of the attending doctor.
+- What is the fastest way to become a nurse practitioner?
+- Become a Registered Nurse. The first step to a career as a nurse practitioner is earning your credentials as a registered nurse (RN). ...Earn a Bachelor's Degree. ...Gain Experience. ...Earn a Graduate Degree. ...Obtain State License and Certification. ...Pursue Further Specialization.
+Original Query: How much longer does it take to become a doctor after being an NP?
+Rewritten Query: How much longer does it take to become a doctor after becoming a nurse practitioner?
+Ground Truth:    How much longer does it take to become a doctor after being a nurse practitioner?
+LLM Judge Score: 1.00
+ROUGE-L: 0.9333, BLEU: 0.8154
+Latency: 126.8154s
+------------------------------
+Sample ID: 12 | Status: KEPT_ORIGINAL
+History:
+Original Query: What are the main breeds of goat?
+Rewritten Query: What are the main breeds of goat?
+Ground Truth:    What are the main breeds of goat?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 67.7080s
+------------------------------
+Sample ID: 13 | Status: REWRITTEN
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+Original Query: Tell me about boer goats.
+Rewritten Query: What are the main characteristics of Boer goats?
+Ground Truth:    Tell me about boer goats
+LLM Judge Score: 0.80
+ROUGE-L: 0.3077, BLEU: 0.0000
+Latency: 82.3487s
+------------------------------
+Sample ID: 14 | Status: REWRITTEN
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+- Tell me about boer goats
+- The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.
+Original Query: What breed is good for meat?
+Rewritten Query: What breed of goat is good for meat?
+Ground Truth:    What breed of goats is good for meat
+LLM Judge Score: 1.00
+ROUGE-L: 0.8750, BLEU: 0.4317
+Latency: 74.4604s
+------------------------------
+Sample ID: 15 | Status: REWRITTEN
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+- Tell me about boer goats
+- The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.
+- What breed of goats is good for meat
+- Before Boer goats became available in the United States in the late 1980s, Spanish goats were the standard meat goat breed, especially in the South. These goats are descendants of the goats brought by Spanish explorers, making their way to the United States via Mexico.
+Original Query: Are angora goats good for it?
+Rewritten Query: Are Angora goats good for meat?
+Ground Truth:    Are angora goats good for meat?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 0.6435
+Latency: 67.1133s
+------------------------------
+Sample ID: 16 | Status: KEPT_ORIGINAL
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+- Tell me about boer goats
+- The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.
+- What breed of goats is good for meat
+- Before Boer goats became available in the United States in the late 1980s, Spanish goats were the standard meat goat breed, especially in the South. These goats are descendants of the goats brought by Spanish explorers, making their way to the United States via Mexico.
+- Are angora goats good for meat?
+- Surplus or cull Angora and cashmere goats are also used for meat, although a good fiber-producing goat is generally a poor meat goat and vice versa.
+Original Query: What about boer goats?
+Rewritten Query: What about Boer goats?
+Ground Truth:    Are boer goats good for meat?
+LLM Judge Score: 0.50
+ROUGE-L: 0.4000, BLEU: 0.0000
+Latency: 52.8965s
+------------------------------
+Sample ID: 17 | Status: REWRITTEN
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+- Tell me about boer goats
+- The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.
+- What breed of goats is good for meat
+- Before Boer goats became available in the United States in the late 1980s, Spanish goats were the standard meat goat breed, especially in the South. These goats are descendants of the goats brought by Spanish explorers, making their way to the United States via Mexico.
+- Are angora goats good for meat?
+- Surplus or cull Angora and cashmere goats are also used for meat, although a good fiber-producing goat is generally a poor meat goat and vice versa.
+- Are boer goats good for meat?
+- Boer goats were bred in South Africa for meat and selected for their superior body shape, high growth rate, and fertility.
+Original Query: What are pygmies used for?
+Rewritten Query: What are pygmy goats used for?
+Ground Truth:    What are pygmy goats used for?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 74.4713s
+------------------------------
+Sample ID: 18 | Status: REWRITTEN
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+- Tell me about boer goats
+- The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.
+- What breed of goats is good for meat
+- Before Boer goats became available in the United States in the late 1980s, Spanish goats were the standard meat goat breed, especially in the South. These goats are descendants of the goats brought by Spanish explorers, making their way to the United States via Mexico.
+- Are angora goats good for meat?
+- Surplus or cull Angora and cashmere goats are also used for meat, although a good fiber-producing goat is generally a poor meat goat and vice versa.
+- Are boer goats good for meat?
+- Boer goats were bred in South Africa for meat and selected for their superior body shape, high growth rate, and fertility.
+- What are pygmy goats used for?
+- While Pygmy goats are most commonly kept as pets or used as meat goats, they can also be used for milk production. Pygmy goats can produce, on average, between one to two quarts of 4.5% to 11% butterfat milk.
+Original Query: What is the best for fiber production?
+Rewritten Query: What is the best breed of goat for fiber production?
+Ground Truth:    What is the best goat for fiber production?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8889, BLEU: 0.5877
+Latency: 89.2036s
+------------------------------
+Sample ID: 19 | Status: KEPT_ORIGINAL
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+- Tell me about boer goats
+- The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.
+- What breed of goats is good for meat
+- Before Boer goats became available in the United States in the late 1980s, Spanish goats were the standard meat goat breed, especially in the South. These goats are descendants of the goats brought by Spanish explorers, making their way to the United States via Mexico.
+- Are angora goats good for meat?
+- Surplus or cull Angora and cashmere goats are also used for meat, although a good fiber-producing goat is generally a poor meat goat and vice versa.
+- Are boer goats good for meat?
+- Boer goats were bred in South Africa for meat and selected for their superior body shape, high growth rate, and fertility.
+- What are pygmy goats used for?
+- While Pygmy goats are most commonly kept as pets or used as meat goats, they can also be used for milk production. Pygmy goats can produce, on average, between one to two quarts of 4.5% to 11% butterfat milk.
+- What is the best goat for fiber production?
+- Mohair goats are the most productive fiber producing animals.
+Original Query: How long do Angora goats live?
+Rewritten Query: How long do Angora goats live?
+Ground Truth:    How long do Angora goats live?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 67.3541s
+------------------------------
