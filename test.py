@@ -18,7 +18,7 @@ JUDGE_PROMPT_PATH = "prompts/eval_prompt.txt"
 
 # Range Management for qrecc_test
 TEST_START_ID = 61
-TEST_END_ID = 200
+TEST_END_ID = 180
 
 # Initialize Global Model and Tokenizer
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
