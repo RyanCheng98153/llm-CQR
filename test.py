@@ -11,9 +11,14 @@ from tqdm import tqdm
 # Constants
 MODEL_NAME = "Qwen/Qwen3-30B-A3B-Instruct-2507"
 DATASET_PATH = "datasets/qrecc_data/qrecc_test.json"
+SELECT_DATASET_PATH = "./datasets/qrecc_select.json"
 SYSTEM_PROMPT_PATH = "prompts/system_prompt.txt"
 REWRITE_PROMPT_PATH = "prompts/rewrite_prompt.txt"
 JUDGE_PROMPT_PATH = "prompts/eval_prompt.txt"
+
+# Range Management for qrecc_test
+TEST_START_ID = 21
+TEST_END_ID = 40
 
 # Initialize Global Model and Tokenizer
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
@@ -100,22 +105,36 @@ def main():
     rewrite_prompt_template = get_prompt(REWRITE_PROMPT_PATH)
     judge_prompt_template = get_prompt(JUDGE_PROMPT_PATH)
 
-    with open(DATASET_PATH, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    final_dataset = []
 
-    data = data[:20]
+    # 1. Load qrecc_select and assign s_0, s_1...
+    with open(SELECT_DATASET_PATH, 'r', encoding='utf-8') as f:
+        select_data = json.load(f)
+    for i, item in enumerate(select_data):
+        item["custom_id"] = f"s_{i}"
+        final_dataset.append(item)
+
+    # 2. Load qrecc_test using Managed IDs
+    with open(DATASET_PATH, 'r', encoding='utf-8') as f:
+        full_test_data = json.load(f)
+    
+    # We use range from TEST_START_ID to TEST_END_ID (inclusive)
+    for idx in range(TEST_START_ID, TEST_END_ID + 1):
+        if idx < len(full_test_data):
+            item = full_test_data[idx]
+            item["custom_id"] = str(idx) # Management: uses the absolute index
+            final_dataset.append(item)
+
     results = []
     rouge = load("rouge")
     bleu = load("bleu")
 
-    print(f"Starting evaluation on {len(data)} samples...")
+    print(f"Starting evaluation on {len(final_dataset)} samples...")
 
-    # 同時打開 TXT 和 CSV 檔案
     txt_log = open("qrecc_results_detailed.txt", "w", encoding="utf-8")
     csv_file = open("qrecc_results_detailed.csv", "w", newline="", encoding="utf-8")
     
     csv_writer = csv.writer(csv_file)
-    # 寫入 CSV Header
     csv_writer.writerow([
         "sample_id", "status", "history", "original_query", 
         "rewritten_query", "groundtruth", "Latency", "RougeL", "Bleu", "LLMJ"
@@ -124,31 +143,31 @@ def main():
     txt_log.write("Evaluation Log\n" + "="*20 + "\n")
 
     try:
-        for idx, item in enumerate(tqdm(data)):
+        for item in tqdm(final_dataset):
+            sample_id = item["custom_id"]
             context = item.get("Context", [])
             question = item.get("Question", "")
             ground_truth = item.get("Rewrite", "")
 
-            # 1. 生成改寫
+            # Generate rewrite
             start_time = time.time()
             prediction = query_reformulate(question, context, rewrite_prompt_template, system_prompt)
             end_time = time.time()
             latency = end_time - start_time
             
-            # 2. LLM Judge 評分
+            # LLM Judge score
             judge_score = llm_judge(question, context, prediction, ground_truth, judge_prompt_template, system_prompt)
             
             status = "REWRITTEN" if prediction.strip().lower() != question.strip().lower() else "KEPT_ORIGINAL"
             
-            # 3. 傳統指標計算
+            # Metrics
             r_score = rouge.compute(predictions=[prediction], references=[ground_truth])
             b_score = bleu.compute(predictions=[prediction], references=[ground_truth])
             
-            # 整理 History 字串（CSV 內用 | 分隔，避免換行破壞表格格式）
             history_plain = " | ".join(context)
 
-            # 4. 寫入 TXT 日誌
-            txt_log.write(f"Sample ID: {idx} | Status: {status}\n")
+            # Write to files
+            txt_log.write(f"Sample ID: {sample_id} | Status: {status}\n")
             txt_log.write(f"History:\n{''.join(f'- {h}\n' for h in context)}")
             txt_log.write(f"Original Query: {question}\n")
             txt_log.write(f"Rewritten Query: {prediction}\n")
@@ -159,18 +178,10 @@ def main():
             txt_log.write("-" * 30 + "\n")
             txt_log.flush() 
 
-            # 5. 寫入 CSV 檔案
             csv_writer.writerow([
-                idx, 
-                status, 
-                history_plain, 
-                question, 
-                prediction, 
-                ground_truth, 
-                f"{latency:.4f}", 
-                f"{r_score['rougeL']:.4f}", 
-                f"{b_score['bleu']:.4f}", 
-                f"{judge_score:.2f}"
+                sample_id, status, history_plain, question, prediction, 
+                ground_truth, f"{latency:.4f}", f"{r_score['rougeL']:.4f}", 
+                f"{b_score['bleu']:.4f}", f"{judge_score:.2f}"
             ])
             csv_file.flush()
             
@@ -186,19 +197,20 @@ def main():
         txt_log.close()
         csv_file.close()
 
-    # 總體總結
-    preds = [r["prediction"] for r in results]
-    refs = [r["reference"] for r in results]
-    total_rouge = rouge.compute(predictions=preds, references=refs)
-    total_bleu = bleu.compute(predictions=preds, references=refs)
-    avg_judge = sum(r["judge_score"] for r in results) / len(results)
+    if results:
+        preds = [r["prediction"] for r in results]
+        refs = [r["reference"] for r in results]
+        total_rouge = rouge.compute(predictions=preds, references=refs)
+        total_bleu = bleu.compute(predictions=preds, references=refs)
+        avg_judge = sum(r["judge_score"] for r in results) / len(results)
 
-    print("\n--- Evaluation Results ---")
-    print(f"ROUGE-L: {total_rouge['rougeL']:.4f}")
-    print(f"BLEU: {total_bleu['bleu']:.4f}")
-    print(f"Average LLM Judge Score: {avg_judge:.4f}")
-    print(f"Rewrite Rate: {sum(1 for r in results if r['status'] == 'REWRITTEN')/len(results):.2%}")
-    print(f"Average Latency: {sum(r['latency'] for r in results)/len(results):.4f}s")
+        print("\n--- Evaluation Results ---")
+        print(f"Total Samples: {len(results)}")
+        print(f"ROUGE-L: {total_rouge['rougeL']:.4f}")
+        print(f"BLEU: {total_bleu['bleu']:.4f}")
+        print(f"Average LLM Judge Score: {avg_judge:.4f}")
+        print(f"Rewrite Rate: {sum(1 for r in results if r['status'] == 'REWRITTEN')/len(results):.2%}")
+        print(f"Average Latency: {sum(r['latency'] for r in results)/len(results):.4f}s")
 
 if __name__ == "__main__":
     main()

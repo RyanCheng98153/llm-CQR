@@ -1,0 +1,84 @@
+[
+    {
+        "Context": [
+            "What is a physician's assistant?",
+            "physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients",
+            "What are the educational requirements required to become a physician's assistant?",
+            "Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;",
+            "What does it cost to become a physician's assistant?",
+            "Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.",
+            "What's the average starting salary for a physician's assistant in the UK?",
+            "Typical starting salaries for physician associates are between \u00a327,000 and \u00a331,383 (though sometimes less for internships).",
+            "What's the average starting salary for a physician's assistant in the US?",
+            "An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries."
+        ],
+        "Question": "What school subjects are needed to become a registered nurse?",
+        "Rewrite": "What school subjects are needed to become a registered nurse?",
+        "Answer": "Courses that nursing students may be required to take include anatomy, physiology, microbiology, chemistry, nutrition, and psychology. Nursing students may also be required to take courses in liberal arts subjects.",
+        "Answer_URL": "http://www.collegequest.com/how-to-become-an-rn.aspx",
+        "Conversation_no": 1,
+        "Turn_no": 6,
+        "Conversation_source": "trec"
+    },
+    {
+        "Context": [
+            "What is a physician's assistant?",
+            "physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients",
+            "What are the educational requirements required to become a physician's assistant?",
+            "Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;",
+            "What does it cost to become a physician's assistant?",
+            "Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.",
+            "What's the average starting salary for a physician's assistant in the UK?",
+            "Typical starting salaries for physician associates are between \u00a327,000 and \u00a331,383 (though sometimes less for internships).",
+            "What's the average starting salary for a physician's assistant in the US?",
+            "An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.",
+            "What school subjects are needed to become a registered nurse?",
+            "Courses that nursing students may be required to take include anatomy, physiology, microbiology, chemistry, nutrition, and psychology. Nursing students may also be required to take courses in liberal arts subjects.",
+            "What is the physician's assistant average salary vs a registered nurse?",
+            "Although many factors go into salaries, such as experience, specialty and geographic areas, PA's usually come out on top. According to the United States Bureau of Labor Statistics, the average salary for PA's in 2013 was about $90,000 a year. Nurses on the other hand made about $66,000 a year according to the BLS.",
+            "What the difference between a physician assistant and a nurse practitioner?",
+            ". Nurses follow a patient-centered model, in which they focus on disease prevention and health education and handle assessment, diagnosis and treatment. Physician assistants follow a disease-centered model, in which they focus on the biologic and pathologic components of health, and also practice assessment, diagnosis, and treatment.",
+            "Do nurse practitioners or physician assistants make more?",
+            "According to the Bureau of Labor and Statistics (BLS), the 2017 median pay for Nurse Practitioners is $110,930 per year, or $53.33 per hour. In comparison, 2017 median pay for Physician Assistants is $104,860 per year, or $50.41 per hour."
+        ],
+        "Question": "Is a PA above a NP?",
+        "Rewrite": "Is a physician assistants above a nurse practitioner?",
+        "Answer": "Physician Assistants are licensed medical professionals who may work independently of the lead physician, while Nurse Practitioners are well trained, but not necessarily licensed caregivers, who must work under the close supervision of the attending doctor.",
+        "Answer_URL": "https://www.physicianassistantedu.org/pa-vs-np/",
+        "Conversation_no": 1,
+        "Turn_no": 10,
+        "Conversation_source": "trec"
+    },
+    {
+        "Context": [
+            "What are the main breeds of goat?",
+            "Abaza...Zhongwei"
+        ],
+        "Question": "Tell me about boer goats.",
+        "Rewrite": "Tell me about boer goats",
+        "Answer": "The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.",
+        "Answer_URL": "https://en.wikipedia.org/wiki/Boer_goat",
+        "Conversation_no": 2,
+        "Turn_no": 2,
+        "Conversation_source": "trec"
+    },
+    {
+        "Context": [
+            "What are the main breeds of goat?",
+            "Abaza...Zhongwei",
+            "Tell me about boer goats",
+            "The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.",
+            "What breed of goats is good for meat",
+            "Before Boer goats became available in the United States in the late 1980s, Spanish goats were the standard meat goat breed, especially in the South. These goats are descendants of the goats brought by Spanish explorers, making their way to the United States via Mexico.",
+            "Are angora goats good for meat?",
+            "Surplus or cull Angora and cashmere goats are also used for meat, although a good fiber-producing goat is generally a poor meat goat and vice versa."
+        ],
+        "Question": "What about boer goats?",
+        "Rewrite": "Are boer goats good for meat?",
+        "Answer": "Boer goats were bred in South Africa for meat and selected for their superior body shape, high growth rate, and fertility.",
+        "Answer_URL": "https://www.thespruce.com/choose-meat-goat-breeds-3016784",
+        "Conversation_no": 2,
+        "Turn_no": 5,
+        "Conversation_source": "trec"
+    }
+]
