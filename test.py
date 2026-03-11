@@ -60,14 +60,17 @@ def generate(prompt: str, system_prompt: str, max_tokens: int = 128) -> str:
     response = tokenizer.decode(outputs[0][inputs["input_ids"].shape[-1]:], skip_special_tokens=True)
     return response.strip().replace('"', '')
 
-def query_reformulate(question: str, context: List[str], prompt_template: str, system_prompt: str) -> str:
+def query_reformulate(question: str, context: List[str]) -> str:
+    system_prompt = get_prompt(SYSTEM_PROMPT_PATH)
+    rewrite_prompt_template = get_prompt(REWRITE_PROMPT_PATH)
+    
     history_str = ""
     for i, turn in enumerate(context):
         role = "User" if i % 2 == 0 else "Agent"
         history_str += f"{role}: {turn}\n"
     
     formatted_user_prompt = create_prompt(
-        prompt_template=prompt_template,
+        prompt_template=rewrite_prompt_template,
         var_dict={
             "history_str": history_str.strip() if history_str else "No history.",
             "question": question
@@ -75,15 +78,18 @@ def query_reformulate(question: str, context: List[str], prompt_template: str, s
     )
     return generate(formatted_user_prompt, system_prompt)
 
-def llm_judge(question: str, context: List[str], prediction: str, ground_truth: str, judge_template: str, system_prompt: str) -> float:
+def llm_judge(question: str, context: List[str], prediction: str, ground_truth: str) -> float:
     """Uses the LLM to score the rewrite from 0 to 1."""
+    system_prompt = get_prompt(SYSTEM_PROMPT_PATH)
+    judge_prompt_template = get_prompt(JUDGE_PROMPT_PATH)
+    
     history_str = ""
     for i, turn in enumerate(context):
         role = "User" if i % 2 == 0 else "Agent"
         history_str += f"{role}: {turn}\n"
 
     formatted_judge_prompt = create_prompt(
-        prompt_template=judge_template,
+        prompt_template=judge_prompt_template,
         var_dict={
             "history_str": history_str.strip() if history_str else "No history.",
             "question": question,
@@ -98,13 +104,9 @@ def llm_judge(question: str, context: List[str], prediction: str, ground_truth: 
         score_match = re.search(r"([0-1]\.\d+|[0-1])", raw_score)
         return float(score_match.group(0)) if score_match else 0.0
     except:
-        return 0.0
+        return -1.0
 
 def main():
-    system_prompt = get_prompt(SYSTEM_PROMPT_PATH)
-    rewrite_prompt_template = get_prompt(REWRITE_PROMPT_PATH)
-    judge_prompt_template = get_prompt(JUDGE_PROMPT_PATH)
-
     final_dataset = []
 
     # 1. Load qrecc_select and assign s_0, s_1...
@@ -151,13 +153,16 @@ def main():
 
             # Generate rewrite
             start_time = time.time()
-            prediction = query_reformulate(question, context, rewrite_prompt_template, system_prompt)
+            prediction = query_reformulate(question, context)
             end_time = time.time()
             latency = end_time - start_time
             
             # LLM Judge score
-            judge_score = llm_judge(question, context, prediction, ground_truth, judge_prompt_template, system_prompt)
-            
+            for _ in range(3):  # Retry mechanism for judge score
+                judge_score = llm_judge(question, context, prediction, ground_truth)
+                if judge_score >= 0:  # Valid score
+                    break
+                
             status = "REWRITTEN" if prediction.strip().lower() != question.strip().lower() else "KEPT_ORIGINAL"
             
             # Metrics
