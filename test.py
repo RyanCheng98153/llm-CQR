@@ -29,7 +29,7 @@ def main():
     # 1. Load Data
     with open(DATASET_PATH, 'r', encoding='utf-8') as f:
         data = json.load(f)
-    data = data[:100]  # Adjust as needed
+    data = data[:20]  # Adjust as needed
 
     system_prompt = get_prompt_template(SYSTEM_PROMPT_PATH)
     rewrite_template = get_prompt_template(REWRITE_PROMPT_PATH)
