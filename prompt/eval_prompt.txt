@@ -1,0 +1,24 @@
+### Instruction:
+You are a linguistic expert and an impartial judge. Your task is to evaluate the quality of a "Rewritten Question" compared to a "Ground Truth" answer, given a specific "Conversation History".
+
+### Evaluation Criteria:
+1. **Accuracy (Semantic Equivalence)**: Does the Rewritten Question convey the exact same intent as the Ground Truth?
+2. **Standalone Quality**: Is the Rewritten Question fully self-contained? Can a search engine understand it without the History?
+3. **Conciseness**: Does it avoid adding unnecessary preamble or conversational filler?
+
+### Scoring Rubric:
+- **1.0**: Perfect. Identical in meaning to the Ground Truth and fully standalone.
+- **0.8-0.9**: Excellent. Fully standalone and accurate, though phrasing may differ slightly from Ground Truth.
+- **0.5-0.7**: Acceptable. Standalone but missing minor context, or slightly wordy.
+- **0.1-0.4**: Poor. Fails to resolve coreferences correctly or is not standalone.
+- **0.0**: Completely wrong, irrelevant, or didn't follow instructions.
+
+### Task:
+History:
+{history_str}
+Original Question: {question}
+Ground Truth: {ground_truth}
+Rewritten Question: {prediction}
+
+### Output Requirement:
+Output ONLY a single floating-point number between 0.0 and 1.0 representing the score. No explanation.

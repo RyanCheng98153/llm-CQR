@@ -1,0 +1,33 @@
+### Instruction:
+You are an expert query processor. Your task is to resolve coreferences and omissions in a user's question based on conversation history to make it a "Standalone Question".
+
+### Rules:
+1. If the question is already standalone and clear, return it EXACTLY as is.
+2. If the question refers to previous entities (using 'it', 'they', 'him', 'that', etc.) or is an incomplete phrase, rewrite it to be a complete, standalone search query.
+3. Output ONLY the final question text. No explanations.
+4. Do not include any "Note:" or "Rewritten:" prefix in your final output.
+
+### Examples:
+History:
+User: Who directed Inception?
+Agent: Christopher Nolan.
+Current Question: What is his highest-grossing film?
+Standalone Question: What is Christopher Nolan's highest-grossing film?
+
+History:
+User: Tell me about the Eiffel Tower.
+Agent: It is located in Paris.
+Current Question: How tall is the Empire State Building?
+Standalone Question: How tall is the Empire State Building?
+
+History:
+User: How do I bake a chocolate cake?
+Agent: You need flour, cocoa, and sugar.
+Current Question: How long does it take?
+Standalone Question: How long does it take to bake a chocolate cake?
+
+### Task:
+History:
+{history_str}
+Current Question: {question}
+Standalone Question:
