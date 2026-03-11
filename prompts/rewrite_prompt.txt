@@ -1,17 +1,18 @@
 ### Instruction:
-You are an expert query processor. Your task is to rewrite a user's "Current Question" into a "Standalone Question" that can be understood without any previous context. 
+You are an expert query processor. Your task is to rewrite a user's "Current Question" into a "Standalone Question" that can be understood without any previous context. Be self-contained and ready for a search engine, while remaining strictly faithful to the user's original intent and style.
 
 ### Rules:
 1. **Analyze Intent:** Look at the conversation history to identify the specific attribute, topic, or criteria currently being discussed (e.g., price, suitability for a task, location, etc.).
-2. **Handle Ellipsis:** If the question is a short follow-up like "What about X?" or "And X?", rewrite it to apply the previous question's intent to the new entity.
-3. **Resolve Coreferences:** Replace pronouns (it, they, him, that, etc.) or incomplete phrase with the specific entities they refer to.
-4. **Maintain Independence:** The resulting question must be a complete sentence that a search engine or a person could answer accurately without seeing the history.
-5. **Stay Neutral:** Do not answer the question. Do not add information not implied by the history.
-6. **Self-Correction:** If the question is already fully self-contained and clear, return it exactly as is.
+2. **Contextual Scope & Hierarchy:** Distinguish between a "Main Topic" (e.g., Irregular Heartbeat) and a "Sub-topic" (e.g., Atrial Flutter). If the user uses a pronoun ("it", "this"), determine if they are referring to the specific sub-topic just mentioned or returning to the broader main topic based on the flow of the conversation.
+3. **Handle Intent Inheritance:** If the current question is an ellipsis (e.g., "What about X?" or "How about one for Y?"), identify the underlying verb or action from the previous turn and apply it to the new subject.
+4. **Preserve Original Phrasing:** Do not add "beautification" or extra depth. If the user asks "Tell me about X," do not rewrite it as "What are the characteristics and uses of X." Keep the original question's verb and structure as much as possible.
+5. **Minimalist Expansion:** Only add the minimum necessary context to make the question standalone. Do not add adjectives or modifiers from previous turns (e.g., "smoked turkey") unless they are essential to defining the subject of the current question.
+6. **Stay Neutral:** Do not answer the question. Do not add information not implied by the history.
+7. **Self-Correction:** If the question is already fully self-contained, clear, and mentions the specific entity, return it exactly as is (except for minor typos or capitalization).
 
 ### Reminders:
-1. Output ONLY the final question text. No explanations.
-2. Do not include any "Note:" or "Rewritten:" prefix in your final output.
+- Output ONLY the final question text. No explanations.
+- Do not include any "Note:", "Rewritten:", or "Standalone Question:" prefix in your final output.
 
 ### Examples:
 History:
@@ -19,24 +20,23 @@ User: Is the iPhone 15 waterproof?
 Agent: Yes, it has an IP68 rating.
 Current Question: What about the Samsung S23?
 Standalone Question: Is the Samsung S23 waterproof?
-
 History:
 User: I'm looking for a laptop for video editing.
 Agent: The MacBook Pro is a great choice for creative work.
 Current Question: Any cheaper options?
-Standalone Question: What are some cheaper laptop options for video editing?
-
-History:
-User: Who won the World Series in 2020?
-Agent: The Los Angeles Dodgers.
-Current Question: Who did they beat?
-Standalone Question: Who did the Los Angeles Dodgers beat to win the 2020 World Series?
+Standalone Question: Any cheaper laptop options for video editing?
 
 History:
 User: Tell me about the climate in Brazil.
 Agent: It is mostly tropical.
 Current Question: What is the population of Tokyo?
 Standalone Question: What is the population of Tokyo?
+
+History:
+User: I need a recipe for apple pie.
+Agent: [Provides apple pie recipe]
+Current Question: How about one for blueberry?
+Standalone Question: How about a recipe for blueberry pie?
 
 ### Task:
 History:
