@@ -1,7 +1,8 @@
 import json
 import torch
 import time
-import re # 用於解析分數
+import re
+import csv
 from typing import Dict, List
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from evaluate import load
@@ -12,7 +13,7 @@ MODEL_NAME = "Qwen/Qwen3-30B-A3B-Instruct-2507"
 DATASET_PATH = "datasets/qrecc_data/qrecc_test.json"
 SYSTEM_PROMPT_PATH = "prompts/system_prompt.txt"
 REWRITE_PROMPT_PATH = "prompts/rewrite_prompt.txt"
-JUDGE_PROMPT_PATH = "prompts/judge_prompt.txt" # 新增
+JUDGE_PROMPT_PATH = "prompts/eval_prompt.txt"
 
 # Initialize Global Model and Tokenizer
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
@@ -88,7 +89,6 @@ def llm_judge(question: str, context: List[str], prediction: str, ground_truth: 
     
     raw_score = generate(formatted_judge_prompt, system_prompt, max_tokens=10)
     
-    # 嘗試從輸出中提取數字 (防止 LLM 輸出 "Score: 0.9")
     try:
         score_match = re.search(r"([0-1]\.\d+|[0-1])", raw_score)
         return float(score_match.group(0)) if score_match else 0.0
@@ -110,9 +110,20 @@ def main():
 
     print(f"Starting evaluation on {len(data)} samples...")
 
-    with open("qrecc_results_detailed.txt", "w", encoding="utf-8") as log_file:
-        log_file.write("Evaluation Log\n" + "="*20 + "\n")
+    # 同時打開 TXT 和 CSV 檔案
+    txt_log = open("qrecc_results_detailed.txt", "w", encoding="utf-8")
+    csv_file = open("qrecc_results_detailed.csv", "w", newline="", encoding="utf-8")
+    
+    csv_writer = csv.writer(csv_file)
+    # 寫入 CSV Header
+    csv_writer.writerow([
+        "sample_id", "status", "history", "original_query", 
+        "rewritten_query", "groundtruth", "Latency", "RougeL", "Bleu", "LLMJ"
+    ])
 
+    txt_log.write("Evaluation Log\n" + "="*20 + "\n")
+
+    try:
         for idx, item in enumerate(tqdm(data)):
             context = item.get("Context", [])
             question = item.get("Question", "")
@@ -133,17 +144,35 @@ def main():
             r_score = rouge.compute(predictions=[prediction], references=[ground_truth])
             b_score = bleu.compute(predictions=[prediction], references=[ground_truth])
             
-            # 4. 寫入日誌 (加入 Judge Score)
-            log_file.write(f"Sample ID: {idx} | Status: {status}\n")
-            log_file.write(f"History:\n{''.join(f'- {h}\n' for h in context)}")
-            log_file.write(f"Original Query: {question}\n")
-            log_file.write(f"Rewritten Query: {prediction}\n")
-            log_file.write(f"Ground Truth:    {ground_truth}\n")
-            log_file.write(f"LLM Judge Score: {judge_score:.2f}\n")
-            log_file.write(f"ROUGE-L: {r_score['rougeL']:.4f}, BLEU: {b_score['bleu']:.4f}\n")
-            log_file.write(f"Latency: {latency:.4f}s\n")
-            log_file.write("-" * 30 + "\n")
-            log_file.flush() 
+            # 整理 History 字串（CSV 內用 | 分隔，避免換行破壞表格格式）
+            history_plain = " | ".join(context)
+
+            # 4. 寫入 TXT 日誌
+            txt_log.write(f"Sample ID: {idx} | Status: {status}\n")
+            txt_log.write(f"History:\n{''.join(f'- {h}\n' for h in context)}")
+            txt_log.write(f"Original Query: {question}\n")
+            txt_log.write(f"Rewritten Query: {prediction}\n")
+            txt_log.write(f"Ground Truth:    {ground_truth}\n")
+            txt_log.write(f"LLM Judge Score: {judge_score:.2f}\n")
+            txt_log.write(f"ROUGE-L: {r_score['rougeL']:.4f}, BLEU: {b_score['bleu']:.4f}\n")
+            txt_log.write(f"Latency: {latency:.4f}s\n")
+            txt_log.write("-" * 30 + "\n")
+            txt_log.flush() 
+
+            # 5. 寫入 CSV 檔案
+            csv_writer.writerow([
+                idx, 
+                status, 
+                history_plain, 
+                question, 
+                prediction, 
+                ground_truth, 
+                f"{latency:.4f}", 
+                f"{r_score['rougeL']:.4f}", 
+                f"{b_score['bleu']:.4f}", 
+                f"{judge_score:.2f}"
+            ])
+            csv_file.flush()
             
             results.append({
                 "prediction": prediction,
@@ -152,6 +181,10 @@ def main():
                 "status": status,
                 "latency": latency
             })
+
+    finally:
+        txt_log.close()
+        csv_file.close()
 
     # 總體總結
     preds = [r["prediction"] for r in results]
@@ -163,7 +196,7 @@ def main():
     print("\n--- Evaluation Results ---")
     print(f"ROUGE-L: {total_rouge['rougeL']:.4f}")
     print(f"BLEU: {total_bleu['bleu']:.4f}")
-    print(f"Average LLM Judge Score: {avg_judge:.4f}") # 顯示平均 Judge 分數
+    print(f"Average LLM Judge Score: {avg_judge:.4f}")
     print(f"Rewrite Rate: {sum(1 for r in results if r['status'] == 'REWRITTEN')/len(results):.2%}")
     print(f"Average Latency: {sum(r['latency'] for r in results)/len(results):.4f}s")
 
