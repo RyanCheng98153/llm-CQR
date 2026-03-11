@@ -102,7 +102,7 @@ def llm_judge(question: str, context: List[str], prediction: str, ground_truth: 
     
     try:
         score_match = re.search(r"([0-1]\.\d+|[0-1])", raw_score)
-        return float(score_match.group(0)) if score_match else 0.0
+        return float(score_match.group(0)) if score_match else -1.0
     except:
         return -1.0
 

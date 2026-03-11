@@ -1,0 +1,2328 @@
+Evaluation Log
+====================
+Sample ID: s_0 | Status: KEPT_ORIGINAL
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+- What's the average starting salary for a physician's assistant in the UK?
+- Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).
+- What's the average starting salary for a physician's assistant in the US?
+- An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.
+Original Query: What school subjects are needed to become a registered nurse?
+Rewritten Query: What school subjects are needed to become a registered nurse?
+Ground Truth:    What school subjects are needed to become a registered nurse?
+LLM Judge Score: 0.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 97.9059s
+------------------------------
+Sample ID: s_1 | Status: REWRITTEN
+History:
+- What is a physician's assistant?
+- physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients
+- What are the educational requirements required to become a physician's assistant?
+- Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;
+- What does it cost to become a physician's assistant?
+- Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.
+- What's the average starting salary for a physician's assistant in the UK?
+- Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).
+- What's the average starting salary for a physician's assistant in the US?
+- An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.
+- What school subjects are needed to become a registered nurse?
+- Courses that nursing students may be required to take include anatomy, physiology, microbiology, chemistry, nutrition, and psychology. Nursing students may also be required to take courses in liberal arts subjects.
+- What is the physician's assistant average salary vs a registered nurse?
+- Although many factors go into salaries, such as experience, specialty and geographic areas, PA's usually come out on top. According to the United States Bureau of Labor Statistics, the average salary for PA's in 2013 was about $90,000 a year. Nurses on the other hand made about $66,000 a year according to the BLS.
+- What the difference between a physician assistant and a nurse practitioner?
+- . Nurses follow a patient-centered model, in which they focus on disease prevention and health education and handle assessment, diagnosis and treatment. Physician assistants follow a disease-centered model, in which they focus on the biologic and pathologic components of health, and also practice assessment, diagnosis, and treatment.
+- Do nurse practitioners or physician assistants make more?
+- According to the Bureau of Labor and Statistics (BLS), the 2017 median pay for Nurse Practitioners is $110,930 per year, or $53.33 per hour. In comparison, 2017 median pay for Physician Assistants is $104,860 per year, or $50.41 per hour.
+Original Query: Is a PA above a NP?
+Rewritten Query: Is a physician assistant considered higher in rank than a nurse practitioner?
+Ground Truth:    Is a physician assistants above a nurse practitioner?
+LLM Judge Score: 0.90
+ROUGE-L: 0.6000, BLEU: 0.2797
+Latency: 103.8373s
+------------------------------
+Sample ID: s_2 | Status: KEPT_ORIGINAL
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+Original Query: Tell me about boer goats.
+Rewritten Query: Tell me about Boer goats.
+Ground Truth:    Tell me about boer goats
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 0.0000
+Latency: 60.2660s
+------------------------------
+Sample ID: s_3 | Status: REWRITTEN
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+- Tell me about boer goats
+- The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.
+- What breed of goats is good for meat
+- Before Boer goats became available in the United States in the late 1980s, Spanish goats were the standard meat goat breed, especially in the South. These goats are descendants of the goats brought by Spanish explorers, making their way to the United States via Mexico.
+- Are angora goats good for meat?
+- Surplus or cull Angora and cashmere goats are also used for meat, although a good fiber-producing goat is generally a poor meat goat and vice versa.
+Original Query: What about boer goats?
+Rewritten Query: Are Boer goats good for meat?
+Ground Truth:    Are boer goats good for meat?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 0.6435
+Latency: 67.6977s
+------------------------------
+Sample ID: s_4 | Status: REWRITTEN
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+- What are the different types of tachycardia?
+- Atrial fibrillation. Atrial fibrillation is a rapid heart rate caused by chaotic, irregular electrical impulses in the upper chambers of the heart (atria). ...Atrial flutter. ...Supraventricular tachycardia (SVT). ...Ventricular tachycardia. ...Ventricular fibrillation.
+- What is atrial flutter?
+- Atrial flutter (AFL) is a type of abnormal heart rate, or arrhythmia. It occurs when the upper chambers of your heart beat too fast.
+Original Query: What causes it?
+Rewritten Query: What causes atrial flutter?
+Ground Truth:    What causes irregular heartbeat?
+LLM Judge Score: 0.50
+ROUGE-L: 0.5000, BLEU: 0.0000
+Latency: 53.1153s
+------------------------------
+Sample ID: s_5 | Status: REWRITTEN
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+- What are the different types of tachycardia?
+- Atrial fibrillation. Atrial fibrillation is a rapid heart rate caused by chaotic, irregular electrical impulses in the upper chambers of the heart (atria). ...Atrial flutter. ...Supraventricular tachycardia (SVT). ...Ventricular tachycardia. ...Ventricular fibrillation.
+- What is atrial flutter?
+- Atrial flutter (AFL) is a type of abnormal heart rate, or arrhythmia. It occurs when the upper chambers of your heart beat too fast.
+- What causes irregular heartbeat?
+- They can be related to stress or too much caffeine or nicotine. But sometimes, PVCs can be caused by heart disease or electrolyte imbalance.
+- What's the difference between flutter and fibrillation?
+- In atrial fibrillation, the atria beat irregularly. In atrial flutter, the atria beat regularly, but faster than usual and more often than the ventricles, so you may have four atrial beats to every one ventricular beat.
+- How does atrial fibrillation affect electrocardiography?
+- The symptoms of atrial fibrillation are related to the loss of atrial mechanical activity (atrial contraction) and rapid ventricular heart rates, both of which can reduce cardiac output and lead to congestive heart failure.
+Original Query: Does it shorten your life?
+Rewritten Query: Does atrial fibrillation shorten your life?
+Ground Truth:    Does atrial flutter shorten your life?
+LLM Judge Score: 0.00
+ROUGE-L: 0.8333, BLEU: 0.4889
+Latency: 74.8910s
+------------------------------
+Sample ID: s_6 | Status: REWRITTEN
+History:
+- What are the main breeds of goat?
+- Abaza...Zhongwei
+- Tell me about boer goats
+- The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.
+- What breed of goats is good for meat
+- Before Boer goats became available in the United States in the late 1980s, Spanish goats were the standard meat goat breed, especially in the South. These goats are descendants of the goats brought by Spanish explorers, making their way to the United States via Mexico.
+- Are angora goats good for meat?
+- Surplus or cull Angora and cashmere goats are also used for meat, although a good fiber-producing goat is generally a poor meat goat and vice versa.
+- Are boer goats good for meat?
+- Boer goats were bred in South Africa for meat and selected for their superior body shape, high growth rate, and fertility.
+- What are pygmy goats used for?
+- While Pygmy goats are most commonly kept as pets or used as meat goats, they can also be used for milk production. Pygmy goats can produce, on average, between one to two quarts of 4.5% to 11% butterfat milk.
+- What is the best goat for fiber production?
+- Mohair goats are the most productive fiber producing animals.
+- How long do Angora goats live?
+- In our flock, it is not uncommon for our girls to go 9-11 years- undoubtedly we could push them longer, but they do not stay unless they can put kids on the ground.
+- Can you milk Angora goats?
+- Angora mothers have been known to not produce enough milk if they give birth to more than 1.
+- How many goats can you have per acre?
+- Poor ground may support 2-4 goats per acre while better pasture may be able to support 6-8 goats per acre.
+Original Query: Are they profitable?
+Rewritten Query: Are Boer goats profitable?
+Ground Truth:    Are goats profitable?
+LLM Judge Score: 0.80
+ROUGE-L: 0.8571, BLEU: 0.0000
+Latency: 53.2742s
+------------------------------
+Sample ID: s_7 | Status: REWRITTEN
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+- What are the different types of tachycardia?
+- Atrial fibrillation. Atrial fibrillation is a rapid heart rate caused by chaotic, irregular electrical impulses in the upper chambers of the heart (atria). ...Atrial flutter. ...Supraventricular tachycardia (SVT). ...Ventricular tachycardia. ...Ventricular fibrillation.
+- What is atrial flutter?
+- Atrial flutter (AFL) is a type of abnormal heart rate, or arrhythmia. It occurs when the upper chambers of your heart beat too fast.
+Original Query: What causes it?
+Rewritten Query: What causes atrial flutter?
+Ground Truth:    What causes irregular heartbeat?
+LLM Judge Score: 0.50
+ROUGE-L: 0.5000, BLEU: 0.0000
+Latency: 53.1231s
+------------------------------
+Sample ID: s_8 | Status: REWRITTEN
+History:
+- Tell me about the types of irregular heart beat.
+- Atrial fibrillation is a very common irregular heart rhythm that causes the atria, the upper chambers of the heart, to contract abnormally. Atrial flutter. This is an arrhythmia caused by one or more rapid circuits in the atrium.
+- How serious is an irregular heart beat?
+- Coronary artery disease can cause dangerous arrhythmias like atrial fibrillation, or AFib. It's a rapid, quivering heartbeat that can lead to heart palpitations, blood clots, heart attack and stroke.
+- What are the different types of tachycardia?
+- Atrial fibrillation. Atrial fibrillation is a rapid heart rate caused by chaotic, irregular electrical impulses in the upper chambers of the heart (atria). ...Atrial flutter. ...Supraventricular tachycardia (SVT). ...Ventricular tachycardia. ...Ventricular fibrillation.
+- What is atrial flutter?
+- Atrial flutter (AFL) is a type of abnormal heart rate, or arrhythmia. It occurs when the upper chambers of your heart beat too fast.
+- What causes irregular heartbeat?
+- They can be related to stress or too much caffeine or nicotine. But sometimes, PVCs can be caused by heart disease or electrolyte imbalance.
+- What's the difference between flutter and fibrillation?
+- In atrial fibrillation, the atria beat irregularly. In atrial flutter, the atria beat regularly, but faster than usual and more often than the ventricles, so you may have four atrial beats to every one ventricular beat.
+- How does atrial fibrillation affect electrocardiography?
+- The symptoms of atrial fibrillation are related to the loss of atrial mechanical activity (atrial contraction) and rapid ventricular heart rates, both of which can reduce cardiac output and lead to congestive heart failure.
+Original Query: Does it shorten your life?
+Rewritten Query: Does atrial fibrillation shorten your life?
+Ground Truth:    Does atrial flutter shorten your life?
+LLM Judge Score: 0.00
+ROUGE-L: 0.8333, BLEU: 0.4889
+Latency: 74.9468s
+------------------------------
+Sample ID: s_9 | Status: REWRITTEN
+History:
+- What was the neolithic revolution?
+- The Neolithic Revolution, also called the Agricultural Revolution, marked the transition in human history from small, nomadic bands of hunter-gatherers to larger, agricultural settlements and early civilization.
+- When did the Neolithic revolution start and end?
+- The Neolithic Revolution—also referred to as the Agricultural Revolution—is thought to have begun about 12,000 years ago.
+- Why did the Neolithic revolution start?
+- The Neolithic Era began when some groups of humans gave up the nomadic, hunter-gatherer lifestyle completely to begin farming.
+- What did the neolithic invent?
+- Farming started a revolution in the world and helped set us on a path that would eventually lead to the technological revolution and invention of different things. Inventions such as the plow helped in the planting of seeds.
+- What tools were used in the neolithic event?
+- Scrapers. Scrapers are one of the original stone tools, found everywhere where people settled, long before the Neolithic Age began. ...Blades. ...Arrows and Spearheads. ...Axes. ...Adzes. ...Hammers and Chisels.
+- When was the neolithic event brought to the British isles?
+- This change happened at various times in several different places around the world. The concept of farming that reached Britain between about 5000 BC and 4500 BC had spread across Europe from origins in Syria and Iraq between about 11000 BC and 9000 BC.
+- Describe the period that follows the neolithic event?
+- Towards the end of the Neolithic era, copper metallurgy is introduced, which marks a transition period to the Bronze Age, sometimes referred to as the Chalcolithic or Eneolithic Era.
+Original Query: What was its significance?
+Rewritten Query: What was the significance of the Neolithic Revolution?
+Ground Truth:    What was the significance of the neolithic event?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8750, BLEU: 0.6105
+Latency: 82.1107s
+------------------------------
+Sample ID: s_10 | Status: REWRITTEN
+History:
+- What are the best ways to cook a turkey?
+- Heat the oven to 450°F to preheat and then drop the temperature to 350°F when putting the turkey into the oven. The turkey is done when it registers a minimum of 165° in the thickest part of the thigh.
+- Should I brine a turkey before smoking it?
+- Use a brine before smoking to help keep meat moist while cooking and to add flavor.
+- How much salt do I use to brine a turkey?
+- The basic ratio for turkey brine is two cups of kosher salt to two gallons of water. Some recipes include sweeteners or acidic ingredients to balance the saltiness.
+Original Query: What kind of wood should I use?
+Rewritten Query: What kind of wood should I use to smoke a turkey?
+Ground Truth:    What kind of wood should I use to brine a turkey?
+LLM Judge Score: 0.80
+ROUGE-L: 0.9091, BLEU: 0.7349
+Latency: 96.6875s
+------------------------------
+Sample ID: s_11 | Status: REWRITTEN
+History:
+- What are the best ways to cook a turkey?
+- Heat the oven to 450°F to preheat and then drop the temperature to 350°F when putting the turkey into the oven. The turkey is done when it registers a minimum of 165° in the thickest part of the thigh.
+- Should I brine a turkey before smoking it?
+- Use a brine before smoking to help keep meat moist while cooking and to add flavor.
+- How much salt do I use to brine a turkey?
+- The basic ratio for turkey brine is two cups of kosher salt to two gallons of water. Some recipes include sweeteners or acidic ingredients to balance the saltiness.
+- What kind of wood should I use to brine a turkey?
+- nonsense
+- How long should a turkey be smoked for?
+- he rule of thumb is to smoke the turkey at 300 degrees, 15 minutes for each pound. We used a 17 pound Honeysuckle White turkey for this recipe, and smoked it at 275-300 degrees for just under 4 hours.
+- Is smoked turkey healthy?
+- There's no specific amount that's considered safe, but if you're a strictly-on-Thanksgiving smoked-meat eater, it's not something to stress about.
+Original Query: What can you do with leftovers?
+Rewritten Query: What can you do with smoked turkey leftovers?
+Ground Truth:    What can you do with leftovers or a turkey?
+LLM Judge Score: 0.80
+ROUGE-L: 0.7059, BLEU: 0.4492
+Latency: 74.9350s
+------------------------------
+Sample ID: s_12 | Status: REWRITTEN
+History:
+- What are the best ways to cook a turkey?
+- Heat the oven to 450°F to preheat and then drop the temperature to 350°F when putting the turkey into the oven. The turkey is done when it registers a minimum of 165° in the thickest part of the thigh.
+- Should I brine a turkey before smoking it?
+- Use a brine before smoking to help keep meat moist while cooking and to add flavor.
+- How much salt do I use to brine a turkey?
+- The basic ratio for turkey brine is two cups of kosher salt to two gallons of water. Some recipes include sweeteners or acidic ingredients to balance the saltiness.
+- What kind of wood should I use to brine a turkey?
+- nonsense
+- How long should a turkey be smoked for?
+- he rule of thumb is to smoke the turkey at 300 degrees, 15 minutes for each pound. We used a 17 pound Honeysuckle White turkey for this recipe, and smoked it at 275-300 degrees for just under 4 hours.
+- Is smoked turkey healthy?
+- There's no specific amount that's considered safe, but if you're a strictly-on-Thanksgiving smoked-meat eater, it's not something to stress about.
+- What can you do with leftovers or a turkey?
+- Turkey Chowder. Turkey and Stuffing Casserole.
+- How long are leftovers a turkey good for in the fridge?
+- Your leftovers are safe in the fridge for three to four days, while frozen food should be consumed within two to four months for best quality, according to the U.S. Department of Agriculture. The biggest mistake turkey-lovers make is keeping leftovers in the fridge for too long.
+- What's a recipe for smoked turkey soup?
+- Place the turkey legs, water, bouillon cubes, onion, celery, carrots, garlic, bay leaves, garlic powder, onion powder, black pepper, thyme, marjoram, and curry powder in a soup pot; bring to a boil. Reduce heat and simmer for 30 minutes.
+Original Query: How about one for chili?
+Rewritten Query: How about a recipe for turkey chili?
+Ground Truth:    How about a recipe for chili?
+LLM Judge Score: 0.80
+ROUGE-L: 0.9231, BLEU: 0.5946
+Latency: 67.7279s
+------------------------------
+Sample ID: 61 | Status: REWRITTEN
+History:
+- What are the most important US supreme court cases?
+- Marbury v. Madison, 1803 (4-0 decision) ...McCulloch v. Maryland, 1819 (7-0 decision) ...Dred Scott v. Sandford, 1857 (7-2 decision) ...Plessy v. Ferguson, 1896 (7-1 decision) ...Korematsu v. United States,
+- What did Plessy v. Ferguson establish?
+- Plessy v. Ferguson was a landmark 1896 U.S. Supreme Court decision that upheld the constitutionality of racial segregation under the “separate but equal” doctrine. The case stemmed from an 1892 incident in which African-American train passenger Homer Plessy refused to sit in a car for blacks.
+- What did the Marbury vs Madison case establish?
+- The U.S. Supreme Court case Marbury v. Madison (1803) established the principle of judicial review—the power of the federal courts to declare legislative and executive acts unconstitutional. The unanimous opinion was written by Chief Justice John Marshall.
+- Was the Marbury vs Madison case unanimous?
+- In a unanimous decision, written by Justice Marshall, the Court stated that Marbury, indeed, had a right to his commission.
+- What was the implication of Roe vs Wade?
+- Roe rendered these laws unconstitutional, making abortion services vastly safer and more accessible to women throughout the country. The decision also set a legal precedent that affected more than 30 subsequent Supreme Court cases involving restrictions on access to abortion.
+- What were the main arguments of the Roe vs. Wade?
+- The Court ruled, in a 7-2 decision, that a woman's right to choose an abortion was protected by the privacy rights guaranteed by the Fourteenth Amendment to the U.S. Constitution.
+- What was the point of Brown v Board of Ed?
+- Brown v. Board of Education of Topeka, 347 U.S. 483 (1954), was a landmark decision of the U.S. Supreme Court in which the Court ruled that American state laws establishing racial segregation in public schools are unconstitutional, even if the segregated schools are otherwise equal in quality.
+- What were the main arguments of Brown v Board of Ed?
+- Led by Thurgood Marshall, an NAACP litigator who would be appointed to the Court in 1967, Brown's attorneys argued that the operation of separate schools, based on race, was harmful to African-American children.
+Original Query: Why is it important today?
+Rewritten Query: Why is Brown v. Board of Education important today?
+Ground Truth:    Why is the Brown v Board of Ed important today?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8421, BLEU: 0.0000
+Latency: 89.5837s
+------------------------------
+Sample ID: 62 | Status: KEPT_ORIGINAL
+History:
+Original Query: What are the different types of macromolecules?
+Rewritten Query: What are the different types of macromolecules?
+Ground Truth:    What are the different types of macromolecules?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 82.0184s
+------------------------------
+Sample ID: 63 | Status: KEPT_ORIGINAL
+History:
+- What are the different types of macromolecules?
+- Proteins.Carbohydrates.Lipids.Nucleic Acids.
+Original Query: Tell me about the characteristics of carbohydrates.
+Rewritten Query: Tell me about the characteristics of carbohydrates.
+Ground Truth:    Tell me about the characteristics of carbohydrates.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 67.6420s
+------------------------------
+Sample ID: 64 | Status: REWRITTEN
+History:
+- What are the different types of macromolecules?
+- Proteins.Carbohydrates.Lipids.Nucleic Acids.
+- Tell me about the characteristics of carbohydrates.
+- Its basic structure is composed of the elements carbon, hydrogen and oxygen, with generally twice the hydrogen as carbon and oxygen. In its simplest form, a carbohydrate is a chain of sugar molecules called monosaccharides.
+Original Query: What are they composed of?
+Rewritten Query: What are carbohydrates composed of?
+Ground Truth:    What are carbohydrates composed of?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.0499s
+------------------------------
+Sample ID: 65 | Status: REWRITTEN
+History:
+- What are the different types of macromolecules?
+- Proteins.Carbohydrates.Lipids.Nucleic Acids.
+- Tell me about the characteristics of carbohydrates.
+- Its basic structure is composed of the elements carbon, hydrogen and oxygen, with generally twice the hydrogen as carbon and oxygen. In its simplest form, a carbohydrate is a chain of sugar molecules called monosaccharides.
+- What are carbohydrates composed of?
+- Carbohydrates (also called saccharides) are molecular compounds made from just three elements: carbon, hydrogen and oxygen.
+Original Query: What is their basic structure?
+Rewritten Query: What is the basic structure of carbohydrates?
+Ground Truth:    What are carbohydrates basic structure?
+LLM Judge Score: 1.00
+ROUGE-L: 0.5000, BLEU: 0.0000
+Latency: 67.5325s
+------------------------------
+Sample ID: 66 | Status: REWRITTEN
+History:
+- What are the different types of macromolecules?
+- Proteins.Carbohydrates.Lipids.Nucleic Acids.
+- Tell me about the characteristics of carbohydrates.
+- Its basic structure is composed of the elements carbon, hydrogen and oxygen, with generally twice the hydrogen as carbon and oxygen. In its simplest form, a carbohydrate is a chain of sugar molecules called monosaccharides.
+- What are carbohydrates composed of?
+- Carbohydrates (also called saccharides) are molecular compounds made from just three elements: carbon, hydrogen and oxygen.
+- What are carbohydrates basic structure?
+- The general empirical structure for carbohydrates is (CH2O)n. Monosaccharides, which are simple sugars that serve as fuel molecules as well as fundamental constituents of living organisms, are the simplest carbohydrates, and are required as energy sources.
+Original Query: What are the main types with examples of each?
+Rewritten Query: What are the main types of carbohydrates with examples of each?
+Ground Truth:    What are the main types of carbohydrates with examples of each?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 96.6564s
+------------------------------
+Sample ID: 67 | Status: KEPT_ORIGINAL
+History:
+- What are the different types of macromolecules?
+- Proteins.Carbohydrates.Lipids.Nucleic Acids.
+- Tell me about the characteristics of carbohydrates.
+- Its basic structure is composed of the elements carbon, hydrogen and oxygen, with generally twice the hydrogen as carbon and oxygen. In its simplest form, a carbohydrate is a chain of sugar molecules called monosaccharides.
+- What are carbohydrates composed of?
+- Carbohydrates (also called saccharides) are molecular compounds made from just three elements: carbon, hydrogen and oxygen.
+- What are carbohydrates basic structure?
+- The general empirical structure for carbohydrates is (CH2O)n. Monosaccharides, which are simple sugars that serve as fuel molecules as well as fundamental constituents of living organisms, are the simplest carbohydrates, and are required as energy sources.
+- What are the main types of carbohydrates with examples of each?
+- glucose (monosaccharide)fructose (monosaccharide)galactose (monosaccharide)sucrose (disaccharide)lactose (disaccharide)cellulose (polysaccharide)chitin (polysaccharide)
+Original Query: Tell me about lipids.
+Rewritten Query: Tell me about lipids.
+Ground Truth:    Tell me about lipids.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.4292s
+------------------------------
+Sample ID: 68 | Status: REWRITTEN
+History:
+- What are the different types of macromolecules?
+- Proteins.Carbohydrates.Lipids.Nucleic Acids.
+- Tell me about the characteristics of carbohydrates.
+- Its basic structure is composed of the elements carbon, hydrogen and oxygen, with generally twice the hydrogen as carbon and oxygen. In its simplest form, a carbohydrate is a chain of sugar molecules called monosaccharides.
+- What are carbohydrates composed of?
+- Carbohydrates (also called saccharides) are molecular compounds made from just three elements: carbon, hydrogen and oxygen.
+- What are carbohydrates basic structure?
+- The general empirical structure for carbohydrates is (CH2O)n. Monosaccharides, which are simple sugars that serve as fuel molecules as well as fundamental constituents of living organisms, are the simplest carbohydrates, and are required as energy sources.
+- What are the main types of carbohydrates with examples of each?
+- glucose (monosaccharide)fructose (monosaccharide)galactose (monosaccharide)sucrose (disaccharide)lactose (disaccharide)cellulose (polysaccharide)chitin (polysaccharide)
+- Tell me about lipids.
+- Lipids are molecules that contain hydrocarbons and make up the building blocks of the structure and function of living cells. Examples of lipids include fats, oils, waxes, certain vitamins (such as A, D, E and K), hormones and most of the cell membrane that is not made up of protein.
+Original Query: What is their function?
+Rewritten Query: What is the function of lipids?
+Ground Truth:    What are the functions of lipids.
+LLM Judge Score: 1.00
+ROUGE-L: 0.6667, BLEU: 0.0000
+Latency: 68.3477s
+------------------------------
+Sample ID: 69 | Status: KEPT_ORIGINAL
+History:
+- What are the different types of macromolecules?
+- Proteins.Carbohydrates.Lipids.Nucleic Acids.
+- Tell me about the characteristics of carbohydrates.
+- Its basic structure is composed of the elements carbon, hydrogen and oxygen, with generally twice the hydrogen as carbon and oxygen. In its simplest form, a carbohydrate is a chain of sugar molecules called monosaccharides.
+- What are carbohydrates composed of?
+- Carbohydrates (also called saccharides) are molecular compounds made from just three elements: carbon, hydrogen and oxygen.
+- What are carbohydrates basic structure?
+- The general empirical structure for carbohydrates is (CH2O)n. Monosaccharides, which are simple sugars that serve as fuel molecules as well as fundamental constituents of living organisms, are the simplest carbohydrates, and are required as energy sources.
+- What are the main types of carbohydrates with examples of each?
+- glucose (monosaccharide)fructose (monosaccharide)galactose (monosaccharide)sucrose (disaccharide)lactose (disaccharide)cellulose (polysaccharide)chitin (polysaccharide)
+- Tell me about lipids.
+- Lipids are molecules that contain hydrocarbons and make up the building blocks of the structure and function of living cells. Examples of lipids include fats, oils, waxes, certain vitamins (such as A, D, E and K), hormones and most of the cell membrane that is not made up of protein.
+- What are the functions of lipids.
+- The functions of lipids include storing energy, signaling, and acting as structural components of cell membranes.
+Original Query: What are the types of lipids?
+Rewritten Query: What are the types of lipids?
+Ground Truth:    What are the types of lipids?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 68.2847s
+------------------------------
+Sample ID: 70 | Status: REWRITTEN
+History:
+- What are the different types of macromolecules?
+- Proteins.Carbohydrates.Lipids.Nucleic Acids.
+- Tell me about the characteristics of carbohydrates.
+- Its basic structure is composed of the elements carbon, hydrogen and oxygen, with generally twice the hydrogen as carbon and oxygen. In its simplest form, a carbohydrate is a chain of sugar molecules called monosaccharides.
+- What are carbohydrates composed of?
+- Carbohydrates (also called saccharides) are molecular compounds made from just three elements: carbon, hydrogen and oxygen.
+- What are carbohydrates basic structure?
+- The general empirical structure for carbohydrates is (CH2O)n. Monosaccharides, which are simple sugars that serve as fuel molecules as well as fundamental constituents of living organisms, are the simplest carbohydrates, and are required as energy sources.
+- What are the main types of carbohydrates with examples of each?
+- glucose (monosaccharide)fructose (monosaccharide)galactose (monosaccharide)sucrose (disaccharide)lactose (disaccharide)cellulose (polysaccharide)chitin (polysaccharide)
+- Tell me about lipids.
+- Lipids are molecules that contain hydrocarbons and make up the building blocks of the structure and function of living cells. Examples of lipids include fats, oils, waxes, certain vitamins (such as A, D, E and K), hormones and most of the cell membrane that is not made up of protein.
+- What are the functions of lipids.
+- The functions of lipids include storing energy, signaling, and acting as structural components of cell membranes.
+- What are the types of lipids?
+- Major types include fats and oils, waxes, phospholipids, and steroids. Fats are a stored form of energy and are also known as triacylglycerols or triglycerides.
+Original Query: What is the most common?
+Rewritten Query: What is the most common type of lipid?
+Ground Truth:    What is the most common lipid?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8571, BLEU: 0.5133
+Latency: 75.7034s
+------------------------------
+Sample ID: 71 | Status: REWRITTEN
+History:
+- What are the different types of macromolecules?
+- Proteins.Carbohydrates.Lipids.Nucleic Acids.
+- Tell me about the characteristics of carbohydrates.
+- Its basic structure is composed of the elements carbon, hydrogen and oxygen, with generally twice the hydrogen as carbon and oxygen. In its simplest form, a carbohydrate is a chain of sugar molecules called monosaccharides.
+- What are carbohydrates composed of?
+- Carbohydrates (also called saccharides) are molecular compounds made from just three elements: carbon, hydrogen and oxygen.
+- What are carbohydrates basic structure?
+- The general empirical structure for carbohydrates is (CH2O)n. Monosaccharides, which are simple sugars that serve as fuel molecules as well as fundamental constituents of living organisms, are the simplest carbohydrates, and are required as energy sources.
+- What are the main types of carbohydrates with examples of each?
+- glucose (monosaccharide)fructose (monosaccharide)galactose (monosaccharide)sucrose (disaccharide)lactose (disaccharide)cellulose (polysaccharide)chitin (polysaccharide)
+- Tell me about lipids.
+- Lipids are molecules that contain hydrocarbons and make up the building blocks of the structure and function of living cells. Examples of lipids include fats, oils, waxes, certain vitamins (such as A, D, E and K), hormones and most of the cell membrane that is not made up of protein.
+- What are the functions of lipids.
+- The functions of lipids include storing energy, signaling, and acting as structural components of cell membranes.
+- What are the types of lipids?
+- Major types include fats and oils, waxes, phospholipids, and steroids. Fats are a stored form of energy and are also known as triacylglycerols or triglycerides.
+- What is the most common lipid?
+- Although there is no single common structure for lipids, the most commonly occurring class of lipids are triglycerides, which are fats and oils.
+Original Query: What is the difference between them and carbohydrates?
+Rewritten Query: What is the difference between lipids and carbohydrates?
+Ground Truth:    What is the difference between lipids and carbohydrates?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 82.7895s
+------------------------------
+Sample ID: 72 | Status: REWRITTEN
+History:
+- What are the different types of macromolecules?
+- Proteins.Carbohydrates.Lipids.Nucleic Acids.
+- Tell me about the characteristics of carbohydrates.
+- Its basic structure is composed of the elements carbon, hydrogen and oxygen, with generally twice the hydrogen as carbon and oxygen. In its simplest form, a carbohydrate is a chain of sugar molecules called monosaccharides.
+- What are carbohydrates composed of?
+- Carbohydrates (also called saccharides) are molecular compounds made from just three elements: carbon, hydrogen and oxygen.
+- What are carbohydrates basic structure?
+- The general empirical structure for carbohydrates is (CH2O)n. Monosaccharides, which are simple sugars that serve as fuel molecules as well as fundamental constituents of living organisms, are the simplest carbohydrates, and are required as energy sources.
+- What are the main types of carbohydrates with examples of each?
+- glucose (monosaccharide)fructose (monosaccharide)galactose (monosaccharide)sucrose (disaccharide)lactose (disaccharide)cellulose (polysaccharide)chitin (polysaccharide)
+- Tell me about lipids.
+- Lipids are molecules that contain hydrocarbons and make up the building blocks of the structure and function of living cells. Examples of lipids include fats, oils, waxes, certain vitamins (such as A, D, E and K), hormones and most of the cell membrane that is not made up of protein.
+- What are the functions of lipids.
+- The functions of lipids include storing energy, signaling, and acting as structural components of cell membranes.
+- What are the types of lipids?
+- Major types include fats and oils, waxes, phospholipids, and steroids. Fats are a stored form of energy and are also known as triacylglycerols or triglycerides.
+- What is the most common lipid?
+- Although there is no single common structure for lipids, the most commonly occurring class of lipids are triglycerides, which are fats and oils.
+- What is the difference between lipids and carbohydrates?
+- Animals tend to use carbohydrates primarily for short-term energy storage, while lipids are used more for long-term energy storage. Carbohydrates are stored as glycogen in animals while lipids are stored as fats (in plants carbohydrates are stored as cellulose and lipids as oils)
+Original Query: Why are carbs better?
+Rewritten Query: Why are carbohydrates better?
+Ground Truth:    Why are carbs better than lipids?
+LLM Judge Score: 0.80
+ROUGE-L: 0.6000, BLEU: 0.0000
+Latency: 46.4978s
+------------------------------
+Sample ID: 73 | Status: KEPT_ORIGINAL
+History:
+Original Query: What was the Securities Act of 1933?
+Rewritten Query: What was the Securities Act of 1933?
+Ground Truth:    What was the Securities Act of 1933?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 96.3755s
+------------------------------
+Sample ID: 74 | Status: REWRITTEN
+History:
+- What was the Securities Act of 1933?
+- The Securities Act of 1933 has two basic objectives: To require that investors receive financial and other significant information concerning securities being offered for public sale; and. To prohibit deceit, misrepresentations, and other fraud in the sale of securities.
+Original Query: What is exempt from it?
+Rewritten Query: What is exempt from the Securities Act of 1933?
+Ground Truth:    What is exempt for the Securities Act of 1933?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8889, BLEU: 0.6580
+Latency: 111.0438s
+------------------------------
+Sample ID: 75 | Status: REWRITTEN
+History:
+- What was the Securities Act of 1933?
+- The Securities Act of 1933 has two basic objectives: To require that investors receive financial and other significant information concerning securities being offered for public sale; and. To prohibit deceit, misrepresentations, and other fraud in the sale of securities.
+- What is exempt for the Securities Act of 1933?
+- However, there are exempt securities, under Section 4 of the Securities Act of 1933. These securities are financial instruments that carry government backing and typically have a government or tax-exempt status
+Original Query: Why was it needed?
+Rewritten Query: Why was the Securities Act of 1933 needed?
+Ground Truth:    Why was the Securities Act of 1933 needed?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 104.6579s
+------------------------------
+Sample ID: 76 | Status: REWRITTEN
+History:
+- What was the Securities Act of 1933?
+- The Securities Act of 1933 has two basic objectives: To require that investors receive financial and other significant information concerning securities being offered for public sale; and. To prohibit deceit, misrepresentations, and other fraud in the sale of securities.
+- What is exempt for the Securities Act of 1933?
+- However, there are exempt securities, under Section 4 of the Securities Act of 1933. These securities are financial instruments that carry government backing and typically have a government or tax-exempt status
+- Why was the Securities Act of 1933 needed?
+- The act took power away from the states and put it into the hands of the federal government. The act also created a uniform set of rules to protect investors against fraud.
+Original Query: What was the reason for creating the 1934 act?
+Rewritten Query: What was the reason for creating the Securities Act of 1934?
+Ground Truth:    What was the reason for creating the 1934 act?
+LLM Judge Score: 0.80
+ROUGE-L: 0.8000, BLEU: 0.5491
+Latency: 126.7227s
+------------------------------
+Sample ID: 77 | Status: KEPT_ORIGINAL
+History:
+- What was the Securities Act of 1933?
+- The Securities Act of 1933 has two basic objectives: To require that investors receive financial and other significant information concerning securities being offered for public sale; and. To prohibit deceit, misrepresentations, and other fraud in the sale of securities.
+- What is exempt for the Securities Act of 1933?
+- However, there are exempt securities, under Section 4 of the Securities Act of 1933. These securities are financial instruments that carry government backing and typically have a government or tax-exempt status
+- Why was the Securities Act of 1933 needed?
+- The act took power away from the states and put it into the hands of the federal government. The act also created a uniform set of rules to protect investors against fraud.
+- What was the reason for creating the 1934 act?
+- The SEA of 1934 was enacted by Franklin D. Roosevelt's administration as a response to the widely held belief that irresponsible financial practices were one of the chief causes of the 1929 stock market crash.
+Original Query: What is the largest securities exchange in the world?
+Rewritten Query: What is the largest securities exchange in the world?
+Ground Truth:    What is the largest securities exchange in the world?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 82.9210s
+------------------------------
+Sample ID: 78 | Status: REWRITTEN
+History:
+- What was the Securities Act of 1933?
+- The Securities Act of 1933 has two basic objectives: To require that investors receive financial and other significant information concerning securities being offered for public sale; and. To prohibit deceit, misrepresentations, and other fraud in the sale of securities.
+- What is exempt for the Securities Act of 1933?
+- However, there are exempt securities, under Section 4 of the Securities Act of 1933. These securities are financial instruments that carry government backing and typically have a government or tax-exempt status
+- Why was the Securities Act of 1933 needed?
+- The act took power away from the states and put it into the hands of the federal government. The act also created a uniform set of rules to protect investors against fraud.
+- What was the reason for creating the 1934 act?
+- The SEA of 1934 was enacted by Franklin D. Roosevelt's administration as a response to the widely held belief that irresponsible financial practices were one of the chief causes of the 1929 stock market crash.
+- What is the largest securities exchange in the world?
+- The New York Stock Exchange founded on May 17, 1792, is the world's biggest stock exchange in trader value and has a capitalization of $19.223 Trillion USD.
+Original Query: How and when when was it created?
+Rewritten Query: How and when was the New York Stock Exchange created?
+Ground Truth:    How and when was the largest securities exchange in the world created?
+LLM Judge Score: 1.00
+ROUGE-L: 0.6364, BLEU: 0.3364
+Latency: 90.0932s
+------------------------------
+Sample ID: 79 | Status: KEPT_ORIGINAL
+History:
+- What was the Securities Act of 1933?
+- The Securities Act of 1933 has two basic objectives: To require that investors receive financial and other significant information concerning securities being offered for public sale; and. To prohibit deceit, misrepresentations, and other fraud in the sale of securities.
+- What is exempt for the Securities Act of 1933?
+- However, there are exempt securities, under Section 4 of the Securities Act of 1933. These securities are financial instruments that carry government backing and typically have a government or tax-exempt status
+- Why was the Securities Act of 1933 needed?
+- The act took power away from the states and put it into the hands of the federal government. The act also created a uniform set of rules to protect investors against fraud.
+- What was the reason for creating the 1934 act?
+- The SEA of 1934 was enacted by Franklin D. Roosevelt's administration as a response to the widely held belief that irresponsible financial practices were one of the chief causes of the 1929 stock market crash.
+- What is the largest securities exchange in the world?
+- The New York Stock Exchange founded on May 17, 1792, is the world's biggest stock exchange in trader value and has a capitalization of $19.223 Trillion USD.
+- How and when was the largest securities exchange in the world created?
+- The New York Stock Exchange founded on May 17, 1792, is the world's biggest stock exchange in trader value and has a capitalization of $19.223 Trillion USD.
+Original Query: What was the first stock market?
+Rewritten Query: What was the first stock market?
+Ground Truth:    What was the first stock market?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 60.9868s
+------------------------------
+Sample ID: 80 | Status: KEPT_ORIGINAL
+History:
+Original Query: Why is statistics important?
+Rewritten Query: Why is statistics important?
+Ground Truth:    Why is statistics important?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 46.1482s
+------------------------------
+Sample ID: 81 | Status: REWRITTEN
+History:
+- Why is statistics important?
+- The field of statistics is the science of learning from data. Statistical knowledge helps you use the proper methods to collect the data, employ the correct analyses, and effectively present the results.
+Original Query: Why should one study it?
+Rewritten Query: Why should one study statistics?
+Ground Truth:    Why should one study statistics?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.4300s
+------------------------------
+Sample ID: 82 | Status: REWRITTEN
+History:
+- Why is statistics important?
+- The field of statistics is the science of learning from data. Statistical knowledge helps you use the proper methods to collect the data, employ the correct analyses, and effectively present the results.
+- Why should one study statistics?
+- To summarize, the five reasons to study statistics are to be able to effectively conduct research, to be able to read and evaluate journal articles, to further develop critical thinking and analytic skills, to act a an informed consumer, and to know when you need to hire outside statistical help.
+Original Query: Tell me about its career options.
+Rewritten Query: Tell me about the career options for someone who studies statistics.
+Ground Truth:    Tell me about the career options for statistics?
+LLM Judge Score: 0.90
+ROUGE-L: 0.8421, BLEU: 0.5332
+Latency: 97.2537s
+------------------------------
+Sample ID: 83 | Status: KEPT_ORIGINAL
+History:
+- Why is statistics important?
+- The field of statistics is the science of learning from data. Statistical knowledge helps you use the proper methods to collect the data, employ the correct analyses, and effectively present the results.
+- Why should one study statistics?
+- To summarize, the five reasons to study statistics are to be able to effectively conduct research, to be able to read and evaluate journal articles, to further develop critical thinking and analytic skills, to act a an informed consumer, and to know when you need to hire outside statistical help.
+- Tell me about the career options for statistics?
+- Jobs directly related to your degree include:Actuarial analyst, Actuary, Civil Service fast streamer, Data analyst, Data scientist, Financial risk analyst, Investment analyst, Market researcher, Operational researcher, Statistician
+Original Query: Are Data Scientists in high demand?
+Rewritten Query: Are data scientists in high demand?
+Ground Truth:    Are Data Scientists in high demand?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 0.4347
+Latency: 61.0091s
+------------------------------
+Sample ID: 84 | Status: REWRITTEN
+History:
+- Why is statistics important?
+- The field of statistics is the science of learning from data. Statistical knowledge helps you use the proper methods to collect the data, employ the correct analyses, and effectively present the results.
+- Why should one study statistics?
+- To summarize, the five reasons to study statistics are to be able to effectively conduct research, to be able to read and evaluate journal articles, to further develop critical thinking and analytic skills, to act a an informed consumer, and to know when you need to hire outside statistical help.
+- Tell me about the career options for statistics?
+- Jobs directly related to your degree include:Actuarial analyst, Actuary, Civil Service fast streamer, Data analyst, Data scientist, Financial risk analyst, Investment analyst, Market researcher, Operational researcher, Statistician
+- Are Data Scientists in high demand?
+- Fueled by big data and AI, demand for data science skills is growing exponentially, according to job sites. The supply of skilled applicants, however, is growing at a slower pace.
+Original Query: How much do they make on average in a year?
+Rewritten Query: How much do data scientists make on average in a year?
+Ground Truth:    How much do Data Scientists make on average in a year?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 0.6340
+Latency: 97.1965s
+------------------------------
+Sample ID: 85 | Status: KEPT_ORIGINAL
+History:
+- Why is statistics important?
+- The field of statistics is the science of learning from data. Statistical knowledge helps you use the proper methods to collect the data, employ the correct analyses, and effectively present the results.
+- Why should one study statistics?
+- To summarize, the five reasons to study statistics are to be able to effectively conduct research, to be able to read and evaluate journal articles, to further develop critical thinking and analytic skills, to act a an informed consumer, and to know when you need to hire outside statistical help.
+- Tell me about the career options for statistics?
+- Jobs directly related to your degree include:Actuarial analyst, Actuary, Civil Service fast streamer, Data analyst, Data scientist, Financial risk analyst, Investment analyst, Market researcher, Operational researcher, Statistician
+- Are Data Scientists in high demand?
+- Fueled by big data and AI, demand for data science skills is growing exponentially, according to job sites. The supply of skilled applicants, however, is growing at a slower pace.
+- How much do Data Scientists make on average in a year?
+- Despite a recent influx of early-career professionals, the median starting salary for a data scientist remains high at $95,000.
+Original Query: What is range in statistics?
+Rewritten Query: What is range in statistics?
+Ground Truth:    What is range in statistics?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.6727s
+------------------------------
+Sample ID: 86 | Status: REWRITTEN
+History:
+- Why is statistics important?
+- The field of statistics is the science of learning from data. Statistical knowledge helps you use the proper methods to collect the data, employ the correct analyses, and effectively present the results.
+- Why should one study statistics?
+- To summarize, the five reasons to study statistics are to be able to effectively conduct research, to be able to read and evaluate journal articles, to further develop critical thinking and analytic skills, to act a an informed consumer, and to know when you need to hire outside statistical help.
+- Tell me about the career options for statistics?
+- Jobs directly related to your degree include:Actuarial analyst, Actuary, Civil Service fast streamer, Data analyst, Data scientist, Financial risk analyst, Investment analyst, Market researcher, Operational researcher, Statistician
+- Are Data Scientists in high demand?
+- Fueled by big data and AI, demand for data science skills is growing exponentially, according to job sites. The supply of skilled applicants, however, is growing at a slower pace.
+- How much do Data Scientists make on average in a year?
+- Despite a recent influx of early-career professionals, the median starting salary for a data scientist remains high at $95,000.
+- What is range in statistics?
+- The Range is the difference between the lowest and highest values.
+Original Query: Describe some different metrics to interpret it.
+Rewritten Query: Describe some different metrics to interpret the range in statistics.
+Ground Truth:    Describe some different metrics to interpret range in statistics.
+LLM Judge Score: 1.00
+ROUGE-L: 0.9474, BLEU: 0.7017
+Latency: 89.9828s
+------------------------------
+Sample ID: 87 | Status: KEPT_ORIGINAL
+History:
+- Why is statistics important?
+- The field of statistics is the science of learning from data. Statistical knowledge helps you use the proper methods to collect the data, employ the correct analyses, and effectively present the results.
+- Why should one study statistics?
+- To summarize, the five reasons to study statistics are to be able to effectively conduct research, to be able to read and evaluate journal articles, to further develop critical thinking and analytic skills, to act a an informed consumer, and to know when you need to hire outside statistical help.
+- Tell me about the career options for statistics?
+- Jobs directly related to your degree include:Actuarial analyst, Actuary, Civil Service fast streamer, Data analyst, Data scientist, Financial risk analyst, Investment analyst, Market researcher, Operational researcher, Statistician
+- Are Data Scientists in high demand?
+- Fueled by big data and AI, demand for data science skills is growing exponentially, according to job sites. The supply of skilled applicants, however, is growing at a slower pace.
+- How much do Data Scientists make on average in a year?
+- Despite a recent influx of early-career professionals, the median starting salary for a data scientist remains high at $95,000.
+- What is range in statistics?
+- The Range is the difference between the lowest and highest values.
+- Describe some different metrics to interpret range in statistics.
+Original Query: What are quartiles?
+Rewritten Query: What are quartiles?
+Ground Truth:    What are quartiles?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 46.3761s
+------------------------------
+Sample ID: 88 | Status: KEPT_ORIGINAL
+History:
+- Why is statistics important?
+- The field of statistics is the science of learning from data. Statistical knowledge helps you use the proper methods to collect the data, employ the correct analyses, and effectively present the results.
+- Why should one study statistics?
+- To summarize, the five reasons to study statistics are to be able to effectively conduct research, to be able to read and evaluate journal articles, to further develop critical thinking and analytic skills, to act a an informed consumer, and to know when you need to hire outside statistical help.
+- Tell me about the career options for statistics?
+- Jobs directly related to your degree include:Actuarial analyst, Actuary, Civil Service fast streamer, Data analyst, Data scientist, Financial risk analyst, Investment analyst, Market researcher, Operational researcher, Statistician
+- Are Data Scientists in high demand?
+- Fueled by big data and AI, demand for data science skills is growing exponentially, according to job sites. The supply of skilled applicants, however, is growing at a slower pace.
+- How much do Data Scientists make on average in a year?
+- Despite a recent influx of early-career professionals, the median starting salary for a data scientist remains high at $95,000.
+- What is range in statistics?
+- The Range is the difference between the lowest and highest values.
+- Describe some different metrics to interpret range in statistics.
+- What are quartiles?
+- Quartiles are the values that divide a list of numbers into quarters: Put the list of numbers in order; Then cut the list into four equal parts;
+Original Query: How do you find the lower and upper quartile?
+Rewritten Query: How do you find the lower and upper quartile?
+Ground Truth:    How do you find the lower and upper quartile?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 90.2159s
+------------------------------
+Sample ID: 89 | Status: KEPT_ORIGINAL
+History:
+Original Query: How does water freeze?
+Rewritten Query: How does water freeze?
+Ground Truth:    How does water freeze?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 46.1546s
+------------------------------
+Sample ID: 90 | Status: REWRITTEN
+History:
+- How does water freeze?
+- Freezing happens when the molecules of a liquid get so cold that they slow down enough to hook onto each other, forming a solid crystal.
+Original Query: What happens to its molecules?
+Rewritten Query: What happens to the molecules of water when it freezes?
+Ground Truth:    How happens to waters molecules when it freezes?
+LLM Judge Score: 1.00
+ROUGE-L: 0.6667, BLEU: 0.2900
+Latency: 90.0887s
+------------------------------
+Sample ID: 91 | Status: KEPT_ORIGINAL
+History:
+- How does water freeze?
+- Freezing happens when the molecules of a liquid get so cold that they slow down enough to hook onto each other, forming a solid crystal.
+- How happens to waters molecules when it freezes?
+- When frozen, water molecules take a more defined shape and arrange themselves in six-sided crystalline structures. The crystalline arrangement is less dense than that of the molecules in liquid form which makes the ice less dense than the liquid water.
+Original Query: Why isn't the bottom of the ocean frozen?
+Rewritten Query: Why isn't the bottom of the ocean frozen?
+Ground Truth:    Why isn't the bottom of the ocean frozen?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 82.6341s
+------------------------------
+Sample ID: 92 | Status: KEPT_ORIGINAL
+History:
+- How does water freeze?
+- Freezing happens when the molecules of a liquid get so cold that they slow down enough to hook onto each other, forming a solid crystal.
+- How happens to waters molecules when it freezes?
+- When frozen, water molecules take a more defined shape and arrange themselves in six-sided crystalline structures. The crystalline arrangement is less dense than that of the molecules in liquid form which makes the ice less dense than the liquid water.
+- Why isn't the bottom of the ocean frozen?
+- Once frozen, the ice insulates the water at the bottom from cooling so its temperature is maintained between 0 and almost 4°C, keeping it from freezing.
+Original Query: Can the bottom of the ocean freeze?
+Rewritten Query: Can the bottom of the ocean freeze?
+Ground Truth:    Can the bottom of the ocean freeze?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 68.5929s
+------------------------------
+Sample ID: 93 | Status: KEPT_ORIGINAL
+History:
+- How does water freeze?
+- Freezing happens when the molecules of a liquid get so cold that they slow down enough to hook onto each other, forming a solid crystal.
+- How happens to waters molecules when it freezes?
+- When frozen, water molecules take a more defined shape and arrange themselves in six-sided crystalline structures. The crystalline arrangement is less dense than that of the molecules in liquid form which makes the ice less dense than the liquid water.
+- Why isn't the bottom of the ocean frozen?
+- Once frozen, the ice insulates the water at the bottom from cooling so its temperature is maintained between 0 and almost 4°C, keeping it from freezing.
+- Can the bottom of the ocean freeze?
+- Ocean water freezes just like freshwater, but at lower temperatures. Fresh water freezes at 32 degrees Fahrenheit but seawater freezes at about 28.4 degrees Fahrenheit , because of the salt in it.
+Original Query: Where is the coldest place on Earth?
+Rewritten Query: Where is the coldest place on Earth?
+Ground Truth:    Where is the coldest place on Earth?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 75.0844s
+------------------------------
+Sample ID: 94 | Status: KEPT_ORIGINAL
+History:
+- How does water freeze?
+- Freezing happens when the molecules of a liquid get so cold that they slow down enough to hook onto each other, forming a solid crystal.
+- How happens to waters molecules when it freezes?
+- When frozen, water molecules take a more defined shape and arrange themselves in six-sided crystalline structures. The crystalline arrangement is less dense than that of the molecules in liquid form which makes the ice less dense than the liquid water.
+- Why isn't the bottom of the ocean frozen?
+- Once frozen, the ice insulates the water at the bottom from cooling so its temperature is maintained between 0 and almost 4°C, keeping it from freezing.
+- Can the bottom of the ocean freeze?
+- Ocean water freezes just like freshwater, but at lower temperatures. Fresh water freezes at 32 degrees Fahrenheit but seawater freezes at about 28.4 degrees Fahrenheit , because of the salt in it.
+- Where is the coldest place on Earth?
+- It's chilly in Britain right now, but spare a thought for the residents of Oymyakon, Russia, widely recognised as the coldest inhabited place on Earth. How cold is it? Right now it's a relatively balmy −44°C.
+Original Query: Does Dome Fuji have inhabitants?
+Rewritten Query: Does Dome Fuji have inhabitants?
+Ground Truth:    Does Dome Fuji have inhabitants?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.1411s
+------------------------------
+Sample ID: 95 | Status: KEPT_ORIGINAL
+History:
+- How does water freeze?
+- Freezing happens when the molecules of a liquid get so cold that they slow down enough to hook onto each other, forming a solid crystal.
+- How happens to waters molecules when it freezes?
+- When frozen, water molecules take a more defined shape and arrange themselves in six-sided crystalline structures. The crystalline arrangement is less dense than that of the molecules in liquid form which makes the ice less dense than the liquid water.
+- Why isn't the bottom of the ocean frozen?
+- Once frozen, the ice insulates the water at the bottom from cooling so its temperature is maintained between 0 and almost 4°C, keeping it from freezing.
+- Can the bottom of the ocean freeze?
+- Ocean water freezes just like freshwater, but at lower temperatures. Fresh water freezes at 32 degrees Fahrenheit but seawater freezes at about 28.4 degrees Fahrenheit , because of the salt in it.
+- Where is the coldest place on Earth?
+- It's chilly in Britain right now, but spare a thought for the residents of Oymyakon, Russia, widely recognised as the coldest inhabited place on Earth. How cold is it? Right now it's a relatively balmy −44°C.
+- Does Dome Fuji have inhabitants?
+Original Query: Why is Antarctica so cold?
+Rewritten Query: Why is Antarctica so cold?
+Ground Truth:    Why is Antarctica so cold?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.1892s
+------------------------------
+Sample ID: 96 | Status: REWRITTEN
+History:
+- How does water freeze?
+- Freezing happens when the molecules of a liquid get so cold that they slow down enough to hook onto each other, forming a solid crystal.
+- How happens to waters molecules when it freezes?
+- When frozen, water molecules take a more defined shape and arrange themselves in six-sided crystalline structures. The crystalline arrangement is less dense than that of the molecules in liquid form which makes the ice less dense than the liquid water.
+- Why isn't the bottom of the ocean frozen?
+- Once frozen, the ice insulates the water at the bottom from cooling so its temperature is maintained between 0 and almost 4°C, keeping it from freezing.
+- Can the bottom of the ocean freeze?
+- Ocean water freezes just like freshwater, but at lower temperatures. Fresh water freezes at 32 degrees Fahrenheit but seawater freezes at about 28.4 degrees Fahrenheit , because of the salt in it.
+- Where is the coldest place on Earth?
+- It's chilly in Britain right now, but spare a thought for the residents of Oymyakon, Russia, widely recognised as the coldest inhabited place on Earth. How cold is it? Right now it's a relatively balmy −44°C.
+- Does Dome Fuji have inhabitants?
+- Why is Antarctica so cold?
+- Less sunlight means it gets cold. In addition the permanent ice cap reflects a large amount of sunlight
+Original Query: How cold is the water underneath the ice?
+Rewritten Query: How cold is the water underneath the ice in Antarctica?
+Ground Truth:    How cold is the water underneath the ice in Antarctica?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 89.3515s
+------------------------------
+Sample ID: 97 | Status: REWRITTEN
+History:
+- How does water freeze?
+- Freezing happens when the molecules of a liquid get so cold that they slow down enough to hook onto each other, forming a solid crystal.
+- How happens to waters molecules when it freezes?
+- When frozen, water molecules take a more defined shape and arrange themselves in six-sided crystalline structures. The crystalline arrangement is less dense than that of the molecules in liquid form which makes the ice less dense than the liquid water.
+- Why isn't the bottom of the ocean frozen?
+- Once frozen, the ice insulates the water at the bottom from cooling so its temperature is maintained between 0 and almost 4°C, keeping it from freezing.
+- Can the bottom of the ocean freeze?
+- Ocean water freezes just like freshwater, but at lower temperatures. Fresh water freezes at 32 degrees Fahrenheit but seawater freezes at about 28.4 degrees Fahrenheit , because of the salt in it.
+- Where is the coldest place on Earth?
+- It's chilly in Britain right now, but spare a thought for the residents of Oymyakon, Russia, widely recognised as the coldest inhabited place on Earth. How cold is it? Right now it's a relatively balmy −44°C.
+- Does Dome Fuji have inhabitants?
+- Why is Antarctica so cold?
+- Less sunlight means it gets cold. In addition the permanent ice cap reflects a large amount of sunlight
+- How cold is the water underneath the ice in Antarctica?
+- The Southern Ocean around Antarctica ranges between 28 to 50 °F
+Original Query: What is the biggest town?
+Rewritten Query: What is the biggest town in Antarctica?
+Ground Truth:    What is the biggest town in Antarctica?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 67.7571s
+------------------------------
+Sample ID: 98 | Status: KEPT_ORIGINAL
+History:
+Original Query: What are futuristic designs?
+Rewritten Query: What are futuristic designs?
+Ground Truth:    What are futuristic designs?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 45.9460s
+------------------------------
+Sample ID: 99 | Status: REWRITTEN
+History:
+- What are futuristic designs?
+- So simply, futuristic means something belongs in future, way ahead of our times. But nobody knows exactly how will be the future is, so to make a general consent with the majority of the people, you need to come up with something,
+Original Query: How did this become a new trend?
+Rewritten Query: How did futuristic designs become a new trend?
+Ground Truth:    How did futuristic designs become a new trend?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 74.8286s
+------------------------------
+Sample ID: 100 | Status: REWRITTEN
+History:
+- What are futuristic designs?
+- So simply, futuristic means something belongs in future, way ahead of our times. But nobody knows exactly how will be the future is, so to make a general consent with the majority of the people, you need to come up with something,
+- How did futuristic designs become a new trend?
+Original Query: Why are most of the constructions inspired by these designs?
+Rewritten Query: Why are most constructions inspired by futuristic designs?
+Ground Truth:    Why are most of the constructions inspired by futuristic designs?
+LLM Judge Score: 0.90
+ROUGE-L: 0.8889, BLEU: 0.5987
+Latency: 74.7730s
+------------------------------
+Sample ID: 101 | Status: REWRITTEN
+History:
+- What are futuristic designs?
+- So simply, futuristic means something belongs in future, way ahead of our times. But nobody knows exactly how will be the future is, so to make a general consent with the majority of the people, you need to come up with something,
+- How did futuristic designs become a new trend?
+- Why are most of the constructions inspired by futuristic designs?
+Original Query: What are the different domains where such designs have been adapted?
+Rewritten Query: What are the different domains where futuristic designs have been adapted?
+Ground Truth:    What are the different domains where futuristic designs have been adapted?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 96.2583s
+------------------------------
+Sample ID: 102 | Status: REWRITTEN
+History:
+- What are futuristic designs?
+- So simply, futuristic means something belongs in future, way ahead of our times. But nobody knows exactly how will be the future is, so to make a general consent with the majority of the people, you need to come up with something,
+- How did futuristic designs become a new trend?
+- Why are most of the constructions inspired by futuristic designs?
+- What are the different domains where futuristic designs have been adapted?
+Original Query: How has it affected technology?
+Rewritten Query: How has futuristic design affected technology?
+Ground Truth:    How have futuristic designs affected technology?
+LLM Judge Score: 0.90
+ROUGE-L: 0.6667, BLEU: 0.0000
+Latency: 60.7075s
+------------------------------
+Sample ID: 103 | Status: REWRITTEN
+History:
+- What are futuristic designs?
+- So simply, futuristic means something belongs in future, way ahead of our times. But nobody knows exactly how will be the future is, so to make a general consent with the majority of the people, you need to come up with something,
+- How did futuristic designs become a new trend?
+- Why are most of the constructions inspired by futuristic designs?
+- What are the different domains where futuristic designs have been adapted?
+- How have futuristic designs affected technology?
+Original Query: How have the different giants in the business responded to this?
+Rewritten Query: How have the different giants in the business responded to futuristic designs?
+Ground Truth:    How have the different giants in the business responded to the technology affected by futuristic designs?
+LLM Judge Score: 0.80
+ROUGE-L: 0.8571, BLEU: 0.6258
+Latency: 103.5709s
+------------------------------
+Sample ID: 104 | Status: REWRITTEN
+History:
+- What are futuristic designs?
+- So simply, futuristic means something belongs in future, way ahead of our times. But nobody knows exactly how will be the future is, so to make a general consent with the majority of the people, you need to come up with something,
+- How did futuristic designs become a new trend?
+- Why are most of the constructions inspired by futuristic designs?
+- What are the different domains where futuristic designs have been adapted?
+- How have futuristic designs affected technology?
+- How have the different giants in the business responded to the technology affected by futuristic designs?
+Original Query: Has its introduction led to increase in business?
+Rewritten Query: Has the introduction of futuristic designs led to an increase in business?
+Ground Truth:    Has futuristic designs introduction led to increase in business?
+LLM Judge Score: 1.00
+ROUGE-L: 0.7619, BLEU: 0.2763
+Latency: 103.3536s
+------------------------------
+Sample ID: 105 | Status: REWRITTEN
+History:
+- What are futuristic designs?
+- So simply, futuristic means something belongs in future, way ahead of our times. But nobody knows exactly how will be the future is, so to make a general consent with the majority of the people, you need to come up with something,
+- How did futuristic designs become a new trend?
+- Why are most of the constructions inspired by futuristic designs?
+- What are the different domains where futuristic designs have been adapted?
+- How have futuristic designs affected technology?
+- How have the different giants in the business responded to the technology affected by futuristic designs?
+- Has futuristic designs introduction led to increase in business?
+Original Query: If designs are already futuristic, how will this change in the future?
+Rewritten Query: If futuristic designs are already futuristic, how will they change in the future?
+Ground Truth:    If designs are already futuristic, how will this change in the future?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8800, BLEU: 0.6606
+Latency: 117.9563s
+------------------------------
+Sample ID: 106 | Status: KEPT_ORIGINAL
+History:
+Original Query: What is a good age to get LASIK?
+Rewritten Query: What is a good age to get LASIK?
+Ground Truth:    What is a good age to get LASIK?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 81.8235s
+------------------------------
+Sample ID: 107 | Status: REWRITTEN
+History:
+- What is a good age to get LASIK?
+- Generally, the perfect candidate for LASIK is someone between the ages of 20 and 40.
+Original Query: Give me a short description of the procedure.
+Rewritten Query: Give me a short description of the LASIK procedure.
+Ground Truth:    Give me a short description of the LASIK procedure.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 89.1498s
+------------------------------
+Sample ID: 108 | Status: REWRITTEN
+History:
+- What is a good age to get LASIK?
+- Generally, the perfect candidate for LASIK is someone between the ages of 20 and 40.
+- Give me a short description of the LASIK procedure.
+- During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) — the transparent, dome-shaped surface of the eye that accounts for a large part of the eye's bending or refracting power. Then the surgeon uses a laser (B) to reshape the cornea, which corrects the refraction problems in the eye (C).
+Original Query: What are its benefits?
+Rewritten Query: What are the benefits of LASIK?
+Ground Truth:    What are the benefits of LASIK?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 67.5709s
+------------------------------
+Sample ID: 109 | Status: REWRITTEN
+History:
+- What is a good age to get LASIK?
+- Generally, the perfect candidate for LASIK is someone between the ages of 20 and 40.
+- Give me a short description of the LASIK procedure.
+- During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) — the transparent, dome-shaped surface of the eye that accounts for a large part of the eye's bending or refracting power. Then the surgeon uses a laser (B) to reshape the cornea, which corrects the refraction problems in the eye (C).
+- What are the benefits of LASIK?
+- Improved vision. Studies have shown that about 95% of patients who receive LASIK surgery achieve uncorrected visual acuity (UCVA) of at least 20/40 and 85% achieve 20/20 vision or better.
+Original Query: What are the risks?
+Rewritten Query: What are the risks of LASIK?
+Ground Truth:    What are the risks of LASIK?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 67.4801s
+------------------------------
+Sample ID: 110 | Status: REWRITTEN
+History:
+- What is a good age to get LASIK?
+- Generally, the perfect candidate for LASIK is someone between the ages of 20 and 40.
+- Give me a short description of the LASIK procedure.
+- During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) — the transparent, dome-shaped surface of the eye that accounts for a large part of the eye's bending or refracting power. Then the surgeon uses a laser (B) to reshape the cornea, which corrects the refraction problems in the eye (C).
+- What are the benefits of LASIK?
+- Improved vision. Studies have shown that about 95% of patients who receive LASIK surgery achieve uncorrected visual acuity (UCVA) of at least 20/40 and 85% achieve 20/20 vision or better.
+- What are the risks of LASIK?
+- Dry eyes, glare, halos, and starbursts are all possible side effects of LASIK surgery.
+Original Query: Describe experiences of some people who had it done.
+Rewritten Query: Describe experiences of people who had LASIK surgery.
+Ground Truth:    Describe experiences of some people who have done LASIK.
+LLM Judge Score: 0.90
+ROUGE-L: 0.7059, BLEU: 0.0000
+Latency: 82.1237s
+------------------------------
+Sample ID: 111 | Status: REWRITTEN
+History:
+- What is a good age to get LASIK?
+- Generally, the perfect candidate for LASIK is someone between the ages of 20 and 40.
+- Give me a short description of the LASIK procedure.
+- During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) — the transparent, dome-shaped surface of the eye that accounts for a large part of the eye's bending or refracting power. Then the surgeon uses a laser (B) to reshape the cornea, which corrects the refraction problems in the eye (C).
+- What are the benefits of LASIK?
+- Improved vision. Studies have shown that about 95% of patients who receive LASIK surgery achieve uncorrected visual acuity (UCVA) of at least 20/40 and 85% achieve 20/20 vision or better.
+- What are the risks of LASIK?
+- Dry eyes, glare, halos, and starbursts are all possible side effects of LASIK surgery.
+- Describe experiences of some people who have done LASIK.
+- Many developed symptoms within six months, such as seeing starbursts (30.3 percent), halos (26.2 percent), and double images (5.2 percent)
+Original Query: Are there any good alternatives to it?
+Rewritten Query: Are there any good alternatives to LASIK?
+Ground Truth:    Are there any good alternatives to LASIK?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 74.9162s
+------------------------------
+Sample ID: 112 | Status: REWRITTEN
+History:
+- What is a good age to get LASIK?
+- Generally, the perfect candidate for LASIK is someone between the ages of 20 and 40.
+- Give me a short description of the LASIK procedure.
+- During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) — the transparent, dome-shaped surface of the eye that accounts for a large part of the eye's bending or refracting power. Then the surgeon uses a laser (B) to reshape the cornea, which corrects the refraction problems in the eye (C).
+- What are the benefits of LASIK?
+- Improved vision. Studies have shown that about 95% of patients who receive LASIK surgery achieve uncorrected visual acuity (UCVA) of at least 20/40 and 85% achieve 20/20 vision or better.
+- What are the risks of LASIK?
+- Dry eyes, glare, halos, and starbursts are all possible side effects of LASIK surgery.
+- Describe experiences of some people who have done LASIK.
+- Many developed symptoms within six months, such as seeing starbursts (30.3 percent), halos (26.2 percent), and double images (5.2 percent)
+- Are there any good alternatives to LASIK?
+- LASEK (laser-assisted subepithelial keratomileusis): While LASIK focuses on corneal sculpting, LASEK focuses on the very top layer, or epithelium, of the cornea.
+Original Query: What is its success rate?
+Rewritten Query: What is the success rate of LASEK?
+Ground Truth:    What is the success rate of LASIK?
+LLM Judge Score: 0.00
+ROUGE-L: 0.8571, BLEU: 0.7071
+Latency: 82.0239s
+------------------------------
+Sample ID: 113 | Status: REWRITTEN
+History:
+- What is a good age to get LASIK?
+- Generally, the perfect candidate for LASIK is someone between the ages of 20 and 40.
+- Give me a short description of the LASIK procedure.
+- During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) — the transparent, dome-shaped surface of the eye that accounts for a large part of the eye's bending or refracting power. Then the surgeon uses a laser (B) to reshape the cornea, which corrects the refraction problems in the eye (C).
+- What are the benefits of LASIK?
+- Improved vision. Studies have shown that about 95% of patients who receive LASIK surgery achieve uncorrected visual acuity (UCVA) of at least 20/40 and 85% achieve 20/20 vision or better.
+- What are the risks of LASIK?
+- Dry eyes, glare, halos, and starbursts are all possible side effects of LASIK surgery.
+- Describe experiences of some people who have done LASIK.
+- Many developed symptoms within six months, such as seeing starbursts (30.3 percent), halos (26.2 percent), and double images (5.2 percent)
+- Are there any good alternatives to LASIK?
+- LASEK (laser-assisted subepithelial keratomileusis): While LASIK focuses on corneal sculpting, LASEK focuses on the very top layer, or epithelium, of the cornea.
+- What is the success rate of LASIK?
+- The latest research reports 99 percent of patients achieve better than 20/40 vision and more than 90 percent achieve 20/20 or better. In addition, LASIK has an unprecedented 96 percent patient satisfaction rate – the highest of any elective procedure.
+Original Query: Once it's done, what kind of precautions do I need to take?
+Rewritten Query: Once LASIK is done, what kind of precautions do I need to take?
+Ground Truth:    Once LASIK is done, what kind of precautions do I need to take?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 125.5380s
+------------------------------
+Sample ID: 114 | Status: REWRITTEN
+History:
+- What is a good age to get LASIK?
+- Generally, the perfect candidate for LASIK is someone between the ages of 20 and 40.
+- Give me a short description of the LASIK procedure.
+- During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) — the transparent, dome-shaped surface of the eye that accounts for a large part of the eye's bending or refracting power. Then the surgeon uses a laser (B) to reshape the cornea, which corrects the refraction problems in the eye (C).
+- What are the benefits of LASIK?
+- Improved vision. Studies have shown that about 95% of patients who receive LASIK surgery achieve uncorrected visual acuity (UCVA) of at least 20/40 and 85% achieve 20/20 vision or better.
+- What are the risks of LASIK?
+- Dry eyes, glare, halos, and starbursts are all possible side effects of LASIK surgery.
+- Describe experiences of some people who have done LASIK.
+- Many developed symptoms within six months, such as seeing starbursts (30.3 percent), halos (26.2 percent), and double images (5.2 percent)
+- Are there any good alternatives to LASIK?
+- LASEK (laser-assisted subepithelial keratomileusis): While LASIK focuses on corneal sculpting, LASEK focuses on the very top layer, or epithelium, of the cornea.
+- What is the success rate of LASIK?
+- The latest research reports 99 percent of patients achieve better than 20/40 vision and more than 90 percent achieve 20/20 or better. In addition, LASIK has an unprecedented 96 percent patient satisfaction rate – the highest of any elective procedure.
+- Once LASIK is done, what kind of precautions do I need to take?
+- 1 to 2 weeks post LASIK: You can usually begin exercising within a week after LASIK surgery, but you should continue to avoid contact sports for at least a month. Wear sunglasses when out in the sun to protect your eyes from the ultraviolet light, and use the provided eye drops to minimize dry eyes.
+Original Query: Does the effect wear off with age?
+Rewritten Query: Does the effect of LASIK wear off with age?
+Ground Truth:    Does the effect of LASIK wear off with age?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 89.3789s
+------------------------------
+Sample ID: 115 | Status: KEPT_ORIGINAL
+History:
+Original Query: What is tofu exactly?
+Rewritten Query: What is tofu exactly?
+Ground Truth:    What is tofu exactly?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 45.7498s
+------------------------------
+Sample ID: 116 | Status: REWRITTEN
+History:
+- What is tofu exactly?
+- Made from soybeans, tofu is also known as bean curd.
+Original Query: How is it made?
+Rewritten Query: How is tofu made?
+Ground Truth:    How is tofu made?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 45.7094s
+------------------------------
+Sample ID: 117 | Status: REWRITTEN
+History:
+- What is tofu exactly?
+- Made from soybeans, tofu is also known as bean curd.
+- How is tofu made?
+- Tofu is made from soybeans that are ground in water, heated, and coagulated with minerals like calcium or magnesium salt. The curds are then pressed into a block, which is then sold as tofu.
+Original Query: What are its origins?
+Rewritten Query: What are the origins of tofu?
+Ground Truth:    What are tofus origins?
+LLM Judge Score: 1.00
+ROUGE-L: 0.6000, BLEU: 0.0000
+Latency: 60.2387s
+------------------------------
+Sample ID: 118 | Status: KEPT_ORIGINAL
+History:
+- What is tofu exactly?
+- Made from soybeans, tofu is also known as bean curd.
+- How is tofu made?
+- Tofu is made from soybeans that are ground in water, heated, and coagulated with minerals like calcium or magnesium salt. The curds are then pressed into a block, which is then sold as tofu.
+- What are tofus origins?
+- Like many soya foods, tofu originated in China. Legend has it that it was discovered about 2000 years ago by a Chinese cook who accidentally curdled soy milk when he added nigari seaweed.
+Original Query: What is the best tofu?
+Rewritten Query: What is the best tofu?
+Ground Truth:    What is the best tofu?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.0079s
+------------------------------
+Sample ID: 119 | Status: REWRITTEN
+History:
+- What is tofu exactly?
+- Made from soybeans, tofu is also known as bean curd.
+- How is tofu made?
+- Tofu is made from soybeans that are ground in water, heated, and coagulated with minerals like calcium or magnesium salt. The curds are then pressed into a block, which is then sold as tofu.
+- What are tofus origins?
+- Like many soya foods, tofu originated in China. Legend has it that it was discovered about 2000 years ago by a Chinese cook who accidentally curdled soy milk when he added nigari seaweed.
+- What is the best tofu?
+- Silken: Good for making smoothies, sauces and salad dressings, and as an egg substitute in baking. Soft: Good for soups and for battering and frying.
+Original Query: Is it a kind of cheese?
+Rewritten Query: Is tofu a kind of cheese?
+Ground Truth:    Is tofu a kind of cheese?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 60.6146s
+------------------------------
+Sample ID: 120 | Status: REWRITTEN
+History:
+- What is tofu exactly?
+- Made from soybeans, tofu is also known as bean curd.
+- How is tofu made?
+- Tofu is made from soybeans that are ground in water, heated, and coagulated with minerals like calcium or magnesium salt. The curds are then pressed into a block, which is then sold as tofu.
+- What are tofus origins?
+- Like many soya foods, tofu originated in China. Legend has it that it was discovered about 2000 years ago by a Chinese cook who accidentally curdled soy milk when he added nigari seaweed.
+- What is the best tofu?
+- Silken: Good for making smoothies, sauces and salad dressings, and as an egg substitute in baking. Soft: Good for soups and for battering and frying.
+- Is tofu a kind of cheese?
+- It makes perfect sense why tofu is often called bean curd since it's made by curdling soy milk (from soybeans) and then pressing the resulting curds into soft, white blocks. The process of making tofu is relatively similar to the way that cheese is made from milk.
+Original Query: Can I eat it raw?
+Rewritten Query: Can I eat tofu raw?
+Ground Truth:    Can I eat tofu raw?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.5453s
+------------------------------
+Sample ID: 121 | Status: REWRITTEN
+History:
+- What is tofu exactly?
+- Made from soybeans, tofu is also known as bean curd.
+- How is tofu made?
+- Tofu is made from soybeans that are ground in water, heated, and coagulated with minerals like calcium or magnesium salt. The curds are then pressed into a block, which is then sold as tofu.
+- What are tofus origins?
+- Like many soya foods, tofu originated in China. Legend has it that it was discovered about 2000 years ago by a Chinese cook who accidentally curdled soy milk when he added nigari seaweed.
+- What is the best tofu?
+- Silken: Good for making smoothies, sauces and salad dressings, and as an egg substitute in baking. Soft: Good for soups and for battering and frying.
+- Is tofu a kind of cheese?
+- It makes perfect sense why tofu is often called bean curd since it's made by curdling soy milk (from soybeans) and then pressing the resulting curds into soft, white blocks. The process of making tofu is relatively similar to the way that cheese is made from milk.
+- Can I eat tofu raw?
+- Raw tofu can be eaten right off the packaging. Regardless of the type of tofu, you can just eat the tofu.
+Original Query: What are common ways to cook it?
+Rewritten Query: What are common ways to cook tofu?
+Ground Truth:    What are common ways to cook tofu?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 68.2959s
+------------------------------
+Sample ID: 122 | Status: REWRITTEN
+History:
+- What is tofu exactly?
+- Made from soybeans, tofu is also known as bean curd.
+- How is tofu made?
+- Tofu is made from soybeans that are ground in water, heated, and coagulated with minerals like calcium or magnesium salt. The curds are then pressed into a block, which is then sold as tofu.
+- What are tofus origins?
+- Like many soya foods, tofu originated in China. Legend has it that it was discovered about 2000 years ago by a Chinese cook who accidentally curdled soy milk when he added nigari seaweed.
+- What is the best tofu?
+- Silken: Good for making smoothies, sauces and salad dressings, and as an egg substitute in baking. Soft: Good for soups and for battering and frying.
+- Is tofu a kind of cheese?
+- It makes perfect sense why tofu is often called bean curd since it's made by curdling soy milk (from soybeans) and then pressing the resulting curds into soft, white blocks. The process of making tofu is relatively similar to the way that cheese is made from milk.
+- Can I eat tofu raw?
+- Raw tofu can be eaten right off the packaging. Regardless of the type of tofu, you can just eat the tofu.
+- What are common ways to cook tofu?
+- The most common methods for cooking extra-firm and firm tofu are pan-frying, stir-frying, baking, grilling, and scrambling it
+Original Query: In what cuisines is it popular?
+Rewritten Query: In what cuisines is tofu popular?
+Ground Truth:    In what cuisines is tofu popular?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 68.1379s
+------------------------------
+Sample ID: 123 | Status: KEPT_ORIGINAL
+History:
+- What is tofu exactly?
+- Made from soybeans, tofu is also known as bean curd.
+- How is tofu made?
+- Tofu is made from soybeans that are ground in water, heated, and coagulated with minerals like calcium or magnesium salt. The curds are then pressed into a block, which is then sold as tofu.
+- What are tofus origins?
+- Like many soya foods, tofu originated in China. Legend has it that it was discovered about 2000 years ago by a Chinese cook who accidentally curdled soy milk when he added nigari seaweed.
+- What is the best tofu?
+- Silken: Good for making smoothies, sauces and salad dressings, and as an egg substitute in baking. Soft: Good for soups and for battering and frying.
+- Is tofu a kind of cheese?
+- It makes perfect sense why tofu is often called bean curd since it's made by curdling soy milk (from soybeans) and then pressing the resulting curds into soft, white blocks. The process of making tofu is relatively similar to the way that cheese is made from milk.
+- Can I eat tofu raw?
+- Raw tofu can be eaten right off the packaging. Regardless of the type of tofu, you can just eat the tofu.
+- What are common ways to cook tofu?
+- The most common methods for cooking extra-firm and firm tofu are pan-frying, stir-frying, baking, grilling, and scrambling it
+- In what cuisines is tofu popular?
+- Tofu is an extremely popular food throughout almost the all of Asia. Tofu was first used in China over 2000 years ago and experts believe that it's production began sometime during the Han dynasty
+Original Query: Is tofu good for you?
+Rewritten Query: Is tofu good for you?
+Ground Truth:    Is tofu good for you?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.5153s
+------------------------------
+Sample ID: 124 | Status: REWRITTEN
+History:
+- What is tofu exactly?
+- Made from soybeans, tofu is also known as bean curd.
+- How is tofu made?
+- Tofu is made from soybeans that are ground in water, heated, and coagulated with minerals like calcium or magnesium salt. The curds are then pressed into a block, which is then sold as tofu.
+- What are tofus origins?
+- Like many soya foods, tofu originated in China. Legend has it that it was discovered about 2000 years ago by a Chinese cook who accidentally curdled soy milk when he added nigari seaweed.
+- What is the best tofu?
+- Silken: Good for making smoothies, sauces and salad dressings, and as an egg substitute in baking. Soft: Good for soups and for battering and frying.
+- Is tofu a kind of cheese?
+- It makes perfect sense why tofu is often called bean curd since it's made by curdling soy milk (from soybeans) and then pressing the resulting curds into soft, white blocks. The process of making tofu is relatively similar to the way that cheese is made from milk.
+- Can I eat tofu raw?
+- Raw tofu can be eaten right off the packaging. Regardless of the type of tofu, you can just eat the tofu.
+- What are common ways to cook tofu?
+- The most common methods for cooking extra-firm and firm tofu are pan-frying, stir-frying, baking, grilling, and scrambling it
+- In what cuisines is tofu popular?
+- Tofu is an extremely popular food throughout almost the all of Asia. Tofu was first used in China over 2000 years ago and experts believe that it's production began sometime during the Han dynasty
+- Is tofu good for you?
+- Tofu is a good source of protein and contains all nine essential amino acids. It is also a valuable plant source of iron and calcium and the minerals manganese, selenium and phosphorous.
+Original Query: Can it make you sick?
+Rewritten Query: Can eating tofu make you sick?
+Ground Truth:    Can tofu make you sick?
+LLM Judge Score: 1.00
+ROUGE-L: 0.9091, BLEU: 0.6435
+Latency: 60.8657s
+------------------------------
+Sample ID: 125 | Status: KEPT_ORIGINAL
+History:
+- What is tofu exactly?
+- Made from soybeans, tofu is also known as bean curd.
+- How is tofu made?
+- Tofu is made from soybeans that are ground in water, heated, and coagulated with minerals like calcium or magnesium salt. The curds are then pressed into a block, which is then sold as tofu.
+- What are tofus origins?
+- Like many soya foods, tofu originated in China. Legend has it that it was discovered about 2000 years ago by a Chinese cook who accidentally curdled soy milk when he added nigari seaweed.
+- What is the best tofu?
+- Silken: Good for making smoothies, sauces and salad dressings, and as an egg substitute in baking. Soft: Good for soups and for battering and frying.
+- Is tofu a kind of cheese?
+- It makes perfect sense why tofu is often called bean curd since it's made by curdling soy milk (from soybeans) and then pressing the resulting curds into soft, white blocks. The process of making tofu is relatively similar to the way that cheese is made from milk.
+- Can I eat tofu raw?
+- Raw tofu can be eaten right off the packaging. Regardless of the type of tofu, you can just eat the tofu.
+- What are common ways to cook tofu?
+- The most common methods for cooking extra-firm and firm tofu are pan-frying, stir-frying, baking, grilling, and scrambling it
+- In what cuisines is tofu popular?
+- Tofu is an extremely popular food throughout almost the all of Asia. Tofu was first used in China over 2000 years ago and experts believe that it's production began sometime during the Han dynasty
+- Is tofu good for you?
+- Tofu is a good source of protein and contains all nine essential amino acids. It is also a valuable plant source of iron and calcium and the minerals manganese, selenium and phosphorous.
+- Can tofu make you sick?
+- A refrigerated tofu is usually stored with water and when it is left in the refrigerator for too long, it will be at risk of microbial degradation. Because of this, a person who has consumed expired tofu may exhibit digestive issues as well as other symptoms that are similar to that of food poisoning.
+Original Query: Is too much tofu bad for you?
+Rewritten Query: Is too much tofu bad for you?
+Ground Truth:    Is too much tofu bad for you?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 68.7626s
+------------------------------
+Sample ID: 126 | Status: KEPT_ORIGINAL
+History:
+Original Query: What are scalable data center network architectures?
+Rewritten Query: What are scalable data center network architectures?
+Ground Truth:    What are scalable data center network architectures?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 68.5186s
+------------------------------
+Sample ID: 127 | Status: REWRITTEN
+History:
+- What are scalable data center network architectures?
+- DCNs need to be scalable and efficient to connect tens or even hundreds of thousands of servers to handle the growing demands of Cloud computing.
+Original Query: What are some examples?
+Rewritten Query: What are some examples of scalable data center network architectures?
+Ground Truth:    What are some examples of scalable data center network architectures?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 89.1547s
+------------------------------
+Sample ID: 128 | Status: KEPT_ORIGINAL
+History:
+- What are scalable data center network architectures?
+- DCNs need to be scalable and efficient to connect tens or even hundreds of thousands of servers to handle the growing demands of Cloud computing.
+- What are some examples of scalable data center network architectures?
+- 1 Three-tier DCN 2 Fat tree DCN 3 DCell
+Original Query: Describe the characteristics of FAT tree topology.
+Rewritten Query: Describe the characteristics of FAT tree topology.
+Ground Truth:    Describe the characteristics of FAT tree topology.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 68.0350s
+------------------------------
+Sample ID: 129 | Status: REWRITTEN
+History:
+- What are scalable data center network architectures?
+- DCNs need to be scalable and efficient to connect tens or even hundreds of thousands of servers to handle the growing demands of Cloud computing.
+- What are some examples of scalable data center network architectures?
+- 1 Three-tier DCN 2 Fat tree DCN 3 DCell
+- Describe the characteristics of FAT tree topology.
+- In a fat tree, branches nearer the top of the hierarchy are fatter (thicker) than branches further down the hierarchy. In a telecommunications network, the branches are data links; the varied thickness (bandwidth) of the data links allows for more efficient and technology-specific use.
+Original Query: What routes can be taken by an upstream packet?
+Rewritten Query: What routes can be taken by an upstream packet in a fat tree topology?
+Ground Truth:    What routes can be taken by an upstream packet?
+LLM Judge Score: 0.80
+ROUGE-L: 0.7826, BLEU: 0.5659
+Latency: 119.1489s
+------------------------------
+Sample ID: 130 | Status: REWRITTEN
+History:
+- What are scalable data center network architectures?
+- DCNs need to be scalable and efficient to connect tens or even hundreds of thousands of servers to handle the growing demands of Cloud computing.
+- What are some examples of scalable data center network architectures?
+- 1 Three-tier DCN 2 Fat tree DCN 3 DCell
+- Describe the characteristics of FAT tree topology.
+- In a fat tree, branches nearer the top of the hierarchy are fatter (thicker) than branches further down the hierarchy. In a telecommunications network, the branches are data links; the varied thickness (bandwidth) of the data links allows for more efficient and technology-specific use.
+- What routes can be taken by an upstream packet?
+- The router is upstream of the computer, connecting the computer to the whole internet. ... Each router does not need to know the whole route to the destination;
+Original Query: Describe core, aggregator and edge switches.
+Rewritten Query: Describe the functions and characteristics of core, aggregator, and edge switches in a data center network.
+Ground Truth:    Describe core, aggregator and edge switches.
+LLM Judge Score: 0.90
+ROUGE-L: 0.5455, BLEU: 0.0000
+Latency: 148.3948s
+------------------------------
+Sample ID: 131 | Status: REWRITTEN
+History:
+- What are scalable data center network architectures?
+- DCNs need to be scalable and efficient to connect tens or even hundreds of thousands of servers to handle the growing demands of Cloud computing.
+- What are some examples of scalable data center network architectures?
+- 1 Three-tier DCN 2 Fat tree DCN 3 DCell
+- Describe the characteristics of FAT tree topology.
+- In a fat tree, branches nearer the top of the hierarchy are fatter (thicker) than branches further down the hierarchy. In a telecommunications network, the branches are data links; the varied thickness (bandwidth) of the data links allows for more efficient and technology-specific use.
+- What routes can be taken by an upstream packet?
+- The router is upstream of the computer, connecting the computer to the whole internet. ... Each router does not need to know the whole route to the destination;
+- Describe core, aggregator and edge switches.
+- In small networks of a few hundred users, edge switches can be connected redundantly directly to core switch/router devices. However, for larger networks, , an additional layer of switching, called the distribution layer, aggregates the edge switches.
+Original Query: Are flows bidirectional?
+Rewritten Query: Are data flows bidirectional in a data center network?
+Ground Truth:    Are flows bidirectional?
+LLM Judge Score: 0.90
+ROUGE-L: 0.5000, BLEU: 0.0000
+Latency: 89.9508s
+------------------------------
+Sample ID: 132 | Status: REWRITTEN
+History:
+- What are scalable data center network architectures?
+- DCNs need to be scalable and efficient to connect tens or even hundreds of thousands of servers to handle the growing demands of Cloud computing.
+- What are some examples of scalable data center network architectures?
+- 1 Three-tier DCN 2 Fat tree DCN 3 DCell
+- Describe the characteristics of FAT tree topology.
+- In a fat tree, branches nearer the top of the hierarchy are fatter (thicker) than branches further down the hierarchy. In a telecommunications network, the branches are data links; the varied thickness (bandwidth) of the data links allows for more efficient and technology-specific use.
+- What routes can be taken by an upstream packet?
+- The router is upstream of the computer, connecting the computer to the whole internet. ... Each router does not need to know the whole route to the destination;
+- Describe core, aggregator and edge switches.
+- In small networks of a few hundred users, edge switches can be connected redundantly directly to core switch/router devices. However, for larger networks, , an additional layer of switching, called the distribution layer, aggregates the edge switches.
+- Are flows bidirectional?
+Original Query: How many forwarding rules are there in each layer of the tree?
+Rewritten Query: How many forwarding rules are there in each layer of a fat tree topology?
+Ground Truth:    How many forwarding rules are there in each layer of the FAT tree topology?
+LLM Judge Score: 0.90
+ROUGE-L: 0.9286, BLEU: 0.7242
+Latency: 119.1859s
+------------------------------
+Sample ID: 133 | Status: KEPT_ORIGINAL
+History:
+- What are scalable data center network architectures?
+- DCNs need to be scalable and efficient to connect tens or even hundreds of thousands of servers to handle the growing demands of Cloud computing.
+- What are some examples of scalable data center network architectures?
+- 1 Three-tier DCN 2 Fat tree DCN 3 DCell
+- Describe the characteristics of FAT tree topology.
+- In a fat tree, branches nearer the top of the hierarchy are fatter (thicker) than branches further down the hierarchy. In a telecommunications network, the branches are data links; the varied thickness (bandwidth) of the data links allows for more efficient and technology-specific use.
+- What routes can be taken by an upstream packet?
+- The router is upstream of the computer, connecting the computer to the whole internet. ... Each router does not need to know the whole route to the destination;
+- Describe core, aggregator and edge switches.
+- In small networks of a few hundred users, edge switches can be connected redundantly directly to core switch/router devices. However, for larger networks, , an additional layer of switching, called the distribution layer, aggregates the edge switches.
+- Are flows bidirectional?
+- How many forwarding rules are there in each layer of the FAT tree topology?
+Original Query: Describe the jellyfish architecture.
+Rewritten Query: Describe the jellyfish architecture.
+Ground Truth:    Describe the jellyfish architecture.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.4711s
+------------------------------
+Sample ID: 134 | Status: KEPT_ORIGINAL
+History:
+- What are scalable data center network architectures?
+- DCNs need to be scalable and efficient to connect tens or even hundreds of thousands of servers to handle the growing demands of Cloud computing.
+- What are some examples of scalable data center network architectures?
+- 1 Three-tier DCN 2 Fat tree DCN 3 DCell
+- Describe the characteristics of FAT tree topology.
+- In a fat tree, branches nearer the top of the hierarchy are fatter (thicker) than branches further down the hierarchy. In a telecommunications network, the branches are data links; the varied thickness (bandwidth) of the data links allows for more efficient and technology-specific use.
+- What routes can be taken by an upstream packet?
+- The router is upstream of the computer, connecting the computer to the whole internet. ... Each router does not need to know the whole route to the destination;
+- Describe core, aggregator and edge switches.
+- In small networks of a few hundred users, edge switches can be connected redundantly directly to core switch/router devices. However, for larger networks, , an additional layer of switching, called the distribution layer, aggregates the edge switches.
+- Are flows bidirectional?
+- How many forwarding rules are there in each layer of the FAT tree topology?
+- Describe the jellyfish architecture.
+- We present Jellyfish, a high-capacity network interconnect which, by adopting a random graph topology, yields itself naturally to incremental expansion. Somewhat surprisingly, Jellyfish is more cost-efficient than a fat-tree, supporting as many as 25% more servers at full capacity using the same equipment at the scale of a few thousand nodes, and this advantage improves with scale.
+Original Query: Which architecture is more resilient to failure?
+Rewritten Query: Which architecture is more resilient to failure?
+Ground Truth:    Which architecture is more resilient to failure?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 68.2101s
+------------------------------
+Sample ID: 135 | Status: KEPT_ORIGINAL
+History:
+Original Query: Tell me about the International Linguistics Olympiad.
+Rewritten Query: Tell me about the International Linguistics Olympiad.
+Ground Truth:    Tell me about the International Linguistics Olympiad.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 83.3529s
+------------------------------
+Sample ID: 136 | Status: REWRITTEN
+History:
+- Tell me about the International Linguistics Olympiad.
+- The International Linguistics Olympiad (IOL) is one of 12 International Science Olympiads for secondary school students that has been held annually since 2003. Each year, teams of young linguists from around the world gather and test their minds against the world's toughest puzzles in language and linguistics.
+Original Query: How do I prepare for it?
+Rewritten Query: How do I prepare for the International Linguistics Olympiad?
+Ground Truth:    How do I prepare for the International Linguistic Olympiad?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8889, BLEU: 0.7071
+Latency: 97.9491s
+------------------------------
+Sample ID: 137 | Status: REWRITTEN
+History:
+- Tell me about the International Linguistics Olympiad.
+- The International Linguistics Olympiad (IOL) is one of 12 International Science Olympiads for secondary school students that has been held annually since 2003. Each year, teams of young linguists from around the world gather and test their minds against the world's toughest puzzles in language and linguistics.
+- How do I prepare for the International Linguistic Olympiad?
+- Preparation for The International Linguistics Olympiad (and national olympiads before that) generally consists of two parts: problem solving - find all linguistic problems that you can find and try to solve them. theoretical knowledge - this is not a strict requirement, but it may help you a lot.
+Original Query: How tough is the exam?
+Rewritten Query: How tough is the International Linguistics Olympiad exam?
+Ground Truth:    How tough is the exam for the International Linguistic Olympiad?
+LLM Judge Score: 0.90
+ROUGE-L: 0.6667, BLEU: 0.3054
+Latency: 90.8475s
+------------------------------
+Sample ID: 138 | Status: REWRITTEN
+History:
+- Tell me about the International Linguistics Olympiad.
+- The International Linguistics Olympiad (IOL) is one of 12 International Science Olympiads for secondary school students that has been held annually since 2003. Each year, teams of young linguists from around the world gather and test their minds against the world's toughest puzzles in language and linguistics.
+- How do I prepare for the International Linguistic Olympiad?
+- Preparation for The International Linguistics Olympiad (and national olympiads before that) generally consists of two parts: problem solving - find all linguistic problems that you can find and try to solve them. theoretical knowledge - this is not a strict requirement, but it may help you a lot.
+- How tough is the exam for the International Linguistic Olympiad?
+- The team contest has consisted of one extremely difficult and time-consuming problem since the 2nd IOL. Teams, which generally consist of four students, are given three to four hours to solve this problem.
+Original Query: What kind of problems can I expect?
+Rewritten Query: What kind of problems can I expect on the International Linguistics Olympiad?
+Ground Truth:    What kind of problems can I expect during the exam for the International Linguistic Olympiad?
+LLM Judge Score: 0.90
+ROUGE-L: 0.7407, BLEU: 0.4493
+Latency: 120.1602s
+------------------------------
+Sample ID: 139 | Status: KEPT_ORIGINAL
+History:
+- Tell me about the International Linguistics Olympiad.
+- The International Linguistics Olympiad (IOL) is one of 12 International Science Olympiads for secondary school students that has been held annually since 2003. Each year, teams of young linguists from around the world gather and test their minds against the world's toughest puzzles in language and linguistics.
+- How do I prepare for the International Linguistic Olympiad?
+- Preparation for The International Linguistics Olympiad (and national olympiads before that) generally consists of two parts: problem solving - find all linguistic problems that you can find and try to solve them. theoretical knowledge - this is not a strict requirement, but it may help you a lot.
+- How tough is the exam for the International Linguistic Olympiad?
+- The team contest has consisted of one extremely difficult and time-consuming problem since the 2nd IOL. Teams, which generally consist of four students, are given three to four hours to solve this problem.
+- What kind of problems can I expect during the exam for the International Linguistic Olympiad?
+- The setup differs from most of the other Science Olympiads, in that the olympiad contains both individual and team contests. The individual contest consists of 5 problems, covering the main fields of theoretical, mathematical and applied linguistics – phonetics, morphology, semantics, syntax, sociolinguistics, etc. – which must be solved in six hours.
+Original Query: Tell me about the history of linguistics as a field.
+Rewritten Query: Tell me about the history of linguistics as a field.
+Ground Truth:    Tell me about the history of linguistics as a field.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 97.9268s
+------------------------------
+Sample ID: 140 | Status: KEPT_ORIGINAL
+History:
+- Tell me about the International Linguistics Olympiad.
+- The International Linguistics Olympiad (IOL) is one of 12 International Science Olympiads for secondary school students that has been held annually since 2003. Each year, teams of young linguists from around the world gather and test their minds against the world's toughest puzzles in language and linguistics.
+- How do I prepare for the International Linguistic Olympiad?
+- Preparation for The International Linguistics Olympiad (and national olympiads before that) generally consists of two parts: problem solving - find all linguistic problems that you can find and try to solve them. theoretical knowledge - this is not a strict requirement, but it may help you a lot.
+- How tough is the exam for the International Linguistic Olympiad?
+- The team contest has consisted of one extremely difficult and time-consuming problem since the 2nd IOL. Teams, which generally consist of four students, are given three to four hours to solve this problem.
+- What kind of problems can I expect during the exam for the International Linguistic Olympiad?
+- The setup differs from most of the other Science Olympiads, in that the olympiad contains both individual and team contests. The individual contest consists of 5 problems, covering the main fields of theoretical, mathematical and applied linguistics – phonetics, morphology, semantics, syntax, sociolinguistics, etc. – which must be solved in six hours.
+- Tell me about the history of linguistics as a field.
+- The 1960s saw the rise of many new fields in linguistics, such as Noam Chomsky's generative grammar, William Labov's sociolinguistics,
+Original Query: Who was Panini and what were his contributions?
+Rewritten Query: Who was Panini and what were his contributions?
+Ground Truth:    Who was Panini and what were his contributions?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 83.3354s
+------------------------------
+Sample ID: 141 | Status: KEPT_ORIGINAL
+History:
+- Tell me about the International Linguistics Olympiad.
+- The International Linguistics Olympiad (IOL) is one of 12 International Science Olympiads for secondary school students that has been held annually since 2003. Each year, teams of young linguists from around the world gather and test their minds against the world's toughest puzzles in language and linguistics.
+- How do I prepare for the International Linguistic Olympiad?
+- Preparation for The International Linguistics Olympiad (and national olympiads before that) generally consists of two parts: problem solving - find all linguistic problems that you can find and try to solve them. theoretical knowledge - this is not a strict requirement, but it may help you a lot.
+- How tough is the exam for the International Linguistic Olympiad?
+- The team contest has consisted of one extremely difficult and time-consuming problem since the 2nd IOL. Teams, which generally consist of four students, are given three to four hours to solve this problem.
+- What kind of problems can I expect during the exam for the International Linguistic Olympiad?
+- The setup differs from most of the other Science Olympiads, in that the olympiad contains both individual and team contests. The individual contest consists of 5 problems, covering the main fields of theoretical, mathematical and applied linguistics – phonetics, morphology, semantics, syntax, sociolinguistics, etc. – which must be solved in six hours.
+- Tell me about the history of linguistics as a field.
+- The 1960s saw the rise of many new fields in linguistics, such as Noam Chomsky's generative grammar, William Labov's sociolinguistics,
+- Who was Panini and what were his contributions?
+- Panini was a Sanskrit grammarian who gave a comprehensive and scientific theory of phonetics, phonology, and morphology. Sanskrit was the classical literary language of the Indian Hindus and Panini is considered the founder of the language and literature.
+Original Query: What is the link between linguistics and computer science?
+Rewritten Query: What is the link between linguistics and computer science?
+Ground Truth:    What is the link between linguistics and computer science?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 90.7289s
+------------------------------
+Sample ID: 142 | Status: KEPT_ORIGINAL
+History:
+Original Query: What is a normal blood sugar level?
+Rewritten Query: What is a normal blood sugar level?
+Ground Truth:    What is a normal blood sugar level?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 68.5374s
+------------------------------
+Sample ID: 143 | Status: REWRITTEN
+History:
+- What is a normal blood sugar level?
+- What are normal blood sugar levels? Normal blood sugar levels are less than 100 mg/dL after not eating (fasting) for at least eight hours. And they're less than 140 mg/dL two hours after eating.
+Original Query: What does it mean if it's higher than this?
+Rewritten Query: What does it mean if blood sugar levels are higher than normal?
+Ground Truth:    What does it mean if blood sugar level is higher than normal?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8333, BLEU: 0.6703
+Latency: 105.4655s
+------------------------------
+Sample ID: 144 | Status: REWRITTEN
+History:
+- What is a normal blood sugar level?
+- What are normal blood sugar levels? Normal blood sugar levels are less than 100 mg/dL after not eating (fasting) for at least eight hours. And they're less than 140 mg/dL two hours after eating.
+- What does it mean if blood sugar level is higher than normal?
+- Hyperglycemia is a defining characteristic of diabetes—when the blood glucose level is too high because the body isn't properly using or doesn't make the hormone insulin. Eating too many processed foods may cause your blood sugar to rise.
+Original Query: What is a dangerous level?
+Rewritten Query: What is a dangerous blood sugar level?
+Ground Truth:    What is a dangerous level for blood sugar?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8000, BLEU: 0.3899
+Latency: 68.5820s
+------------------------------
+Sample ID: 145 | Status: REWRITTEN
+History:
+- What is a normal blood sugar level?
+- What are normal blood sugar levels? Normal blood sugar levels are less than 100 mg/dL after not eating (fasting) for at least eight hours. And they're less than 140 mg/dL two hours after eating.
+- What does it mean if blood sugar level is higher than normal?
+- Hyperglycemia is a defining characteristic of diabetes—when the blood glucose level is too high because the body isn't properly using or doesn't make the hormone insulin. Eating too many processed foods may cause your blood sugar to rise.
+- What is a dangerous level for blood sugar?
+- A blood sugar level below 70 mg/dL (3.9 mmol/L) is low and can harm you. A blood sugar level below 54 mg/dL (3.0 mmol/L) is a cause for immediate action.
+Original Query: How do you bring it down quickly?
+Rewritten Query: How do you bring high blood sugar levels down quickly?
+Ground Truth:    How do you bring blood sugar levels down quickly?
+LLM Judge Score: 0.90
+ROUGE-L: 0.9474, BLEU: 0.7017
+Latency: 90.7945s
+------------------------------
+Sample ID: 146 | Status: REWRITTEN
+History:
+- What is a normal blood sugar level?
+- What are normal blood sugar levels? Normal blood sugar levels are less than 100 mg/dL after not eating (fasting) for at least eight hours. And they're less than 140 mg/dL two hours after eating.
+- What does it mean if blood sugar level is higher than normal?
+- Hyperglycemia is a defining characteristic of diabetes—when the blood glucose level is too high because the body isn't properly using or doesn't make the hormone insulin. Eating too many processed foods may cause your blood sugar to rise.
+- What is a dangerous level for blood sugar?
+- A blood sugar level below 70 mg/dL (3.9 mmol/L) is low and can harm you. A blood sugar level below 54 mg/dL (3.0 mmol/L) is a cause for immediate action.
+- How do you bring blood sugar levels down quickly?
+- Pumpernickel has a low GI score and fewer carbs than other breads. ...Most fruits. ...Sweet potatoes and yams. ...Oatmeal and oat bran. ...Most nuts. ...Legumes. ...Garlic. ...Cold-water fish.
+Original Query: How fast can it rise?
+Rewritten Query: How fast can blood sugar levels rise?
+Ground Truth:    How fast can blood sugar levels rise?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 68.7896s
+------------------------------
+Sample ID: 147 | Status: REWRITTEN
+History:
+- What is a normal blood sugar level?
+- What are normal blood sugar levels? Normal blood sugar levels are less than 100 mg/dL after not eating (fasting) for at least eight hours. And they're less than 140 mg/dL two hours after eating.
+- What does it mean if blood sugar level is higher than normal?
+- Hyperglycemia is a defining characteristic of diabetes—when the blood glucose level is too high because the body isn't properly using or doesn't make the hormone insulin. Eating too many processed foods may cause your blood sugar to rise.
+- What is a dangerous level for blood sugar?
+- A blood sugar level below 70 mg/dL (3.9 mmol/L) is low and can harm you. A blood sugar level below 54 mg/dL (3.0 mmol/L) is a cause for immediate action.
+- How do you bring blood sugar levels down quickly?
+- Pumpernickel has a low GI score and fewer carbs than other breads. ...Most fruits. ...Sweet potatoes and yams. ...Oatmeal and oat bran. ...Most nuts. ...Legumes. ...Garlic. ...Cold-water fish.
+- How fast can blood sugar levels rise?
+- Usually, blood sugar starts to rise 10-15 minutes after a meal and reaches its peak after an hour.
+Original Query: And what if it's lower than normal?
+Rewritten Query: What does it mean if blood sugar level is lower than normal?
+Ground Truth:    What if a blood sugar level is lower than normal?
+LLM Judge Score: 0.90
+ROUGE-L: 0.8182, BLEU: 0.5915
+Latency: 105.6194s
+------------------------------
+Sample ID: 148 | Status: REWRITTEN
+History:
+- What is a normal blood sugar level?
+- What are normal blood sugar levels? Normal blood sugar levels are less than 100 mg/dL after not eating (fasting) for at least eight hours. And they're less than 140 mg/dL two hours after eating.
+- What does it mean if blood sugar level is higher than normal?
+- Hyperglycemia is a defining characteristic of diabetes—when the blood glucose level is too high because the body isn't properly using or doesn't make the hormone insulin. Eating too many processed foods may cause your blood sugar to rise.
+- What is a dangerous level for blood sugar?
+- A blood sugar level below 70 mg/dL (3.9 mmol/L) is low and can harm you. A blood sugar level below 54 mg/dL (3.0 mmol/L) is a cause for immediate action.
+- How do you bring blood sugar levels down quickly?
+- Pumpernickel has a low GI score and fewer carbs than other breads. ...Most fruits. ...Sweet potatoes and yams. ...Oatmeal and oat bran. ...Most nuts. ...Legumes. ...Garlic. ...Cold-water fish.
+- How fast can blood sugar levels rise?
+- Usually, blood sugar starts to rise 10-15 minutes after a meal and reaches its peak after an hour.
+- What if a blood sugar level is lower than normal?
+- A blood sugar level below 70 mg/dL (3.9 mmol/L) is low and can harm you. A blood sugar level below 54 mg/dL (3.0 mmol/L) is a cause for immediate action.
+Original Query: How does this make you feel?
+Rewritten Query: How does low blood sugar make you feel?
+Ground Truth:    How does this make you feel if a blood sugar level is lower than normal?
+LLM Judge Score: 0.90
+ROUGE-L: 0.4348, BLEU: 0.0000
+Latency: 76.0293s
+------------------------------
+Sample ID: 149 | Status: REWRITTEN
+History:
+- What is a normal blood sugar level?
+- What are normal blood sugar levels? Normal blood sugar levels are less than 100 mg/dL after not eating (fasting) for at least eight hours. And they're less than 140 mg/dL two hours after eating.
+- What does it mean if blood sugar level is higher than normal?
+- Hyperglycemia is a defining characteristic of diabetes—when the blood glucose level is too high because the body isn't properly using or doesn't make the hormone insulin. Eating too many processed foods may cause your blood sugar to rise.
+- What is a dangerous level for blood sugar?
+- A blood sugar level below 70 mg/dL (3.9 mmol/L) is low and can harm you. A blood sugar level below 54 mg/dL (3.0 mmol/L) is a cause for immediate action.
+- How do you bring blood sugar levels down quickly?
+- Pumpernickel has a low GI score and fewer carbs than other breads. ...Most fruits. ...Sweet potatoes and yams. ...Oatmeal and oat bran. ...Most nuts. ...Legumes. ...Garlic. ...Cold-water fish.
+- How fast can blood sugar levels rise?
+- Usually, blood sugar starts to rise 10-15 minutes after a meal and reaches its peak after an hour.
+- What if a blood sugar level is lower than normal?
+- A blood sugar level below 70 mg/dL (3.9 mmol/L) is low and can harm you. A blood sugar level below 54 mg/dL (3.0 mmol/L) is a cause for immediate action.
+- How does this make you feel if a blood sugar level is lower than normal?
+- If blood sugar levels become too low, signs and symptoms may include:An irregular heart rhythmFatiguePale skinShakinessAnxietySweatingHungerIrritabilityTingling sensation around the mouthCrying out during sleep
+Original Query: Do different activities lead to an imbalance?
+Rewritten Query: Do different activities lead to low or high blood sugar levels?
+Ground Truth:    Do different activities lead to an imbalance in blood sugar levels?
+LLM Judge Score: 0.90
+ROUGE-L: 0.7273, BLEU: 0.5311
+Latency: 98.1744s
+------------------------------
+Sample ID: 150 | Status: REWRITTEN
+History:
+- What is a normal blood sugar level?
+- What are normal blood sugar levels? Normal blood sugar levels are less than 100 mg/dL after not eating (fasting) for at least eight hours. And they're less than 140 mg/dL two hours after eating.
+- What does it mean if blood sugar level is higher than normal?
+- Hyperglycemia is a defining characteristic of diabetes—when the blood glucose level is too high because the body isn't properly using or doesn't make the hormone insulin. Eating too many processed foods may cause your blood sugar to rise.
+- What is a dangerous level for blood sugar?
+- A blood sugar level below 70 mg/dL (3.9 mmol/L) is low and can harm you. A blood sugar level below 54 mg/dL (3.0 mmol/L) is a cause for immediate action.
+- How do you bring blood sugar levels down quickly?
+- Pumpernickel has a low GI score and fewer carbs than other breads. ...Most fruits. ...Sweet potatoes and yams. ...Oatmeal and oat bran. ...Most nuts. ...Legumes. ...Garlic. ...Cold-water fish.
+- How fast can blood sugar levels rise?
+- Usually, blood sugar starts to rise 10-15 minutes after a meal and reaches its peak after an hour.
+- What if a blood sugar level is lower than normal?
+- A blood sugar level below 70 mg/dL (3.9 mmol/L) is low and can harm you. A blood sugar level below 54 mg/dL (3.0 mmol/L) is a cause for immediate action.
+- How does this make you feel if a blood sugar level is lower than normal?
+- If blood sugar levels become too low, signs and symptoms may include:An irregular heart rhythmFatiguePale skinShakinessAnxietySweatingHungerIrritabilityTingling sensation around the mouthCrying out during sleep
+- Do different activities lead to an imbalance in blood sugar levels?
+- In fact, moderate to intense exercise may cause your blood glucose to drop for the next 24 hours following exercise. This post-exercise hypoglycemia is often referred to as the lag effect of exercise.
+Original Query: Is there a relation between age and sugar levels?
+Rewritten Query: Is there a relation between age and blood sugar levels?
+Ground Truth:    Is there a relation between age and sugar levels?
+LLM Judge Score: 1.00
+ROUGE-L: 0.9474, BLEU: 0.7017
+Latency: 90.7463s
+------------------------------
+Sample ID: 151 | Status: KEPT_ORIGINAL
+History:
+Original Query: What are the different forms of energy?
+Rewritten Query: What are the different forms of energy?
+Ground Truth:    What are the different forms of energy?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 68.6018s
+------------------------------
+Sample ID: 152 | Status: REWRITTEN
+History:
+- What are the different forms of energy?
+- Examples of these are: light energy, heat energy, mechanical energy, gravitational energy, electrical energy, sound energy, chemical energy, nuclear or atomic energy and so on.
+Original Query: How can it be stored?
+Rewritten Query: How can energy be stored?
+Ground Truth:    How can energy be stored?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.9302s
+------------------------------
+Sample ID: 153 | Status: KEPT_ORIGINAL
+History:
+- What are the different forms of energy?
+- Examples of these are: light energy, heat energy, mechanical energy, gravitational energy, electrical energy, sound energy, chemical energy, nuclear or atomic energy and so on.
+- How can energy be stored?
+- Batteries, gasoline, natural gas, food, water towers, a wound up alarm clock, a Thermos flask with hot water and even pooh are all stores of energy. They can be transferred into other kinds of energy.
+Original Query: What type of energy is used in motion?
+Rewritten Query: What type of energy is used in motion?
+Ground Truth:    What type of energy is used in motion?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 75.9211s
+------------------------------
+Sample ID: 154 | Status: KEPT_ORIGINAL
+History:
+- What are the different forms of energy?
+- Examples of these are: light energy, heat energy, mechanical energy, gravitational energy, electrical energy, sound energy, chemical energy, nuclear or atomic energy and so on.
+- How can energy be stored?
+- Batteries, gasoline, natural gas, food, water towers, a wound up alarm clock, a Thermos flask with hot water and even pooh are all stores of energy. They can be transferred into other kinds of energy.
+- What type of energy is used in motion?
+- Motion energy – also known as mechanical energy – is the energy stored in moving objects. As the object moves faster, more energy is stored.
+Original Query: Tell me about mechanical energy.
+Rewritten Query: Tell me about mechanical energy.
+Ground Truth:    Tell me about mechanical energy.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.8090s
+------------------------------
+Sample ID: 155 | Status: REWRITTEN
+History:
+- What are the different forms of energy?
+- Examples of these are: light energy, heat energy, mechanical energy, gravitational energy, electrical energy, sound energy, chemical energy, nuclear or atomic energy and so on.
+- How can energy be stored?
+- Batteries, gasoline, natural gas, food, water towers, a wound up alarm clock, a Thermos flask with hot water and even pooh are all stores of energy. They can be transferred into other kinds of energy.
+- What type of energy is used in motion?
+- Motion energy – also known as mechanical energy – is the energy stored in moving objects. As the object moves faster, more energy is stored.
+- Tell me about mechanical energy.
+- Mechanical energy is the sum of kinetic and potential energy in an object that is used to do work. In other words, it is energy in an object due to its motion or position, or both.
+Original Query: Give me some examples.
+Rewritten Query: Give me some examples of mechanical energy.
+Ground Truth:    Give me some examples of mechanical energy.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 67.5731s
+------------------------------
+Sample ID: 156 | Status: KEPT_ORIGINAL
+History:
+- What are the different forms of energy?
+- Examples of these are: light energy, heat energy, mechanical energy, gravitational energy, electrical energy, sound energy, chemical energy, nuclear or atomic energy and so on.
+- How can energy be stored?
+- Batteries, gasoline, natural gas, food, water towers, a wound up alarm clock, a Thermos flask with hot water and even pooh are all stores of energy. They can be transferred into other kinds of energy.
+- What type of energy is used in motion?
+- Motion energy – also known as mechanical energy – is the energy stored in moving objects. As the object moves faster, more energy is stored.
+- Tell me about mechanical energy.
+- Mechanical energy is the sum of kinetic and potential energy in an object that is used to do work. In other words, it is energy in an object due to its motion or position, or both.
+- Give me some examples of mechanical energy.
+- A few examples are: a moving car possesses mechanical energy due to its motion(kinetic energy) and a barbell lifted high above a weightlifter's head possesses mechanical energy due to its vertical position above the ground(potential energy).
+Original Query: Why is sound a form of mechanical energy?
+Rewritten Query: Why is sound a form of mechanical energy?
+Ground Truth:    Why is sound a form of mechanical energy?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 74.6750s
+------------------------------
+Sample ID: 157 | Status: REWRITTEN
+History:
+- What are the different forms of energy?
+- Examples of these are: light energy, heat energy, mechanical energy, gravitational energy, electrical energy, sound energy, chemical energy, nuclear or atomic energy and so on.
+- How can energy be stored?
+- Batteries, gasoline, natural gas, food, water towers, a wound up alarm clock, a Thermos flask with hot water and even pooh are all stores of energy. They can be transferred into other kinds of energy.
+- What type of energy is used in motion?
+- Motion energy – also known as mechanical energy – is the energy stored in moving objects. As the object moves faster, more energy is stored.
+- Tell me about mechanical energy.
+- Mechanical energy is the sum of kinetic and potential energy in an object that is used to do work. In other words, it is energy in an object due to its motion or position, or both.
+- Give me some examples of mechanical energy.
+- A few examples are: a moving car possesses mechanical energy due to its motion(kinetic energy) and a barbell lifted high above a weightlifter's head possesses mechanical energy due to its vertical position above the ground(potential energy).
+- Why is sound a form of mechanical energy?
+- Sound is a form of mechanical energy because the source of sound is vibration. Mechanical energy consists of gravitational potential energy and kinetic energy.
+Original Query: How does it differ from potential energy?
+Rewritten Query: How does mechanical energy differ from potential energy?
+Ground Truth:    How does mechanical energy differ from potential energy?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 74.8490s
+------------------------------
+Sample ID: 158 | Status: REWRITTEN
+History:
+- What are the different forms of energy?
+- Examples of these are: light energy, heat energy, mechanical energy, gravitational energy, electrical energy, sound energy, chemical energy, nuclear or atomic energy and so on.
+- How can energy be stored?
+- Batteries, gasoline, natural gas, food, water towers, a wound up alarm clock, a Thermos flask with hot water and even pooh are all stores of energy. They can be transferred into other kinds of energy.
+- What type of energy is used in motion?
+- Motion energy – also known as mechanical energy – is the energy stored in moving objects. As the object moves faster, more energy is stored.
+- Tell me about mechanical energy.
+- Mechanical energy is the sum of kinetic and potential energy in an object that is used to do work. In other words, it is energy in an object due to its motion or position, or both.
+- Give me some examples of mechanical energy.
+- A few examples are: a moving car possesses mechanical energy due to its motion(kinetic energy) and a barbell lifted high above a weightlifter's head possesses mechanical energy due to its vertical position above the ground(potential energy).
+- Why is sound a form of mechanical energy?
+- Sound is a form of mechanical energy because the source of sound is vibration. Mechanical energy consists of gravitational potential energy and kinetic energy.
+- How does mechanical energy differ from potential energy?
+- Mechanical energy can be either kinetic (energy in motion) or potential (energy that is stored). The sum of an object's kinetic and potential energy equals the object's total mechanical energy.
+Original Query: Are potential and kinetic the same?
+Rewritten Query: Are potential energy and kinetic energy the same?
+Ground Truth:    Are potential energy and kinetic energy the same?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 74.7345s
+------------------------------
+Sample ID: 159 | Status: REWRITTEN
+History:
+- What are the different forms of energy?
+- Examples of these are: light energy, heat energy, mechanical energy, gravitational energy, electrical energy, sound energy, chemical energy, nuclear or atomic energy and so on.
+- How can energy be stored?
+- Batteries, gasoline, natural gas, food, water towers, a wound up alarm clock, a Thermos flask with hot water and even pooh are all stores of energy. They can be transferred into other kinds of energy.
+- What type of energy is used in motion?
+- Motion energy – also known as mechanical energy – is the energy stored in moving objects. As the object moves faster, more energy is stored.
+- Tell me about mechanical energy.
+- Mechanical energy is the sum of kinetic and potential energy in an object that is used to do work. In other words, it is energy in an object due to its motion or position, or both.
+- Give me some examples of mechanical energy.
+- A few examples are: a moving car possesses mechanical energy due to its motion(kinetic energy) and a barbell lifted high above a weightlifter's head possesses mechanical energy due to its vertical position above the ground(potential energy).
+- Why is sound a form of mechanical energy?
+- Sound is a form of mechanical energy because the source of sound is vibration. Mechanical energy consists of gravitational potential energy and kinetic energy.
+- How does mechanical energy differ from potential energy?
+- Mechanical energy can be either kinetic (energy in motion) or potential (energy that is stored). The sum of an object's kinetic and potential energy equals the object's total mechanical energy.
+- Are potential energy and kinetic energy the same?
+- Potential Energy is the stored energy in an object or system because of its position or configuration. Kinetic energy of an object is relative to other moving and stationary objects in its immediate environment.
+Original Query: What type does chemical energy belong to?
+Rewritten Query: What type of energy does chemical energy belong to?
+Ground Truth:    What type does chemical energy belong to?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8750, BLEU: 0.5814
+Latency: 82.0979s
+------------------------------
+Sample ID: 160 | Status: KEPT_ORIGINAL
+History:
+- What are the different forms of energy?
+- Examples of these are: light energy, heat energy, mechanical energy, gravitational energy, electrical energy, sound energy, chemical energy, nuclear or atomic energy and so on.
+- How can energy be stored?
+- Batteries, gasoline, natural gas, food, water towers, a wound up alarm clock, a Thermos flask with hot water and even pooh are all stores of energy. They can be transferred into other kinds of energy.
+- What type of energy is used in motion?
+- Motion energy – also known as mechanical energy – is the energy stored in moving objects. As the object moves faster, more energy is stored.
+- Tell me about mechanical energy.
+- Mechanical energy is the sum of kinetic and potential energy in an object that is used to do work. In other words, it is energy in an object due to its motion or position, or both.
+- Give me some examples of mechanical energy.
+- A few examples are: a moving car possesses mechanical energy due to its motion(kinetic energy) and a barbell lifted high above a weightlifter's head possesses mechanical energy due to its vertical position above the ground(potential energy).
+- Why is sound a form of mechanical energy?
+- Sound is a form of mechanical energy because the source of sound is vibration. Mechanical energy consists of gravitational potential energy and kinetic energy.
+- How does mechanical energy differ from potential energy?
+- Mechanical energy can be either kinetic (energy in motion) or potential (energy that is stored). The sum of an object's kinetic and potential energy equals the object's total mechanical energy.
+- Are potential energy and kinetic energy the same?
+- Potential Energy is the stored energy in an object or system because of its position or configuration. Kinetic energy of an object is relative to other moving and stationary objects in its immediate environment.
+- What type does chemical energy belong to?
+- Chemical energy is energy that is stored in the bonds between chemical compounds, such as atoms and molecules.
+Original Query: What form of energy is used in eating?
+Rewritten Query: What form of energy is used in eating?
+Ground Truth:    What form of energy is used in eating?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 74.9464s
+------------------------------
+Sample ID: 161 | Status: KEPT_ORIGINAL
+History:
+Original Query: Describe Uranus.
+Rewritten Query: Describe Uranus.
+Ground Truth:    Describe Uranus.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 0.0000
+Latency: 38.6220s
+------------------------------
+Sample ID: 162 | Status: REWRITTEN
+History:
+- Describe Uranus.
+- Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.
+Original Query: What makes it so unusual?
+Rewritten Query: What makes Uranus so unusual?
+Ground Truth:    What makes Uranus so unusual?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 60.4496s
+------------------------------
+Sample ID: 163 | Status: REWRITTEN
+History:
+- Describe Uranus.
+- Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.
+- What makes Uranus so unusual?
+- Unlike the other planets of the solar system, Uranus is tilted so far that it essentially orbits the sun on its side, with the axis of its spin nearly pointing at the star.
+Original Query: Tell me about its orbit.
+Rewritten Query: Tell me about Uranus's orbit.
+Ground Truth:    Tell me about Uranus's orbit.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 67.7188s
+------------------------------
+Sample ID: 164 | Status: REWRITTEN
+History:
+- Describe Uranus.
+- Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.
+- What makes Uranus so unusual?
+- Unlike the other planets of the solar system, Uranus is tilted so far that it essentially orbits the sun on its side, with the axis of its spin nearly pointing at the star.
+- Tell me about Uranus's orbit.
+- Uranus orbits the Sun once every 84 years, taking an average of seven years to pass through each constellation of the zodiac. In 2033, the planet will have made its third complete orbit around the Sun since being discovered in 1781.
+Original Query: Why is it tilted?
+Rewritten Query: Why is Uranus tilted?
+Ground Truth:    Why is Uranus tilted?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.1859s
+------------------------------
+Sample ID: 165 | Status: REWRITTEN
+History:
+- Describe Uranus.
+- Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.
+- What makes Uranus so unusual?
+- Unlike the other planets of the solar system, Uranus is tilted so far that it essentially orbits the sun on its side, with the axis of its spin nearly pointing at the star.
+- Tell me about Uranus's orbit.
+- Uranus orbits the Sun once every 84 years, taking an average of seven years to pass through each constellation of the zodiac. In 2033, the planet will have made its third complete orbit around the Sun since being discovered in 1781.
+- Why is Uranus tilted?
+- Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees—possibly the result of a collision with an Earth-sized object long ago.
+Original Query: How is its rotation different from other planets?
+Rewritten Query: How is Uranus's rotation different from other planets?
+Ground Truth:    How is its rotation of Uranus different from other planets?
+LLM Judge Score: 1.00
+ROUGE-L: 0.7368, BLEU: 0.4250
+Latency: 89.3741s
+------------------------------
+Sample ID: 166 | Status: REWRITTEN
+History:
+- Describe Uranus.
+- Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.
+- What makes Uranus so unusual?
+- Unlike the other planets of the solar system, Uranus is tilted so far that it essentially orbits the sun on its side, with the axis of its spin nearly pointing at the star.
+- Tell me about Uranus's orbit.
+- Uranus orbits the Sun once every 84 years, taking an average of seven years to pass through each constellation of the zodiac. In 2033, the planet will have made its third complete orbit around the Sun since being discovered in 1781.
+- Why is Uranus tilted?
+- Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees—possibly the result of a collision with an Earth-sized object long ago.
+- How is its rotation of Uranus different from other planets?
+- Like Venus, Uranus rotates in the opposite direction as most other planets.
+Original Query: What is peculiar about its seasons?
+Rewritten Query: What is peculiar about Uranus's seasons?
+Ground Truth:    What is peculiar about Uranus's seasons?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 74.8455s
+------------------------------
+Sample ID: 167 | Status: REWRITTEN
+History:
+- Describe Uranus.
+- Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.
+- What makes Uranus so unusual?
+- Unlike the other planets of the solar system, Uranus is tilted so far that it essentially orbits the sun on its side, with the axis of its spin nearly pointing at the star.
+- Tell me about Uranus's orbit.
+- Uranus orbits the Sun once every 84 years, taking an average of seven years to pass through each constellation of the zodiac. In 2033, the planet will have made its third complete orbit around the Sun since being discovered in 1781.
+- Why is Uranus tilted?
+- Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees—possibly the result of a collision with an Earth-sized object long ago.
+- How is its rotation of Uranus different from other planets?
+- Like Venus, Uranus rotates in the opposite direction as most other planets.
+- What is peculiar about Uranus's seasons?
+- For two 21-year seasons on Uranus – the winter-summer seasons – the poles of Uranus are pointed (more or less) either toward the sun, or away from it. During Uranus' winter-summer season, the winter side of the planet never sees the sun. It doesn't see the sun for 21 long years.
+Original Query: Are there any other planets similar to it?
+Rewritten Query: Are there any other planets similar to Uranus?
+Ground Truth:    Are there any other planets similar to Uranus?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 82.3105s
+------------------------------
+Sample ID: 168 | Status: KEPT_ORIGINAL
+History:
+- Describe Uranus.
+- Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.
+- What makes Uranus so unusual?
+- Unlike the other planets of the solar system, Uranus is tilted so far that it essentially orbits the sun on its side, with the axis of its spin nearly pointing at the star.
+- Tell me about Uranus's orbit.
+- Uranus orbits the Sun once every 84 years, taking an average of seven years to pass through each constellation of the zodiac. In 2033, the planet will have made its third complete orbit around the Sun since being discovered in 1781.
+- Why is Uranus tilted?
+- Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees—possibly the result of a collision with an Earth-sized object long ago.
+- How is its rotation of Uranus different from other planets?
+- Like Venus, Uranus rotates in the opposite direction as most other planets.
+- What is peculiar about Uranus's seasons?
+- For two 21-year seasons on Uranus – the winter-summer seasons – the poles of Uranus are pointed (more or less) either toward the sun, or away from it. During Uranus' winter-summer season, the winter side of the planet never sees the sun. It doesn't see the sun for 21 long years.
+- Are there any other planets similar to Uranus?
+- The seventh planet from the sun with the third largest diameter in our solar system, ... Like Venus, Uranus rotates in the opposite direction as most other planets.
+Original Query: Describe the characteristics of Neptune.
+Rewritten Query: Describe the characteristics of Neptune.
+Ground Truth:    Describe the characteristics of Neptune.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.2893s
+------------------------------
+Sample ID: 169 | Status: REWRITTEN
+History:
+- Describe Uranus.
+- Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.
+- What makes Uranus so unusual?
+- Unlike the other planets of the solar system, Uranus is tilted so far that it essentially orbits the sun on its side, with the axis of its spin nearly pointing at the star.
+- Tell me about Uranus's orbit.
+- Uranus orbits the Sun once every 84 years, taking an average of seven years to pass through each constellation of the zodiac. In 2033, the planet will have made its third complete orbit around the Sun since being discovered in 1781.
+- Why is Uranus tilted?
+- Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees—possibly the result of a collision with an Earth-sized object long ago.
+- How is its rotation of Uranus different from other planets?
+- Like Venus, Uranus rotates in the opposite direction as most other planets.
+- What is peculiar about Uranus's seasons?
+- For two 21-year seasons on Uranus – the winter-summer seasons – the poles of Uranus are pointed (more or less) either toward the sun, or away from it. During Uranus' winter-summer season, the winter side of the planet never sees the sun. It doesn't see the sun for 21 long years.
+- Are there any other planets similar to Uranus?
+- The seventh planet from the sun with the third largest diameter in our solar system, ... Like Venus, Uranus rotates in the opposite direction as most other planets.
+- Describe the characteristics of Neptune.
+- Despite being smaller than Uranus, Neptune has a greater mass. Below its heavy atmosphere, Uranus is made of layers of hydrogen, helium, and methane gases.
+Original Query: Why is it important to our solar system?
+Rewritten Query: Why is Uranus important to our solar system?
+Ground Truth:    Why is Neptune important to our solar system?
+LLM Judge Score: 0.00
+ROUGE-L: 0.8750, BLEU: 0.6606
+Latency: 82.2434s
+------------------------------
+Sample ID: 170 | Status: REWRITTEN
+History:
+- Describe Uranus.
+- Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.
+- What makes Uranus so unusual?
+- Unlike the other planets of the solar system, Uranus is tilted so far that it essentially orbits the sun on its side, with the axis of its spin nearly pointing at the star.
+- Tell me about Uranus's orbit.
+- Uranus orbits the Sun once every 84 years, taking an average of seven years to pass through each constellation of the zodiac. In 2033, the planet will have made its third complete orbit around the Sun since being discovered in 1781.
+- Why is Uranus tilted?
+- Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees—possibly the result of a collision with an Earth-sized object long ago.
+- How is its rotation of Uranus different from other planets?
+- Like Venus, Uranus rotates in the opposite direction as most other planets.
+- What is peculiar about Uranus's seasons?
+- For two 21-year seasons on Uranus – the winter-summer seasons – the poles of Uranus are pointed (more or less) either toward the sun, or away from it. During Uranus' winter-summer season, the winter side of the planet never sees the sun. It doesn't see the sun for 21 long years.
+- Are there any other planets similar to Uranus?
+- The seventh planet from the sun with the third largest diameter in our solar system, ... Like Venus, Uranus rotates in the opposite direction as most other planets.
+- Describe the characteristics of Neptune.
+- Despite being smaller than Uranus, Neptune has a greater mass. Below its heavy atmosphere, Uranus is made of layers of hydrogen, helium, and methane gases.
+- Why is Neptune important to our solar system?
+- While Neptune is of interest because it is in our own solar system, astronomers are also interested in learning more about the planet to assist with exoplanet studies.
+Original Query: How are these two planets similar to each other?
+Rewritten Query: How are Uranus and Neptune similar to each other?
+Ground Truth:    How is Uranus and Neptune similar to each other?
+LLM Judge Score: 1.00
+ROUGE-L: 0.8889, BLEU: 0.7825
+Latency: 89.3468s
+------------------------------
+Sample ID: 171 | Status: REWRITTEN
+History:
+- Describe Uranus.
+- Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.
+- What makes Uranus so unusual?
+- Unlike the other planets of the solar system, Uranus is tilted so far that it essentially orbits the sun on its side, with the axis of its spin nearly pointing at the star.
+- Tell me about Uranus's orbit.
+- Uranus orbits the Sun once every 84 years, taking an average of seven years to pass through each constellation of the zodiac. In 2033, the planet will have made its third complete orbit around the Sun since being discovered in 1781.
+- Why is Uranus tilted?
+- Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees—possibly the result of a collision with an Earth-sized object long ago.
+- How is its rotation of Uranus different from other planets?
+- Like Venus, Uranus rotates in the opposite direction as most other planets.
+- What is peculiar about Uranus's seasons?
+- For two 21-year seasons on Uranus – the winter-summer seasons – the poles of Uranus are pointed (more or less) either toward the sun, or away from it. During Uranus' winter-summer season, the winter side of the planet never sees the sun. It doesn't see the sun for 21 long years.
+- Are there any other planets similar to Uranus?
+- The seventh planet from the sun with the third largest diameter in our solar system, ... Like Venus, Uranus rotates in the opposite direction as most other planets.
+- Describe the characteristics of Neptune.
+- Despite being smaller than Uranus, Neptune has a greater mass. Below its heavy atmosphere, Uranus is made of layers of hydrogen, helium, and methane gases.
+- Why is Neptune important to our solar system?
+- While Neptune is of interest because it is in our own solar system, astronomers are also interested in learning more about the planet to assist with exoplanet studies.
+- How is Uranus and Neptune similar to each other?
+- Consistanly , Neptune and Uranus both are a shade of blue- green colored planets. They both have gas in there cloudy atmosphere which creates the color of the planets.
+Original Query: Can life exist on either of them?
+Rewritten Query: Can life exist on Uranus or Neptune?
+Ground Truth:    Can life exist on either Uranus or Neptune?
+LLM Judge Score: 1.00
+ROUGE-L: 0.9333, BLEU: 0.6102
+Latency: 74.9689s
+------------------------------
+Sample ID: 172 | Status: KEPT_ORIGINAL
+History:
+Original Query: What is chemical energy?
+Rewritten Query: What is chemical energy?
+Ground Truth:    What is chemical energy?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 45.7502s
+------------------------------
+Sample ID: 173 | Status: KEPT_ORIGINAL
+History:
+- What is chemical energy?
+- Chemical energy is the potential of a chemical substance to undergo a transformation through a chemical reaction to transform other chemical substances. Examples include batteries, food, gasoline, and etc.
+Original Query: Describe a chemical reaction.
+Rewritten Query: Describe a chemical reaction.
+Ground Truth:    Describe a chemical reaction.
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 45.7676s
+------------------------------
+Sample ID: 174 | Status: REWRITTEN
+History:
+- What is chemical energy?
+- Chemical energy is the potential of a chemical substance to undergo a transformation through a chemical reaction to transform other chemical substances. Examples include batteries, food, gasoline, and etc.
+- Describe a chemical reaction.
+- No new atoms are created, and no atoms are destroyed. In a chemical reaction, reactants contact each other, bonds between atoms in the reactants are broken, and atoms rearrange and form new bonds to make the products.
+Original Query: How is it represented mathematically?
+Rewritten Query: How is a chemical reaction represented mathematically?
+Ground Truth:    How is a chemical reaction represented mathematically?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 82.1787s
+------------------------------
+Sample ID: 175 | Status: REWRITTEN
+History:
+- What is chemical energy?
+- Chemical energy is the potential of a chemical substance to undergo a transformation through a chemical reaction to transform other chemical substances. Examples include batteries, food, gasoline, and etc.
+- Describe a chemical reaction.
+- No new atoms are created, and no atoms are destroyed. In a chemical reaction, reactants contact each other, bonds between atoms in the reactants are broken, and atoms rearrange and form new bonds to make the products.
+- How is a chemical reaction represented mathematically?
+- A chemical reaction may be represented by a chemical equation, which indicates the number and type of each atom, as well as their organization into molecules or ions. A chemical equation uses the element symbols as shorthand notation for the elements, with arrows to indicate the direction of the reaction.
+Original Query: Give me an example.
+Rewritten Query: Give me an example of a chemical equation.
+Ground Truth:    Give me an example of a chemical reaction.
+LLM Judge Score: 0.50
+ROUGE-L: 0.8750, BLEU: 0.7506
+Latency: 74.8413s
+------------------------------
+Sample ID: 176 | Status: REWRITTEN
+History:
+- What is chemical energy?
+- Chemical energy is the potential of a chemical substance to undergo a transformation through a chemical reaction to transform other chemical substances. Examples include batteries, food, gasoline, and etc.
+- Describe a chemical reaction.
+- No new atoms are created, and no atoms are destroyed. In a chemical reaction, reactants contact each other, bonds between atoms in the reactants are broken, and atoms rearrange and form new bonds to make the products.
+- How is a chemical reaction represented mathematically?
+- A chemical reaction may be represented by a chemical equation, which indicates the number and type of each atom, as well as their organization into molecules or ions. A chemical equation uses the element symbols as shorthand notation for the elements, with arrows to indicate the direction of the reaction.
+- Give me an example of a chemical reaction.
+- Examples: iron and oxygen combining to make rust. vinegar and baking soda combining to make sodium acetate, carbon dioxide and water.
+Original Query: What are the different kinds of reactions?
+Rewritten Query: What are the different kinds of chemical reactions?
+Ground Truth:    What are the different kinds of chemical reactions?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 74.8049s
+------------------------------
+Sample ID: 177 | Status: KEPT_ORIGINAL
+History:
+- What is chemical energy?
+- Chemical energy is the potential of a chemical substance to undergo a transformation through a chemical reaction to transform other chemical substances. Examples include batteries, food, gasoline, and etc.
+- Describe a chemical reaction.
+- No new atoms are created, and no atoms are destroyed. In a chemical reaction, reactants contact each other, bonds between atoms in the reactants are broken, and atoms rearrange and form new bonds to make the products.
+- How is a chemical reaction represented mathematically?
+- A chemical reaction may be represented by a chemical equation, which indicates the number and type of each atom, as well as their organization into molecules or ions. A chemical equation uses the element symbols as shorthand notation for the elements, with arrows to indicate the direction of the reaction.
+- Give me an example of a chemical reaction.
+- Examples: iron and oxygen combining to make rust. vinegar and baking soda combining to make sodium acetate, carbon dioxide and water.
+- What are the different kinds of chemical reactions?
+- The more common types of chemical reactions are as follows:Combination.Decomposition.Single displacement.Double displacement.Combustion.Redox.
+Original Query: What is a decomposition reaction?
+Rewritten Query: What is a decomposition reaction?
+Ground Truth:    What is a decomposition reaction?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.3120s
+------------------------------
+Sample ID: 178 | Status: REWRITTEN
+History:
+- What is chemical energy?
+- Chemical energy is the potential of a chemical substance to undergo a transformation through a chemical reaction to transform other chemical substances. Examples include batteries, food, gasoline, and etc.
+- Describe a chemical reaction.
+- No new atoms are created, and no atoms are destroyed. In a chemical reaction, reactants contact each other, bonds between atoms in the reactants are broken, and atoms rearrange and form new bonds to make the products.
+- How is a chemical reaction represented mathematically?
+- A chemical reaction may be represented by a chemical equation, which indicates the number and type of each atom, as well as their organization into molecules or ions. A chemical equation uses the element symbols as shorthand notation for the elements, with arrows to indicate the direction of the reaction.
+- Give me an example of a chemical reaction.
+- Examples: iron and oxygen combining to make rust. vinegar and baking soda combining to make sodium acetate, carbon dioxide and water.
+- What are the different kinds of chemical reactions?
+- The more common types of chemical reactions are as follows:Combination.Decomposition.Single displacement.Double displacement.Combustion.Redox.
+- What is a decomposition reaction?
+- A decomposition reaction is a type of chemical reaction in which one reactant yields two or more products.
+Original Query: How is it a chemical change?
+Rewritten Query: How is a decomposition reaction a chemical change?
+Ground Truth:    How is a decomposition reaction a chemical change?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 74.8855s
+------------------------------
+Sample ID: 179 | Status: KEPT_ORIGINAL
+History:
+- What is chemical energy?
+- Chemical energy is the potential of a chemical substance to undergo a transformation through a chemical reaction to transform other chemical substances. Examples include batteries, food, gasoline, and etc.
+- Describe a chemical reaction.
+- No new atoms are created, and no atoms are destroyed. In a chemical reaction, reactants contact each other, bonds between atoms in the reactants are broken, and atoms rearrange and form new bonds to make the products.
+- How is a chemical reaction represented mathematically?
+- A chemical reaction may be represented by a chemical equation, which indicates the number and type of each atom, as well as their organization into molecules or ions. A chemical equation uses the element symbols as shorthand notation for the elements, with arrows to indicate the direction of the reaction.
+- Give me an example of a chemical reaction.
+- Examples: iron and oxygen combining to make rust. vinegar and baking soda combining to make sodium acetate, carbon dioxide and water.
+- What are the different kinds of chemical reactions?
+- The more common types of chemical reactions are as follows:Combination.Decomposition.Single displacement.Double displacement.Combustion.Redox.
+- What is a decomposition reaction?
+- A decomposition reaction is a type of chemical reaction in which one reactant yields two or more products.
+- How is a decomposition reaction a chemical change?
+- Decomposition reactions are a type of chemical reaction that involves breaking down a compound into smaller compounds or individual elements. These reactions often involve an input of energy in the form of heat, light, or electricity to break down the compounds.
+Original Query: What is a synthesis reaction?
+Rewritten Query: What is a synthesis reaction?
+Ground Truth:    What is a synthesis reaction?
+LLM Judge Score: 1.00
+ROUGE-L: 1.0000, BLEU: 1.0000
+Latency: 53.1813s
+------------------------------
+Sample ID: 180 | Status: REWRITTEN
+History:
+- What is chemical energy?
+- Chemical energy is the potential of a chemical substance to undergo a transformation through a chemical reaction to transform other chemical substances. Examples include batteries, food, gasoline, and etc.
+- Describe a chemical reaction.
+- No new atoms are created, and no atoms are destroyed. In a chemical reaction, reactants contact each other, bonds between atoms in the reactants are broken, and atoms rearrange and form new bonds to make the products.
+- How is a chemical reaction represented mathematically?
+- A chemical reaction may be represented by a chemical equation, which indicates the number and type of each atom, as well as their organization into molecules or ions. A chemical equation uses the element symbols as shorthand notation for the elements, with arrows to indicate the direction of the reaction.
+- Give me an example of a chemical reaction.
+- Examples: iron and oxygen combining to make rust. vinegar and baking soda combining to make sodium acetate, carbon dioxide and water.
+- What are the different kinds of chemical reactions?
+- The more common types of chemical reactions are as follows:Combination.Decomposition.Single displacement.Double displacement.Combustion.Redox.
+- What is a decomposition reaction?
+- A decomposition reaction is a type of chemical reaction in which one reactant yields two or more products.
+- How is a decomposition reaction a chemical change?
+- Decomposition reactions are a type of chemical reaction that involves breaking down a compound into smaller compounds or individual elements. These reactions often involve an input of energy in the form of heat, light, or electricity to break down the compounds.
+- What is a synthesis reaction?
+- A combination reaction is a reaction where two or more elements or compounds combine to form a single compound. Such reactions may be represented by equations of the following form: X + Y → XY.
+Original Query: Tell me the differences between synthesis and decomposition.
+Rewritten Query: Tell me the differences between synthesis and decomposition reactions.
+Ground Truth:    Tell me the differences between synthesis reaction and decomposition reaction.
+LLM Judge Score: 1.00
+ROUGE-L: 0.8421, BLEU: 0.5418
+Latency: 82.2134s
+------------------------------

@@ -1,0 +1,7 @@
+--- Evaluation Results ---
+Total Samples: 133
+ROUGE-L: 0.9140
+BLEU: 0.7703
+Average LLM Judge Score: 0.9286
+Rewrite Rate: 65.41%
+Average Latency: 76.2219s
