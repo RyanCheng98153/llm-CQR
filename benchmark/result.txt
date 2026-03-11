@@ -1,0 +1,5 @@
+--- Evaluation Results ---
+ROUGE-L: 0.8654
+BLEU: 0.6736
+Rewrite Rate: 87.20%
+Average Latency: 79.0857 seconds
