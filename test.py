@@ -1,110 +1,20 @@
 import json
-import torch
 import time
 import re
 import csv
-from typing import Dict, List
-from transformers import AutoTokenizer, AutoModelForCausalLM
-from evaluate import load
 from tqdm import tqdm
+from evaluate import load
+from src.query import query_reformulate
+from src.judge import llm_judge
 
 # Constants
-MODEL_NAME = "Qwen/Qwen3-30B-A3B-Instruct-2507"
 DATASET_PATH = "datasets/qrecc_data/qrecc_test.json"
 SELECT_DATASET_PATH = "./datasets/qrecc_select.json"
-SYSTEM_PROMPT_PATH = "prompts/system_prompt.txt"
-REWRITE_PROMPT_PATH = "prompts/rewrite_prompt.txt"
-JUDGE_PROMPT_PATH = "prompts/eval_prompt.txt"
 
 # Range Management for qrecc_test
 TEST_START_ID = 61
 TEST_END_ID = 180
 
-# Initialize Global Model and Tokenizer
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained(
-    MODEL_NAME,
-    torch_dtype=torch.bfloat16,
-    device_map="auto",
-    trust_remote_code=True
-)
-
-def get_prompt(path_to_prompt: str) -> str:
-    with open(path_to_prompt, 'r', encoding='utf-8') as f:
-        return f.read().strip()
-
-def create_prompt(prompt_template: str, var_dict: Dict[str, str]) -> str:
-    return prompt_template.format(**var_dict)
-
-def generate(prompt: str, system_prompt: str, max_tokens: int = 128) -> str:
-    messages = [
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": prompt},
-    ]
-    
-    inputs = tokenizer.apply_chat_template(
-        messages,
-        add_generation_prompt=True,
-        tokenize=True,
-        return_dict=True,
-        return_tensors="pt",
-    ).to(model.device)
-
-    outputs = model.generate(
-        **inputs, 
-        max_new_tokens=max_tokens, 
-        do_sample=False, 
-        pad_token_id=tokenizer.eos_token_id
-    )
-    
-    response = tokenizer.decode(outputs[0][inputs["input_ids"].shape[-1]:], skip_special_tokens=True)
-    return response.strip().replace('"', '')
-
-def query_reformulate(question: str, context: List[str]) -> str:
-    system_prompt = get_prompt(SYSTEM_PROMPT_PATH)
-    rewrite_prompt_template = get_prompt(REWRITE_PROMPT_PATH)
-    
-    history_str = ""
-    for i, turn in enumerate(context):
-        role = "User" if i % 2 == 0 else "Agent"
-        history_str += f"{role}: {turn}\n"
-    
-    formatted_user_prompt = create_prompt(
-        prompt_template=rewrite_prompt_template,
-        var_dict={
-            "history_str": history_str.strip() if history_str else "No history.",
-            "question": question
-        }
-    )
-    return generate(formatted_user_prompt, system_prompt)
-
-def llm_judge(question: str, context: List[str], prediction: str, ground_truth: str) -> float:
-    """Uses the LLM to score the rewrite from 0 to 1."""
-    system_prompt = get_prompt(SYSTEM_PROMPT_PATH)
-    judge_prompt_template = get_prompt(JUDGE_PROMPT_PATH)
-    
-    history_str = ""
-    for i, turn in enumerate(context):
-        role = "User" if i % 2 == 0 else "Agent"
-        history_str += f"{role}: {turn}\n"
-
-    formatted_judge_prompt = create_prompt(
-        prompt_template=judge_prompt_template,
-        var_dict={
-            "history_str": history_str.strip() if history_str else "No history.",
-            "question": question,
-            "ground_truth": ground_truth,
-            "prediction": prediction
-        }
-    )
-    
-    raw_score = generate(formatted_judge_prompt, system_prompt, max_tokens=10)
-    
-    try:
-        score_match = re.search(r"([0-1]\.\d+|[0-1])", raw_score)
-        return float(score_match.group(0)) if score_match else -1.0
-    except:
-        return -1.0
 
 def main():
     final_dataset = []
